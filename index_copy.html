@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i" rel='stylesheet' type='text/css'>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>REKA PICTURES</title>
+  </head>
+
+  <body class="foggybg">
+
+    <div class="landingcontainer">
+      <!-- <img class="logo" src="Image/Reka Pictures_Logo_weiss.png"> -->
+      <video id="introanimation" src="Image/bird_animation_alpha_below.mp4" autoplay muted></video>
+      <br>
+      <a class="btn" href="startseite.html">DE</a>
+      <a class="btn" href="#">EN</a>
+    </div>
+
+    <script src="https://unpkg.com/seethru@4/dist/seeThru.min.js"></script>
+    <script type="text/javascript">
+      var transparentVideo = seeThru.create("#introanimation");
+      transparentVideo.play()
+    </script>
+
+  </body>
+</html>

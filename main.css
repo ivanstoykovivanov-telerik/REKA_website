@@ -1,0 +1,478 @@
+
+
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", "Arial", "sans-serif";
+  background-color: #d4d4d4;
+
+}
+
+body.foggybg {
+  background-image: url("Image/DE EN_nur Hintergrundbild.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* Navigation bar */
+nav {
+  background: #000;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+}
+
+nav a {
+  color: grey;
+  display: inline-block;
+  height: 40px;
+  font-weight: 100;
+  line-height: 60px;
+  list-style: none;
+  padding: 0 12px;
+  transition: background .5s;
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: white;
+  font-weight: 500;
+}
+
+nav, footer{
+  height: 56px;
+}
+
+#language {
+  text-align: right;
+}
+
+/* Landingpage */
+
+
+.header {
+  background-color: #000000;
+}
+
+
+.intrologo {
+  width: 400px;
+  margin-top: 35vh;
+}
+
+.landingcontainer {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  color: #ffab65;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* second page*/
+
+.slider {
+  position: relative;
+  height: calc(100vh - 112px);
+  overflow-x: hidden;
+}
+
+.mySlides {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.greybox {
+  background-color: rgba(122, 123, 124, 0.66);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  max-width: 400px;
+  overflow-y: scroll;
+}
+
+.news {
+  padding: 5%;
+}
+
+.news table {
+  color: white;
+  padding-left: 7%;
+  font-size: 15px;
+  text-align: left;
+  padding: 5px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.news td {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+/* Project overview */
+
+.banner h1{
+  margin-left: 5%;
+  color: white;
+  font-weight: 400;
+}
+
+
+.banner2 h1{
+  color: white;
+  font-weight: 400;
+}
+
+#projects {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+
+.image-container img {
+  height: auto;
+  width: 400px;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  margin-right: 80px;
+}
+
+.projects h1 {
+  font-size: 36px;
+  color: #737373;
+
+}
+
+.projects h4 {
+  color: #737373;
+
+}
+
+.projects p {
+  font-size: 12px;
+  color: #737373;
+
+}
+
+.inlay {
+  margin-right: 10%;
+  padding-top: 4%;
+}
+
+#content h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  color: #737373;
+
+}
+
+/* Project*/
+
+.projectslider {
+  position: relative;
+  height: 65%;
+  width: auto;
+  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.projectslider h2{
+  color: white;
+  margin-left: 5%;
+}
+
+.projectslides {
+  margin: auto;
+  height: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.content {
+  color: #737373;
+}
+#content{
+  padding-left: 5%;
+}
+
+.table {
+  display: flex;
+}
+
+
+.table p {
+  text-align: justify;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.table video {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 300px;
+  width: auto;
+}
+
+.statscontent{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 55vh;
+  margin-bottom: 0%;
+  margin-top: 3%;
+}
+
+.stats {
+  margin-right: 5%;
+  margin-bottom: 0%;
+}
+
+.stats h4 {
+  margin-top: 0;
+}
+
+.stats h3 {
+  margin-top: 0;
+}
+
+.awards {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  text-align: justify;
+  margin-top: 5vh;
+}
+
+.awards img {
+  height: 25px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.awards th {
+  padding-top: 1%;
+}
+
+/* Content about Eliza and Konstantin */
+
+
+.photo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.row {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: stretch;
+  color: #737373;
+}
+
+.row p{
+  text-align: justify;
+  font-family: Roboto;
+  font-weight:normal;
+  font-size: 18px;
+
+
+}
+
+.row h1 {
+  font-family: Roboto;
+  margin-left: 5%;
+}
+
+.columnleft {
+  margin-right: 2%;
+}
+
+.columnleft h1 {
+  text-align: left;
+  position: inherit;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.columnleft p {
+  width: auto;
+}
+
+.columnright {
+  margin-left: 2%;
+}
+
+.columnright h1 {
+  text-align: right;
+}
+
+.columnright p {
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* Content about Reka Pictures*/
+
+.reka {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #737373;
+}
+
+.reka h1 {
+  text-align: center;
+}
+
+.reka p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.rekacontent img{
+  margin-left: 37%;
+  margin-right: 43%;
+  text-align: center;
+}
+
+
+/* Kontakt */
+
+
+.contact {
+  text-align: center;
+  height: calc(100vh - 112px);
+}
+
+.contact img {
+  height: auto;
+  width: 40%;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.information {
+  text-align: center;
+  color: #737373;
+}
+
+.information h4 {
+  margin: 0;
+  padding: 5px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  width: 100vw;
+  bottom: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-top: 3%; 
+}
+
+footer a {
+  color: grey;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 3%;
+  text-align: right;
+}
+
+
+
+ /* die anderen */
+ .arrow-next, .arrow-previous{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 80px;
+   height: 80px;
+   font-weight: bold;
+   font-size: 24px;
+   color: #fff;
+   line-height: 50px;
+   text-align: center;
+   cursor: pointer;
+ }
+ .arrow-next{
+   right: 0;
+ }
+ .arrow-previous{
+   left: 0;
+ }
+ .arrow-next::after{
+   content: '→';
+ }
+ .arrow-previous::after{
+   content: '←';
+ }
+
+
+ /* startseite  */ 
+
+ .show {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 2000ms;
+}

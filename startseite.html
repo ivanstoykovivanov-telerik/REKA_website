@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i" rel='stylesheet' type='text/css'>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <nav>
+      <a href="startseite.html"><img src="Image/Reka Pictures_Logo_weiss.png" width=75px height= auto></a>
+      <a href="projekte.html">PROJEKTE</a>
+      <a href="über_uns.html">ÜBER UNS</a>
+      <a href="kontakt.html" class="active">KONTAKT</a>
+      <a href="#" id="language">EN</a>
+    </nav>
+    <!-- Slideshow container -->
+    <div class="slider">
+      <img class="mySlides" src="Image/dieanderen_Still 01.jpg">
+      <img class="mySlides" src="Image/dieanderen_Still 02.jpg">
+      <img class="mySlides" src="Image/dieanderen_Still 03.jpg">
+      <div class="greybox hide">
+        <div class="news">
+          <table>
+            <tr><td>&#149;</td><td>SOUNDS OF NATURE ist fertig gedreht und wir freuen uns auf die Fertigstellung.</td></tr>
+            <tr><td>&#149;</td><td>DIE ANDEREN feiert Premiere auf den 52. Internationalen Hofer Filmtagen.</td></tr>
+            <tr><td>&#149;</td><td>EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT wurde abgedreht. Jetzt geht es in die Postproduktion.</td></tr>
+          </table>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <a href="impressum.html">Impressum</a>
+        <a href="privacypolicy.html">Privacy Policy</a>
+      </div>
+    </footer>
+  
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 8 seconds
+      }
+    </script>
+    <script src="greybox.js"></script>
+</body>
+</html>
