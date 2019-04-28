@@ -1,12 +1,10 @@
 
-
 body, html {
   margin: 0;
   height: 100%;
   width: 100%;
   font-family: "Roboto", "Arial", "sans-serif";
-  background-color: #d4d4d4;
-
+  /* background-color: #d4d4d4; */
 }
 
 body.foggybg {
@@ -19,19 +17,14 @@ a {
   text-decoration: none;
 }
 
-
-
 /* Navigation bar */
 nav {
   background: #000;
   width: 100%;
-  margin: 0 auto;
-  text-align: left;
-  display: flex;
+  padding-bottom: 3%;
 }
 
-nav a {
-  color: grey;
+ nav a  {
   display: inline-block;
   height: 40px;
   font-weight: 100;
@@ -49,8 +42,12 @@ nav a.active {
   font-weight: 500;
 }
 
-nav, footer{
-  height: 56px;
+
+
+footer{
+  /* height: 20%;   */
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
 #language {
@@ -58,7 +55,6 @@ nav, footer{
 }
 
 /* Landingpage */
-
 
 .header {
   background-color: #000000;
@@ -87,7 +83,6 @@ nav, footer{
 }
 
 /* second page*/
-
 .slider {
   position: relative;
   height: calc(100vh - 112px);
@@ -130,14 +125,13 @@ nav, footer{
   padding-top: 8%;
   padding-bottom: 8%;
 }
-/* Project overview */
 
-.banner h1{
+/* Project overview */
+/* .banner h1{
   margin-left: 5%;
   color: white;
   font-weight: 400;
-}
-
+} */
 
 .banner2 h1{
   color: white;
@@ -153,9 +147,11 @@ nav, footer{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-
 }
 
+.project {
+  margin-bottom: 6%; 
+}
 
 .image-container img {
   height: auto;
@@ -165,21 +161,44 @@ nav, footer{
   margin-right: 80px;
 }
 
+img.project-image{
+  /* width: 400px; */
+  /* height: 11em;  */
+  width: 30em; 
+  padding-top:.6em; 
+}
+
+section.projekte-title {
+  color: #737373;
+  margin-top: 5%; 
+  margin-bottom: 4%; 
+}
+
+section.projekte-title h1{
+  font-size : 3em; 
+}
+
+section.projekte-filme a {
+  text-decoration: none;
+  color:#737373;
+} 
+
+section.projekte-filme a:hover {
+  color:#737373;
+} 
+
 .projects h1 {
   font-size: 36px;
   color: #737373;
-
 }
 
 .projects h4 {
   color: #737373;
-
 }
 
 .projects p {
   font-size: 12px;
   color: #737373;
-
 }
 
 .inlay {
@@ -192,11 +211,9 @@ nav, footer{
   font-size: 36px;
   font-weight: 300;
   color: #737373;
-
 }
 
 /* Project*/
-
 .projectslider {
   position: relative;
   height: 65%;
@@ -228,7 +245,6 @@ nav, footer{
 .table {
   display: flex;
 }
-
 
 .table p {
   text-align: justify;
@@ -284,65 +300,14 @@ nav, footer{
   padding-top: 1%;
 }
 
-/* Content about Eliza and Konstantin */
-
-
-.photo {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.row {
-  margin-left: 5%;
-  margin-right: 5%;
-  display: flex;
-  align-items: stretch;
-  color: #737373;
-}
-
-.row p{
-  text-align: justify;
-  font-family: Roboto;
-  font-weight:normal;
-  font-size: 18px;
-
-
-}
-
-.row h1 {
-  font-family: Roboto;
-  margin-left: 5%;
-}
-
-.columnleft {
-  margin-right: 2%;
-}
-
-.columnleft h1 {
-  text-align: left;
-  position: inherit;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.columnleft p {
-  width: auto;
-}
-
-.columnright {
-  margin-left: 2%;
-}
-
-.columnright h1 {
-  text-align: right;
-}
-
-.columnright p {
-
+/* Uber uns page  */
+#pic-Eliz-Konst{
+  width: 100%;  
+  padding-bottom: 3%; 
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row-custom:after {
   content: "";
   display: table;
   clear: both;
@@ -355,9 +320,7 @@ nav, footer{
   }
 }
 
-
 /* Content about Reka Pictures*/
-
 .reka {
   padding-left: 25px;
   padding-right: 25px;
@@ -368,7 +331,7 @@ nav, footer{
   color: #737373;
 }
 
-.reka h1 {
+/* .reka h1 {
   text-align: center;
 }
 
@@ -376,22 +339,19 @@ nav, footer{
   text-align: justify;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .rekacontent img{
   margin-left: 37%;
   margin-right: 43%;
   text-align: center;
-}
-
+} */
 
 /* Kontakt */
-
-
 .contact {
   text-align: center;
   height: calc(100vh - 112px);
+  color: #000000 ; 
 }
 
 .contact img {
@@ -401,12 +361,11 @@ nav, footer{
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 .information {
   text-align: center;
-  color: #737373;
+  color: #000000;
 }
 
 .information h4 {
@@ -416,26 +375,19 @@ nav, footer{
 
 /* Footer */
 footer {
-  position: relative;
-  width: 100vw;
-  bottom: 0;
   background-color: #000;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 0;
-  margin-top: 3%; 
+  /* margin-top: 3%;  */
 }
 
 footer a {
   color: grey;
-  margin-top: 0;
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: 3%;
-  text-align: right;
 }
 
-
+footer a:hover {
+  color :#DEAF00; 
+  text-decoration:none; 
+} 
 
  /* die anderen */
  .arrow-next, .arrow-previous{
@@ -464,9 +416,7 @@ footer a {
    content: '←';
  }
 
-
- /* startseite  */ 
-
+ /* startseite fade in element  */ 
  .show {
   opacity: 1;
   transition: opacity 2000ms;
@@ -475,4 +425,10 @@ footer a {
 .hide {
   opacity: 0;
   transition: opacity 2000ms;
+}
+
+/* Impressum , privacy policy page */
+.title{
+  margin-top: 15%; 
+  margin-bottom: 10%; 
 }
