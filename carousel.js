@@ -25,8 +25,8 @@ document.querySelector(".arrow-next")
     prevNext();
   })
 
-  document.querySelector(".arrow-previous")
-    .addEventListener("click", function(){
-      clearTimeout(carouselTimeout);
-      prevNext("previous");
-    })
+document.querySelector(".arrow-previous")
+  .addEventListener("click", function(){
+    clearTimeout(carouselTimeout);
+    prevNext("previous");
+  })

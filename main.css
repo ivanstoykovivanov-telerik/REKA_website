@@ -126,16 +126,22 @@ footer{
   padding-bottom: 8%;
 }
 
-/* Project overview */
-/* .banner h1{
-  margin-left: 5%;
-  color: white;
-  font-weight: 400;
-} */
-
 .banner2 h1{
   color: white;
   font-weight: 400;
+}
+
+/* Projekte */ 
+section.projekte-title {
+  color: #737373;
+  margin-top: 5%; 
+  margin-bottom: 4%; 
+}
+
+section.projekte-title h1{
+  font-size: 2.5em;
+  text-align: center; 
+  margin: 1.5em 0; 
 }
 
 #projects {
@@ -153,6 +159,11 @@ footer{
   margin-bottom: 6%; 
 }
 
+.project p {
+  text-align: justify; 
+}
+
+
 .image-container img {
   height: auto;
   width: 400px;
@@ -165,17 +176,7 @@ img.project-image{
   /* width: 400px; */
   /* height: 11em;  */
   width: 110%; 
-  padding-top:.6em; 
-}
-
-section.projekte-title {
-  color: #737373;
-  margin-top: 5%; 
-  margin-bottom: 4%; 
-}
-
-section.projekte-title h1{
-  font-size : 3em; 
+  padding-top:.44em; 
 }
 
 section.projekte-filme a {
