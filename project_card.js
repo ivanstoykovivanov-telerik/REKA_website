@@ -79,7 +79,7 @@ const projectImages = [
     "willkommenzuhause1.jpg",
 ]; 
 
-
+//TODO: ids : 
 const projectHTMLS = [
     // "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "einfisch", 
@@ -113,37 +113,16 @@ const projectHTMLS = [
 ]; 
 
 
-let card = document.querySelector("#project_card");
-let cardHTML =  
-`<div class="row project">  
-    <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-        <a href="${projectHTMLS[0]}.html">
-            <img src="Image/${projectImages[0]}" class="project-image">
-        </a>
-    </div>
-    <div class="col-6 offset-1 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-        <a href="${projectHTMLS[0]}.html">
-            <h3>${projectTitles[0]}</h3>
-            <h4>(WORK IN PROGRESS)</h4>
-            <p>${projectDescriptions[0].substr(0, 220)}<b>[mehr...]</b> </p>
-        </a>  
-    </div>    
-</div>   
-`;
-
-
 for (let i = 0; i < projectTitles.length; i++) {
-    // let card = document.querySelector("#project_card");
-    // // card.appendChild(  
     $("#project_card").append(
-        `<div class="row project">  
+        `<div class="row project" next_page="${projectHTMLS[i]}">  
             <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-                <a href="${projectHTMLS[i]}.html">
+                <a href="project_page.html" nextPage="${projectHTMLS[i]}" >
                     <img src="Image/${projectImages[i]}" class="project-image">
                 </a>
             </div>
             <div class="col-6 offset-1 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-                <a href="${projectHTMLS[i]}.html">
+                <a href="project_page.html">
                     <h3>${projectTitles[i]}</h3>
                     <h4>(WORK IN PROGRESS)</h4>
                     <p>${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
@@ -153,6 +132,19 @@ for (let i = 0; i < projectTitles.length; i++) {
         `
     ); 
 }
+
+$('.project').click(function(event){
+    event.stopPropagation();  
+    // console.log("Project:  ");
+    // console.log($(this));
+    // console.log($(this).attr("next_page"));
+    let nextPage = $(this).attr("next_page");       
+    localStorage.setItem("page", nextPage); 
+}); 
+
+
+
+
 
 
 
