@@ -163,7 +163,6 @@ section.projekte-title h1{
   text-align: justify; 
 }
 
-
 .image-container img {
   height: auto;
   width: 400px;
@@ -215,6 +214,10 @@ section.projekte-filme a:hover {
 }
 
 /* Project*/
+#project_content{
+  margin-top: 3em; 
+}
+
 .projectslider {
   position: relative;
   height: 65%;
@@ -242,7 +245,7 @@ section.projekte-filme a:hover {
 #content{
   padding-left: 5%;
 }
-
+  
 .table {
   display: flex;
 }
@@ -332,22 +335,6 @@ section.projekte-filme a:hover {
   color: #737373;
 }
 
-/* .reka h1 {
-  text-align: center;
-}
-
-.reka p {
-  text-align: justify;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.rekacontent img{
-  margin-left: 37%;
-  margin-right: 43%;
-  text-align: center;
-} */
-
 /* Kontakt */
 .contact {
   text-align: center;
@@ -386,7 +373,7 @@ footer a {
 }
 
 footer a:hover {
-  color :#DEAF00; 
+  color :#fff; 
   text-decoration:none; 
 } 
 
