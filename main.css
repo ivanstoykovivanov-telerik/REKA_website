@@ -215,7 +215,20 @@ section.projekte-filme a:hover {
 
 /* Project*/
 #project_content{
-  margin-top: 3em; 
+  /* margin-top: 3em;  */
+  background-color: #d4d4d4;    
+}
+
+#project_content h3 {
+  color: #797975; 
+}
+
+.cast_and_team{
+  margin-top: 4em; 
+}
+
+.team{
+  margin-top: 4em; 
 }
 
 .projectslider {
@@ -237,6 +250,18 @@ section.projekte-filme a:hover {
   height: 90%;
   margin-left: 5%;
   margin-right: 5%;
+}
+ 
+.synopsis {
+  margin-top: 4em; 
+}
+
+/* .poster {
+  height : 560px; 
+} */
+
+#poster_id{
+  height : 560px;
 }
 
 .content {
