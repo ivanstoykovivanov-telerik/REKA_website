@@ -43,7 +43,6 @@ nav a.active {
 }
 
 
-
 footer{
   /* height: 20%;   */
   padding-top: 2%;
@@ -59,7 +58,6 @@ footer{
 .header {
   background-color: #000000;
 }
-
 
 .intrologo {
   width: 400px;
@@ -132,6 +130,7 @@ footer{
 }
 
 /* Projekte */ 
+
 section.projekte-title {
   color: #737373;
   margin-top: 5%; 
@@ -172,8 +171,6 @@ section.projekte-title h1{
 }
 
 img.project-image{
-  /* width: 400px; */
-  /* height: 11em;  */
   width: 110%; 
   padding-top:.44em; 
 }
@@ -215,7 +212,6 @@ section.projekte-filme a:hover {
 
 /* Project*/
 #project_content{
-  /* margin-top: 3em;  */
   background-color: #d4d4d4;    
 }
 
@@ -383,9 +379,9 @@ section.projekte-filme a:hover {
 }
 
 /* Footer */
+
 footer {
   background-color: #000;
-  /* margin-top: 3%;  */
 }
 
 footer a {
@@ -398,8 +394,8 @@ footer a:hover {
   text-decoration:none; 
 } 
 
- /* die anderen */
- .arrow-next, .arrow-previous{
+ /* Die anderen */
+ /* .arrow-next, .arrow-previous{
    position: absolute;
    top: 50%;
    transform: translateY(-50%);
@@ -423,9 +419,9 @@ footer a:hover {
  }
  .arrow-previous::after{
    content: '←';
- }
+ } */
 
- /* startseite fade in element  */ 
+ /* Startseite fade in element  */ 
  .show {
   opacity: 1;
   transition: opacity 2000ms;
@@ -436,8 +432,13 @@ footer a:hover {
   transition: opacity 2000ms;
 }
 
-/* Impressum , privacy policy page */
-.title{
-  margin-top: 15%; 
-  margin-bottom: 10%; 
+/* Impressum  &  Privacy policy page */
+
+.title_data_protection{
+  margin-top: 12%; 
+  margin-bottom: 5%; 
+}
+
+.privacy_page p {
+  text-align: justify; 
 }
