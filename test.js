@@ -81,3 +81,49 @@
 //                 "Sehsüchte 46th Student Film Festival, Germany" 
 //                 ] 
 // },
+
+
+title: "Abgeschnitten", 
+id: "abgeschnitten", 
+caroussel_images : [
+    "abgeschnitten1.jpg",
+    "abgeschnitten3.jpg",
+    "abgeschnitten4.jpg",
+    "abgeschnitten5.jpg",
+    "abgeschnitten6.jpg",
+],
+synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
+trailer: "ABGESCHNITTEN trailer.mp4",
+stats_1: [
+    "Kurzfilm, Deutschland 2012, 8 min", 
+    "Super 16mm"
+],
+stats_2: {
+    // Vorführformate: "DCP, Blu-Ray, Quicktime", 
+    // Originalsprache: "Deutsch", 
+    // Untertitel: "Englisch, Französisch" 
+},
+poster : "", 
+cast: [
+    "MARTON NAGY"
+    "NADINE WRIETZ"
+    "MICHAEL DANISCH"
+], 
+team: {
+          Regie: "ELIZA PETKOVA",
+          Bildgestaltung: "RICO MAHEL",
+          Tongestaltung: "HANNES MARGET",
+          Tonmischung: "SILVIO NAUMANN",
+          Farbkorrektur: "CHRISTINE HIAM",
+          Produktion: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+},
+awards: [], 
+
+
+        //   "Regie: ELIZA PETKOVA"
+        //   "Bildgestaltung: RICO MAHEL"
+        //   "Tongestaltung: HANNES MARGET"
+        //   "Tonmischung: SILVIO NAUMANN"
+        //   "Farbkorrektur: CHRISTINE HIAM"
+        //   "Produktion: DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+          

@@ -1,9 +1,9 @@
 
-// PROJEKTE 
-
+// PROJEKTE PAGE to be displayed under: 
+//PROJECTS PRODUCED BY REKA PICTURES
 
 const projectTitles = [
-    "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
+    "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT </br><h5>(WORK IN PROGRESS)</h5>", 
     "SOUNDS OF NATURE", 
     "DIE ANDEREN",
     "ZHALEIKA",
@@ -124,7 +124,6 @@ for (let i = 0; i < projectTitles.length; i++) {
             <div class="col-6 offset-1 col-sm-5 col-md-5 col-lg-5 col-xl-5">
                 <a href="project_page.html">
                     <h3>${projectTitles[i]}</h3>
-                    <h4>(WORK IN PROGRESS)</h4>
                     <p>${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
                 </a>  
             </div>    
@@ -135,19 +134,7 @@ for (let i = 0; i < projectTitles.length; i++) {
 
 $('.project').click(function(event){
     event.stopPropagation();  
-    // console.log("Project:  ");
-    // console.log($(this));
-    // console.log($(this).attr("next_page"));
     let nextPage = $(this).attr("next_page");       
     localStorage.setItem("page", nextPage); 
 }); 
-
-
-
-
-
-
-
-
-
 

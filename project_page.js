@@ -144,7 +144,42 @@ let projects = [
             "18th Stockholm International Film Festival Junior, Sweden",
             "Sehsüchte 46th Student Film Festival, Germany" 
         ], 
-    },
+    }, 
+    
+    //ABGESCHNITTEN
+    {
+        title: "Abgeschnitten", 
+        id: "abgeschnitten", 
+        caroussel_images : [
+            "abgeschnitten1.jpg",
+            "abgeschnitten3.jpg",
+            "abgeschnitten4.jpg",
+            "abgeschnitten5.jpg",
+            "abgeschnitten6.jpg",
+        ],
+        synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
+        trailer: "ABGESCHNITTEN trailer.mp4",
+        stats_1: [
+            "Kurzfilm, Deutschland 2012, 8 min", 
+            "Super 16mm"
+        ],
+        stats_2: {},
+        poster : "", 
+        cast: [
+            "MARTON NAGY",
+            "NADINE WRIETZ",
+            "MICHAEL DANISCH"
+        ], 
+        team: {
+                Regie: "ELIZA PETKOVA",
+                Bildgestaltung: "RICO MAHEL",
+                Tongestaltung: "HANNES MARGET",
+                Tonmischung: "SILVIO NAUMANN",
+                Farbkorrektur: "CHRISTINE HIAM",
+                Produktion: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+        },
+        awards: []
+    }
 ];
 
 
@@ -201,25 +236,31 @@ for (let i = 0; i < projects.length; i++) {
 
         //STATS_2
         const entries2 = Object.entries(projects[i].stats_2);
-        for(const [key, value] of entries2){
-            // const newRole = role.replace(/_/g, " "); 
-            $("#stats_2_id").append(`
-            <p>${key} : ${value}</p>
-            `);
+        if(entries2.length > 0){
+            for(const [key, value] of entries2){
+                // const newRole = role.replace(/_/g, " "); 
+                $("#stats_2_id").append(`
+                    <p>${key} : ${value}</p>
+                `);
+            };
         };
 
         //AWARDS 
-        for (let j = 0; j < projects[i].awards.length; j++) {
-            $("#awards_id").append(`
+        if(projects[i].awards.length > 0 ){
+            for (let j = 0; j < projects[i].awards.length; j++) {
+                $("#awards_id").append(`
                 <p><img src="Image/video-camera.png">${projects[i].awards[j]}</p>   
-            `); 
+                `); 
+            }
         }
 
          //TITLE 
          $('#film_title').html(`${projects[i].title.toUpperCase()}`); 
 
         //POSTER 
-        $("#poster_id").attr("src",`poster/${projects[i].poster}`);
+        if(projects[i].poster !== ""){
+            $("#poster_id").attr("src",`poster/${projects[i].poster}`);
+        }
 
         //TRAILER
         $("#trailer_id").attr("src",`trailer/${projects[i].trailer}`);
