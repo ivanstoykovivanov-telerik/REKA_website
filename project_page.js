@@ -146,6 +146,76 @@ let projects = [
         ], 
     }, 
     
+    //NABELSCHNUR
+    {
+        title: "Nabelschnur",
+        id: "nabelschnur",
+        caroussel_images : [
+            "nabelschnur_Still 01.jpg",
+            "nabelschnur_Still 02.jpg",
+            "nabelschnur_Still 03.jpg",
+            "nabelschnur_Still 04.jpg",
+            "nabelschnur_Still 05.jpg",
+        ],
+        synopsis: "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt. Todor arbeitet in einem Großraumbüro, sein routiniertes Leben funktioniert perfekt bis zu dem Tag, an dem er von einer Firmenparty das erste Mal zu spät nach Hause kommt.",
+
+        stats_1: [
+            "Kurzfilm, Deutschland 2015, 27 min",
+            "ARRI Alexa, Dolby Digital 5.1"
+        ],
+        stats_2: {
+            Vorführformate: "DCP, Blu-Ray, Quicktime",
+            Originalsprache: "Deutsch",
+            Untertitel: "Englisch"
+        },
+
+        cast: [
+            "MÁRTON PETER NAGY",
+            "SABINE WINTERFELDT",
+            "ULRIKE BEERBAUM",
+            "JOHANNES MOELDERS",
+            " FRANK KALLINOWSKI",
+            "ANDREJ LAKISOV",
+            "JOSCHA EICKEL",
+        ],
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung : "CONSTANZE SCHMITT",
+            Produktionsleitung: "ELENI KARAGEORGOUDIS",
+            Kostümbild: "WARIS KLAMPFER",
+            Szenenbild: "ANNA-SOPHIA EPPSTEIN ",
+            Lichtgestaltung: "DAVID SCHMITT",
+            Originalton : "JOSCHA EICKEL, THOMAS ORR",
+            Maskenbild:  "STELLA VON SENGER",
+            Regieassistenz:  "MARCEL SCHROETER",
+            Kameraassistenz: "MARCUS SCHÜTZE, NATHANAEL BESSON-VIGO, JENS HALLMANN ",
+            Produktion: "CÉCILE TOLLU-POLONOWSKI",
+            Produktionassistenz: "KEVIN BERTHOLD",
+            Szenenbildassistenz: "MARGHERITA FLAMINIA ALLORIA, MERLE HEINRICH, LENA WINTERS, CONCETTA REUSS",
+            Kostümbildassistenz: "HANA REINTGES",
+            Licht: "JULIAN SCHMITT, MALTE SIEPEN, LYDIA RICHTER,JAKOB KRÜGER",
+            Maskenbildassistenz: "DANIEL RIEDEL",
+            Schnitt: "HANNES MARGET, ELIZA PETKOVA",
+            Tongestaltung: "HANNES MARGET",
+            Grading: "INGO SCHUMACHER, CONSTANZE SCHMITT",
+            Tonmischung: "SILVIO NAUMANN",
+            Künstlerische_Projektbetreuung: "FRED KELEMEN",
+            Herstellungsleitung_DFFB: "MYRIAM EICHLER",
+            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+        },
+        awards: [
+            "22. Festival International du Film Nancy-Lorraine 2016, France",
+            "9th Küstendorf International Film & Music Festival, Serbia",
+            " LAUSITZiale IV, Germany",
+            " Festival Européen du Court Métrage de Nice, France",
+            "23th International Film Festival Etiuda & Anima Krakow, Poland",
+            "37th European Short Film Festival of Lyon-Villeurbanne, France",
+            "2morrow Film Festival Moscow, Russia",
+            "Ruberoid Festival Berlin, Germany",
+            "Randfilm Fest Kassel, Germany"
+        ]
+    }, 
+
     //ABGESCHNITTEN
     {
         title: "Abgeschnitten", 
