@@ -60,6 +60,67 @@ let projects = [
                 "12th Femina International Women’s Film Festival, Brazil"
         ]
     }, 
+
+    {
+        title: "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT",
+        id: "einfisch",
+        caroussel_images : [
+        "einfisch.jpg"
+        ],
+        synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
+        trailer: "",
+        stats_1: [
+        "Langspielfilm, Deutschland 2019, 105 min",
+        "ARRI Amira, Dolby Surround 5.1"
+        ],
+        stats_2: {
+        Vorführformate: "DCP, Blu-Ray, Quicktime",
+        Originalsprache: "Deutsch",
+        Untertitel: "Englisch"
+        },
+        poster : "",
+        cast: [
+        "NINA SCHWABE",
+        "THEO TREBS",
+        "HENNING KOBER",
+        "ANNA MANOLOVA",
+        "MÁRTON PETER NAGY",
+        "LEON ULLRICH"
+        ],
+        team: {
+        Buch_und_Regie: "ELIZA PETKOVA",
+        Bildgestaltung: "CONSTANZE SCHMITT",
+        Producer: "KONSTANTIN KANN",
+        Produktionsassistenz: "NEELE SCHRÖDER, JULITA WITT, MARIE NORDMANN",
+        Kostüm_und_Maskenbild: "NURIA HEYCK, ANNA PHILIPPA MÜLLER",
+        Szenenbild: "MIREN OLLER",
+        Innenrequisite: "ANN-CHRISTIN HANSEN, TIZIANA SCHINDLER",
+        Szenenbildassistenz: "HAUKE MAGUHN, JOHN MCINTOSH, EHSAN MORSHED SEFAT, PAULINA CONSTANZA RADIC LOPEZ, JO-MORITZ KRAH, SVEN PHILIPP POHL",
+        Steadicam: "KONSTANTIN KANN",
+        Oberbeleuchter: "DAVID SCHMITT",
+        Beleuchter: "ANNA ILIN, SINA ESLAMI, LYDIA RICHTER, MALTE SIEPEN, BEN BERNHARD, NINA REICHMANN, PAUL NÄTHER",
+        Standfotograf: "LOK KINWAH",
+        Originalton: "HANNES MARGET, EMIL MORGENSTERN",
+        Regieassistenz: "WILLY KRISTEN",
+        Kameraassistenz: "SIRINTON KAOMANIT, MALTE SIEPEN, CHRISTINA AMATE GARCIA, NORWIN HATSCHBACH, ELIAS FRITZ, DANIEL MERGET, JENS HALLMANN, JULIAN SCHMITT, KATHARINA HAUKE, KONSTANTIN MINNICH, PAUL ROHLFS",
+        Tonassistenz: "VAZEH MUSTAFA", 
+        Setassistenz: "PAVEL BOZHILOV, JANEK NEAL LOUIS",
+        Garderobiere: "CHARLOTTE SCHWÄRMER",
+        Schnitt: "ELIZA PETKOVA, HANNES MARGET",
+        Sound_Design: "HANNES MARGET", 
+        Motion_Graphics: "GUNAR LAUBE, DIRK HEYMANN",
+        Tonmischung: "ALEXANDRE LESER",
+        Geräuschemacher: "PETER ROIGK",            
+        Farbkorrektur: "INGO SCHUMACHER",
+        Herstellungsleitung_DFFB: "ANDREAS LOUIS",
+        Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
+        Ko_Produzenten: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
+        },
+        awards: [
+        "48th Lubuskie Filmsommer, Polen",
+        "52nd Hof International Film Festival"
+        ]
+    },
     
     //ZHALEIKA
     {
