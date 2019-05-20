@@ -249,6 +249,53 @@ let projects = [
                 Produktion: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
         awards: []
+    }, 
+    
+    //SOUNDS OF NATURE
+    {
+        title: "SOUNDS OF NATURE",
+        id: "soundsofnature",
+        caroussel_images : [
+        "soundsofnature01.jpg"
+        ],
+        synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
+        trailer: "",
+        stats_1: [
+        "Kurzfilm, Deutschland 2019, 20 min",
+        "35 mm, Farbe, Dolby Surround 5.1"
+        ],
+        stats_2: {
+        Vorführformate: "DCP, Blu-Ray, Quicktime",
+        Originalsprache: "Deutsch",
+        Untertitel: "Englisch"
+        },
+        poster : "",
+        cast: [
+        "ULRIKE BEERBAUM",
+        "SUSANNE LÜNING",
+        "MÁRTON PETER NAGY",
+        ],
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung: "KONSTANTIN KANN",
+            Produktionsassistenz: "LOREDANA TASSONE",
+            Originalton: "NILS PLAMBECK, MARCO DAMKE",
+            Tonassistenz: "MIKE ENDERLEIN",
+            Szenenbild: "NURIA SASTRE",
+            Maskenbild: "LILLI PARTHUM",
+            Steadicam: "KONSTANTIN KANN,  MALTE SCHWIND",
+            Licht: "SABINE BALLNAT",
+            Kameraassistenz: "NOÉ BECK, MALTE SCHWIND, EDOARDO SCUSSEL, ELIAS FRITZ, TIM SEDGWICK",
+            Setassistenz: "SUSANNA GUILLIMO",
+            Schnitt: "ELIZA PETKOVA",
+            Motion_Graphics: "GUNAR LAUBE",
+            Farbkorrektur: "INGO SCHUMACHER",  
+            Tongestaltung: "NILS PLAMBECK", 
+            Tonmischung: "ALEXANDRE LESER",       
+            Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
+            In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
+        },
+        awards: [""]
     }
 ];
 

@@ -131,16 +131,17 @@ footer{
 
 /* Projekte */ 
 
-section.projekte-title {
+.projekte_title {
   color: #737373;
-  margin-top: 5%; 
   margin-bottom: 4%; 
+  background-color: #d4d4d4; 
 }
 
-section.projekte-title h1{
+section.projekte_title h1{
   font-size: 2.5em;
   text-align: center; 
-  margin: 1.5em 0; 
+  margin: 3em 0; 
+  /* margin-top: 5%;  */
 }
 
 #projects {
@@ -160,6 +161,11 @@ section.projekte-title h1{
 
 .project p {
   text-align: justify; 
+}
+
+.projekte_wrapper{
+  background-color: #d4d4d4; 
+  padding-bottom: 10%; 
 }
 
 .image-container img {
@@ -393,33 +399,6 @@ footer a:hover {
   color :#fff; 
   text-decoration:none; 
 } 
-
- /* Die anderen */
- /* .arrow-next, .arrow-previous{
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
-   width: 80px;
-   height: 80px;
-   font-weight: bold;
-   font-size: 24px;
-   color: #fff;
-   line-height: 50px;
-   text-align: center;
-   cursor: pointer;
- }
- .arrow-next{
-   right: 0;
- }
- .arrow-previous{
-   left: 0;
- }
- .arrow-next::after{
-   content: '→';
- }
- .arrow-previous::after{
-   content: '←';
- } */
 
  /* Startseite fade in element  */ 
  .show {
