@@ -59,6 +59,10 @@ footer{
   background-color: #000000;
 }
 
+#navbarNav .row {
+  width: 100%; 
+}
+
 .intrologo {
   width: 400px;
   margin-top: 35vh;
