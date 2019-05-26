@@ -84,7 +84,6 @@ footer{
   font-size: 20px;
 }
 
-/* second page*/
 .slider {
   position: relative;
   height: calc(100vh - 112px);
@@ -335,17 +334,15 @@ section.projekte-filme a:hover {
   padding-top: 1%;
 }
 
-/* Uber uns page  */
+/* About us page  */
 #pic-Eliz-Konst{
   width: 100%;  
   padding-bottom: 3%; 
 }
 
-/* Clear floats after the columns */
-.row-custom:after {
-  content: "";
-  display: table;
-  clear: both;
+.bird {
+  height: 200px;
+  /* width: auto;  */
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -365,6 +362,13 @@ section.projekte-filme a:hover {
   margin-right: 10%;
   color: #737373;
 }
+
+
+/* About us */
+.reka_mission {
+  margin-bottom: 10%; 
+}
+
 
 /* Kontakt */
 .contact {
@@ -429,3 +433,4 @@ footer a:hover {
 .privacy_page p {
   text-align: justify; 
 }
+
