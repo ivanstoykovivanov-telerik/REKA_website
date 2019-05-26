@@ -117,12 +117,12 @@ for (let i = 0; i < projectTitles.length; i++) {
     $("#project_card").append(
         `
         <div class ="row">     
-            <div class="proj_img d-md-inline-block d-sm-block">
+            <div class="col-10 col-md-5 proj_img d-md-inline-block d-sm-block">
                 <a href="project_page.html" nextPage="${projectHTMLS[i]}" >
                     <img src="Image/${projectImages[i]}" class="img-fluid">
                 </a>
             </div>  
-            <div class="proj_text d-md-inline-block d-sm-block">
+            <div class="col-10 col-md-5 proj_text d-md-inline-block d-sm-block">
                 <a href="project_page.html">
                     <p>${projectTitles[i]}</p>
                     <p>${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
