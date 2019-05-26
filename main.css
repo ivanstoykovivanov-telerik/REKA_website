@@ -160,11 +160,23 @@ section.projekte_title h1{
 }
 
 .project {
-  margin-bottom: 6%; 
+  margin-bottom: 10%; 
 }
 
 .project p {
   text-align: justify; 
+}
+
+.proj_img {
+  width: 45% ;
+  margin-right: 10%; 
+  /* height: 30%;   */
+}
+
+.proj_text {
+  padding-top:.44em;  
+  width: 40% ; 
+  color: red; 
 }
 
 .projekte_wrapper{
@@ -178,11 +190,6 @@ section.projekte_title h1{
   padding-bottom: 10%;
   padding-top: 10%;
   margin-right: 80px;
-}
-
-img.project-image{
-  width: 110%; 
-  padding-top:.44em; 
 }
 
 section.projekte-filme a {
