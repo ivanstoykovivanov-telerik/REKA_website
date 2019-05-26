@@ -1,5 +1,6 @@
 var dictionary = {
     "EN": {
+        "_projects_prod_by" : "PROJECTS PRODUCED BY REKA PICTURES", 
         "_projects": "PROJECTS",
         "_aboutus" : "ABOUT US",
         "_contact" : "CONTACTS",
@@ -8,6 +9,7 @@ var dictionary = {
         "_REKA_mission" : "We have joined forces to create films that contain truth, mystery and poetry. REKA stands for the Bulgarian word \"river\". Our aim is to make films that stay in motion and do not linger in the ready-made templates of filmmaking."
     },
     "DE": {
+        "_projects_prod_by" : "PROJEKTE VON REKA PICTURES", 
         "_projects": "PROJEKTE",
         "_aboutus" : "ÜBER UNS",
         "_contact" : "KONTAKT",
