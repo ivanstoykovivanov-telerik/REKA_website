@@ -115,16 +115,16 @@ const projectHTMLS = [
 
 for (let i = 0; i < projectTitles.length; i++) {
     $("#project_card").append(
-        `<div class="row project" next_page="${projectHTMLS[i]}">  
-            <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+        `<div class="row project mt-5 mt-md-0" next_page="${projectHTMLS[i]}">  
+            <div class="col-9 col-md-5 col-xs-10 proj_img">
                 <a href="project_page.html" nextPage="${projectHTMLS[i]}" >
                     <img src="Image/${projectImages[i]}" class="project-image">
                 </a>
             </div>
-            <div class="col-6 offset-1 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
-                    <h3>${projectTitles[i]}</h3>
-                    <p>${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
+                    <h3 class="col-xs-10">${projectTitles[i]}</h3>
+                    <p class="col-xs-12">${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
                 </a>  
             </div>    
         </div>   

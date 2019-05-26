@@ -169,7 +169,11 @@ section.projekte_title h1{
 
 .projekte_wrapper{
   background-color: #d4d4d4; 
-  padding-bottom: 10%; 
+  /* padding-bottom: 10%;  */
+}
+
+.proj_img{
+  margin-left : 12%; 
 }
 
 .image-container img {
