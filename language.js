@@ -1,5 +1,8 @@
 var dictionary = {
     "EN": {
+        "_news_1" : "SOUNDS OF NATURE wraps shooting and we are looking forward to the completion.", 
+        "_news_2" : "THE OTHERS celebrates its premiere at the 52nd International Hof Film Festival.",
+        "_news_3" : "A FISH SWIMMING UPSIDE DOWN wraps shooting. Now we are going in postproduktion.",
         "_projects_prod_by" : "PROJECTS PRODUCED BY REKA PICTURES", 
         "_projects": "PROJECTS",
         "_aboutus" : "ABOUT US",
@@ -9,6 +12,9 @@ var dictionary = {
         "_REKA_mission" : "We have joined together to create films that contain truth, ambiguity and poetry. REKA is the Bulgarian word for “river”. Our aim is to produce films that are in perpetual motion, and not based on the ‘cut-and-paste’ concepts of filmmaking."
     },
     "DE": {
+        "_news_1" : "SOUNDS OF NATURE ist fertig gedreht und wir freuen uns auf die Fertigstellung.", 
+        "_news_2" : "DIE ANDEREN feiert Premiere auf den 52. Internationalen Hofer Filmtagen.",
+        "_news_3" : "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT wurde abgedreht. Jetzt geht es in die Postproduktion.",
         "_projects_prod_by" : "PROJEKTE VON REKA PICTURES", 
         "_projects": "PROJEKTE",
         "_aboutus" : "ÜBER UNS",

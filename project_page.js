@@ -1,5 +1,6 @@
 
 // All the contents of the project pages: 
+//   LANGUAGE : GERMAN 
 let projects = [
     
     //ABWESEND
@@ -538,6 +539,73 @@ let projects = [
         awards: [""]
     }
 ];
+
+
+
+//   LANGUAGE : ENGLISH 
+let projects_DE = [  
+   {
+        title: "A FISH SWIMMING UPSIDE DOWN",
+        id: "a fish swimming upside down",
+        caroussel_images : [
+           "einfisch.jpg"
+        ],
+        synopsis: "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
+        trailer: "",
+        stats_1: [
+            "Feature Film, Germany 2019, 105 min",
+            "ARRI Amira, Dolby Surround 5.1"
+        ],
+        stats_2: {
+            Screening_Formats: "DCP, Blu-Ray, Quicktime",
+            Original_Language: "Deutsch",
+            Subtitles: "English"
+        },
+        poster : "",
+        cast: [
+            "NINA SCHWABE",
+            "THEO TREBS",
+            "HENNING KOBER",
+            "ANNA MANOLOVA",
+            "MÁRTON PETER NAGY",
+            "LEON ULLRICH"
+        ],
+        team: {
+            Director_and_Script: "ELIZA PETKOVA",
+            Director_of_Photography: "CONSTANZE SCHMITT",
+            Producer: "KONSTANTIN KANN",
+            Assistant_Production: "NEELE SCHRÖDER, JULITA WITT, MARIE NORDMANN",
+            Costume_and_Make_Up: "NURIA HEYCK, ANNA PHILIPPA MÜLLER",
+            Set_Design: "MIREN OLLER",
+            Prob_Makers: "ANN-CHRISTIN HANSEN, TIZIANA SCHINDLER",
+            Assistants_Set_Design: "HAUKE MAGUHN, JOHN MCINTOSH, EHSAN MORSHED SEFAT PAULINA, CONSTANZA RADIC LOPEZ, JO-MORITZ KRAH, SVEN PHILIPP POHL",
+            Steadicam: "KONSTANTIN KANN",
+            Gaffer: "DAVID SCHMITT",
+            Electricians: "ANNA ILIN, SINA ESLAMI, LYDIA RICHTER, MALTE SIEPEN, BEN BERNHARD, NINA REICHMANN, PAUL NÄTHER", 
+            Stills_Photographer: "LOK KINWAH",
+            Sound: "HANNES MARGET, EMIL MORGENSTERN",
+            Assistant_Director: "WILLY KRISTEN",
+            Assistants_Camera: "SIRINTON KAOMANIT, MALTE SIEPEN, CHRISTINA AMATE GARCIA, NORWIN HATSCHBACH, ELIAS FRITZ, DANIEL MERGET, JENS HALLMANN, JULIAN SCHMITT, KATHARINA HAUKE, KONSTANTIN MINNICH, PAUL ROHLFS",
+            Boom_Operator: "VAZEH MUSTAFA", 
+            Set_Assistants: "PAVEL BOZHILOV, JANEK NEAL LOUIS",
+            Assistants_Wardrobe: "CHARLOTTE SCHWÄRMER",
+            Editors: "ELIZA PETKOVA, HANNES MARGET",
+            Sound_Design: "HANNES MARGET", 
+            Motion_Graphic_Artists: "GUNAR LAUBE, DIRK HEYMANN",
+            Sound_Mixing: "ALEXANDRE LESER",
+            Foley_Artist: "PETER ROIGK",             
+            Color_Grading: "INGO SCHUMACHER",
+            Executive_Producer: "ANDREAS LOUIS",
+            Executive_Production: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
+            Co_Producer: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
+            awards: [
+                "48th Lubuskie Filmsommer, Polen",
+                "52nd Hof International Film Festival"
+            ]
+        }
+    }
+]; 
+
 
 
 for (let i = 0; i < projects.length; i++) {
