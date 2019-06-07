@@ -110,21 +110,8 @@ footer{
 
 .news {
   padding: 5%;
-}
-
-.news table {
   color: white;
-  padding-left: 7%;
-  font-size: 15px;
-  text-align: left;
-  padding: 5px;
-  font-weight: 300;
-  padding: 20px;
-}
-
-.news td {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 }
 
 .banner2 h1{
