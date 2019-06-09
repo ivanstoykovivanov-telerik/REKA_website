@@ -21,7 +21,7 @@ a {
 nav {
   background: #000;
   width: 100%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
  nav a  {
@@ -42,6 +42,10 @@ nav a.active {
   font-weight: 500;
 }
 
+.navbar-brand {
+  margin-right: -1rem;
+  padding-top: -1rem; 
+}
 
 footer{
   /* height: 20%;   */
@@ -86,8 +90,8 @@ footer{
 
 .slider {
   position: relative;
-  height: calc(100vh - 112px);
-  overflow-x: hidden;
+  height: calc(100vh - 165px);
+  overflow-x: hidden; 
 }
 
 .mySlides {
@@ -103,15 +107,19 @@ footer{
   top: 0;
   bottom: 0;
   height: 100%;
-  width: 100vw;
+  /* width: 100vw; */
   max-width: 400px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .news {
+  font-size: .9em; 
   padding: 5%;
+  padding-left: 4%; 
+  margin-right: -4% ; 
+  padding-left: 5%;
   color: white;
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+  /* font-family: 'Gill Sans',  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 }
 
 .banner2 h1{
@@ -386,7 +394,9 @@ section.projekte-filme a:hover {
 /* Footer */
 
 footer {
+  height : 4em; 
   background-color: #000;
+  
 }
 
 footer a {
