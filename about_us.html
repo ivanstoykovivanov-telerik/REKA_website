@@ -19,9 +19,35 @@
       </nav>  
     </header>
     <div class="img-fluid">
-      <img class="mx-auto d-inline-block" id="pic-Eliz-Konst"src="Image/Eliza + Konstantin_schmaler.jpg"  alt="Foto von Eliza Petkova und Konstantin Kann">
+      <picture>
+        <!-- Extra Large Desktops -->
+        <!-- <source
+          media="(min-width: 75em)"
+          srcset="Image/Eliza_and_Konst.jpg"> -->
+      
+        <!-- Desktops -->
+        <!-- <source
+          media="(min-width: 62em)"
+          srcset="Image/Eliza_and_Konst.jpg">
+       -->
+        <!-- Tablets -->
+        <source
+          media="(min-width: 48em)"
+          srcset="Image/Eliza_and_Konst.jpg">
+      
+        <!-- Landscape Phones -->
+        <source
+          media="(min-width: 34em)"
+          srcset="Image/Eliza_and_Konst_mobile.jpg">
+      
+        <!-- Portrait Phones -->
+        <img
+          id="pic-Eliz-Konst"
+          src="picture-tiny.jpg"
+          srcset="Image/Eliza_and_Konst_mobile.jpg" >
+      </picture>
     </div>
-          
+
     <div class="container">
       <div class="row">
         <div class="col-10 col-md-5">
