@@ -536,7 +536,7 @@ let projects = [
             Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
         },
-        awards: [""]
+        awards: []
     }
 ];
 
@@ -674,7 +674,7 @@ for (let i = 0; i < projects.length; i++) {
         if(projects[i].awards.length > 0 ){
             for (let j = 0; j < projects[i].awards.length; j++) {
                 $("#awards_id").append(`
-                <p><img src="Image/video-camera.png">${projects[i].awards[j]}</p>   
+                    <p><img src="Image/video-camera.png">${projects[i].awards[j]}</p>   
                 `); 
             }
         }
