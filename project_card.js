@@ -130,6 +130,19 @@ for (let i = 0; i < projectTitles.length; i++) {
         </div>   
         `
     ); 
+    if(i === 2){
+        $("#project_card").append(
+            `   
+                <section class="projekte_title">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="col-10 col-sm-12 text-center other_projects">OTHER PROJECTS BY ELIZA PETKOVA</h3>
+                        </div>
+                    </div>
+                </section>
+            `
+        );
+    }
 }
 
 $('.project').click(function(event){

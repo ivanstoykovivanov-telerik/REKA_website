@@ -128,18 +128,19 @@ footer{
 }
 
 /* Projekte */ 
-
 .projekte_title {
-  color: #737373;
-  margin-bottom: 4%; 
-  background-color: #d4d4d4; 
+    color: #737373;
+    margin: 3em 0;
+    background-color: #d4d4d4; 
+    font-size: 2.5em;
+    text-align: center; 
 }
 
-section.projekte_title h1{
-  font-size: 2.5em;
-  text-align: center; 
-  margin: 3em 0; 
-  /* margin-top: 5%;  */
+.other_projects{
+  margin: 0em 0em ; 
+  margin-top: 1em;  
+  margin-bottom: -1em; 
+  /* margin-left: 3em;  */
 }
 
 #projects {
