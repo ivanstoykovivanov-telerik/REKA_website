@@ -341,6 +341,7 @@ section.projekte-filme a:hover {
 
 .bird {
   height: 200px;
+  margin-left: 10%;
   /* width: auto;  */
 }
 
@@ -426,10 +427,6 @@ footer a:hover {
 }
 
 /* Impressum  &  Privacy policy page */
-
-/* .varantwortlich{
-  margin-bottom: 1%;
-} */
 
 .privacy_page{
   margin-left: 10%; 
