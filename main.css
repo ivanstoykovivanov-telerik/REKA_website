@@ -57,6 +57,9 @@ footer{
   text-align: right;
 }
 
+.lang-button {
+  padding-left: 3%; 
+}
 /* Landingpage */
 
 .header {
@@ -370,26 +373,27 @@ section.projekte-filme a:hover {
 .contact {
   text-align: center;
   height: calc(100vh - 112px);
-  color: #000000 ; 
+  color: #737373 ; 
 }
 
 .contact img {
   height: auto;
   width: 40%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 12%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .information {
   text-align: center;
-  color: #000000;
+  color: #737373;
+  
 }
 
 .information h4 {
   margin: 0;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 /* Footer */
@@ -423,6 +427,13 @@ footer a:hover {
 
 /* Impressum  &  Privacy policy page */
 
+/* .varantwortlich{
+  margin-bottom: 1%;
+} */
+
+.privacy_page{
+  margin-left: 10%; 
+}
 .title_data_protection{
   margin-top: 12%; 
   margin-bottom: 5%; 
@@ -430,5 +441,9 @@ footer a:hover {
 
 .privacy_page p {
   text-align: justify; 
+}
+
+.data_end {
+  margin-bottom: 17%; 
 }
 
