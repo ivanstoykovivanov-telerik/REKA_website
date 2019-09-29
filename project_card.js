@@ -136,7 +136,7 @@ for (let i = 0; i < projectTitles.length; i++) {
                 <section class="projekte_title">
                     <div class="container">
                         <div class="row">
-                            <h3 class="col-10 col-sm-12 text-center other_projects">OTHER PROJECTS BY ELIZA PETKOVA</h3>
+                            <h1 class="col-10 col-sm-12 text-center other_projects">OTHER PROJECTS BY ELIZA PETKOVA</h1>
                         </div>
                     </div>
                 </section>
