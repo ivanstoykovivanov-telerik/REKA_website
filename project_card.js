@@ -4,7 +4,7 @@
 
 const projectTitles = [
     "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT </br><h5>(WORK IN PROGRESS)</h5>", 
-    "SOUNDS OF NATURE", 
+    "SOUNDS OF NATURE </br><h5>(WORK IN PROGRESS)</h5>", 
     "DIE ANDEREN",
     "ZHALEIKA",
     "NABELSCHNUR",
