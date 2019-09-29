@@ -141,8 +141,8 @@ footer{
 
 .other_projects{
   margin: 0em 0em ; 
-  margin-top: 1em;  
-  margin-bottom: 1em; 
+  margin-top: 0.5em;  
+  margin-bottom: 0.5em; 
   /* margin-left: 3em;  */
 }
 
@@ -172,6 +172,10 @@ footer{
 
 .proj_img{
   margin-left : 12%; 
+}
+
+.projects_title{
+  margin-left: 10.6%; 
 }
 
 .image-container img {
