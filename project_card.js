@@ -3,8 +3,8 @@
 //PROJECTS PRODUCED BY REKA PICTURES
 
 const projectTitles = [
-    "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT </br><h5>(WORK IN PROGRESS)</h5>", 
-    "SOUNDS OF NATURE </br><h5>(WORK IN PROGRESS)</h5>", 
+    "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT </br><p id='work_in_progress'>(WORK IN PROGRESS)</p>", 
+    "SOUNDS OF NATURE </br><p id='work_in_progress'>(WORK IN PROGRESS)</p>", 
     "DIE ANDEREN",
     "ZHALEIKA",
     "NABELSCHNUR",
@@ -61,22 +61,22 @@ const projectImages = [
     "zhaleika_Still 01.jpg",
 
     // "NABELSCHNUR", 
-    "nabelschnur_Still 01.jpg",
+    "nabelschnur_title.png",
     
     // "ABWESEND", 
-    "Abwesend_Still 01.jpg",
+    "abwesend_title.png",
     
     // "ZUR RECHTEN ZEIT",
-    "zurrechtenzeit_Still 1.jpg",
+    "zur_rechten_zeit_title.png",
     
     // "MEIN SOHN",
-    "meinsohn_Still 1.jpg",
+    "mein_sohn_title.png",
     
     // "ABGESCHNITTEN", 
-    "abgeschnitten1.jpg",
+    "abgeschnitten_title.png",
     
     // "WILLKOMMEN ZUHAUSE",
-    "willkommenzuhause1.jpg",
+    "willkommen_zuhause_title.png",
 ]; 
 
 //TODO: ids : 

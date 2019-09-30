@@ -219,6 +219,11 @@ section.projekte-filme a:hover {
   padding-top: 4%;
 }
 
+#work_in_progress {
+  font-size: 0.5em;
+  margin-top: 2%;  
+}
+
 #content h2 {
   text-align: center;
   font-size: 36px;
@@ -226,7 +231,12 @@ section.projekte-filme a:hover {
   color: #737373;
 }
 
+
 /* Project*/
+.project:hover  {
+  background-color: #e3dfdb; 
+}
+
 #project_content{
   background-color: #d4d4d4;    
 }
