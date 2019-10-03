@@ -42,7 +42,7 @@ nav a.active {
 
 .nav-link{
   padding: 0px 9px; 
-  padding-bottom: 3rem;
+  padding-bottom: 3.55rem;
 }
 
 .navbar {
@@ -52,7 +52,8 @@ nav a.active {
 }
 
 .navbar-brand {
-  padding-bottom: 3.5rem; 
+  padding-bottom: 4.45rem; 
+  padding-left: 1rem; 
 }
 
 footer{
@@ -66,7 +67,8 @@ footer{
 }
 
 .lang-button {
-  padding-left: 3%; 
+  padding-left: 10%; 
+  padding-right: 0rem;
 }
 /* Landingpage */
 
@@ -411,7 +413,6 @@ section.projekte-filme a:hover {
 .information {
   text-align: center;
   color: #737373;
-  
 }
 
 .information h4 {
@@ -422,7 +423,7 @@ section.projekte-filme a:hover {
 /* Footer */
 
 footer {
-  height : 4em; 
+  height : 7.1em; 
   background-color: #000;
   
 }
@@ -436,6 +437,11 @@ footer a:hover {
   color :#fff; 
   text-decoration:none; 
 } 
+
+.footer_customized{
+  padding-top: 3rem; 
+  padding-right: 7.6rem;
+}
 
  /* Startseite fade in element  */ 
  .show {
