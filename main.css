@@ -1,10 +1,8 @@
-
 body, html {
   margin: 0;
   height: 100%;
   width: 100%;
   font-family: "Roboto", "Arial", "sans-serif";
-  /* background-color: #d4d4d4; */
 }
 
 body.foggybg {
@@ -21,7 +19,8 @@ a {
 nav {
   background: #000;
   width: 100%;
-  padding-bottom: 2%;
+  height: 3.2rem; 
+
 }
 
  nav a  {
@@ -30,7 +29,6 @@ nav {
   font-weight: 100;
   line-height: 60px;
   list-style: none;
-  padding: 0 12px;
   transition: background .5s;
   font-size: 15px;
   text-align: left;
@@ -42,9 +40,19 @@ nav a.active {
   font-weight: 500;
 }
 
+.nav-link{
+  padding: 0px 9px; 
+  padding-bottom: 3rem;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .navbar-brand {
-  margin-right: -1rem;
-  padding-top: -1rem; 
+  padding-bottom: 3.5rem; 
 }
 
 footer{
