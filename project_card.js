@@ -47,6 +47,29 @@ const projectDescriptions = [
     "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen.", 
 ];
 
+const lang_PD = [
+     //"EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
+     "_PD_ein_fisch", 
+     //"SOUNDS OF NATURE", 
+     "_PD_sounds_of_nature",
+     //"DIE ANDEREN"
+     "_PD_die_anderen",
+     // "ZHALEIKA",
+     "_PD_zhaleika",
+     //"NABELSCHNUR", 
+     "_PD_nabelschnur",
+     //"ABWESEND", 
+     "_PD_abwesend",
+     // "ZUR RECHTEN ZEIT",
+     "_PD_zur_rechten",
+     // "MEIN SOHN",
+     "_PD_mein_sohn",
+     // "ABGESCHNITTEN", 
+     "_PD_abgeschnitten",
+     // "WILLKOMMEN ZUHAUSE"
+     "_PD_willkommen_zuhause",
+]
+
 const projectImages = [
     // "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "einfisch.jpg", 
@@ -124,7 +147,7 @@ for (let i = 0; i < projectTitles.length; i++) {
             <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
                     <h3 class="col-xs-10">${projectTitles[i]}</h3>
-                    <p class="col-xs-12">${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
+                    <p class="col-xs-12" data-translate="${lang_PD[i]}">${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
                 </a>  
             </div>    
         </div>   
