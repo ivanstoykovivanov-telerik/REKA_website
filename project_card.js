@@ -70,6 +70,19 @@ const lang_PD = [
      "_PD_willkommen_zuhause",
 ]
 
+const lang_TITLES = [
+        "_TITLES_ein_fisch" ,
+        "_TITLES_sounds_of_nature" ,
+        "_TITLES_die_anderen" ,
+        "_TITLES_zhaleika" ,
+        "_TITLES_nabelschnur" ,
+        "_TITLES_abwesend" ,
+        "_TITLES_zur_rechten" ,
+        "_TITLES_mein_sohn" ,
+        "_TITLES_abgeschnitten"  ,
+        "_TITLES_willkommen_zuhause" 
+]
+
 const projectImages = [
     // "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "einfisch.jpg", 
@@ -146,7 +159,7 @@ for (let i = 0; i < projectTitles.length; i++) {
             </div>
             <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
-                    <h3 class="col-xs-10">${projectTitles[i]}</h3>
+                    <h3 class="col-xs-10"  data-translate="${lang_TITLES[i]}">${projectTitles[i]}</h3>
                     <p class="col-xs-12" data-translate="${lang_PD[i]}">${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
                 </a>  
             </div>    
