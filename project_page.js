@@ -157,7 +157,7 @@ let projects = [
             Tonmischung: "ALEXANDRE LESER",
             Geräuschemacher: "PETER ROIGK",            
             Farbkorrektur: "INGO SCHUMACHER",
-            Herstellungsleitung_DFFB: "ANDREAS LOUIS",
+            Herstellungsleiter: "ANDREAS LOUIS",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             Ko_Produzenten: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
         },
