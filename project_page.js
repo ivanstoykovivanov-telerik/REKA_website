@@ -601,8 +601,9 @@ for (let i = 0; i < projects.length; i++) {
         const entries = Object.entries(projects[i].team);
         for(const [role, person] of entries){
             const newRole = role.replace(/_/g, " "); 
+            //TODO: 
             $("#team_id").append(`
-                <p>${newRole} : ${person}</p>
+                <p> <span data-translate="${newRole}">${newRole}</span> : ${person}</p>
             `);     
         }; 
 
