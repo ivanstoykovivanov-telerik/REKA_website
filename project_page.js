@@ -1,6 +1,5 @@
 
 // All the contents of the project pages: 
-//   LANGUAGE : GERMAN 
 let projects = [
     
     //ABWESEND
@@ -14,6 +13,7 @@ let projects = [
             "Abwesend_Still 04.jpg"
         ], 
         synopsis: "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung: Anton, 9 Jahre alt, entdeckt sie im Bett. Am darauffolgenden Morgen ist Anton weg.",
+        synopsis_lang : "_PP_abwesend_synopsis",
         trailer: "ABWESEND trailer.mp4", 
         stats_1: [
             "Kurzfilm, Deutschland 2014, 13 min", 
@@ -71,6 +71,7 @@ let projects = [
             "DIE ANDEREN_Still03_1.png"
         ],
         synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - Sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
+        synopsis_lang : "_PP_die_anderen_synopsis",
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
@@ -105,11 +106,13 @@ let projects = [
 
     {
         title: "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT",
+        title_lang : "_PP_ein_fisch_title", 
         id: "einfisch",
         caroussel_images : [
             "einfisch.jpg"
         ],
         synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
+        synopsis_lang : "_PP_ein_fisch_synopsis",
         trailer: "",
         stats_1: [
             "Langspielfilm, Deutschland 2019, 105 min",
@@ -174,6 +177,7 @@ let projects = [
             "zurrechtenzeit_Still 5.jpg",
         ],
         synopsis: "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung. Ihr Alltag wird zunehmend von Machtspielen und Verlustängsten bestimmt. Adriane muss schmerzhaft erfahren, dass sie sich dem Menschlichen nicht entziehen kann.Die Verneinung der Körperlichkeit durch Waschzwänge, die Vermeidung von Begegnungen durch soziale Isolation, zeigen das Bild einer Frau, die die Kälte und Einsamkeit einer Gesellschaft verkörpert, in der die Angst vorm Scheitern die Lust zum Leben erstickt.",
+        synopsis_lang : "_PP_zur_rechten_zeit_synopsis",
         stats_1: [
             "Kurzfilm, Deutschland 2014, 22 min",
             "RED One, Dolby Digital 5.1"
@@ -229,6 +233,7 @@ let projects = [
             "meinsohn_Still 3.jpg",
         ],
         synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
+        synopsis_lang : "_PP_mein_sohn_synopsis",
         stats_1: [
             "Docfiction, Kurzfilm, Deutschland 2013, 17:47 min, HD",
         ],
@@ -270,6 +275,7 @@ let projects = [
             "willkommenzuhause3.jpg",
         ],
         synopsis: " Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
+        synopsis_lang : "_PP_willkommen_synopsis",
         stats_1: [
         " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
         ],
@@ -316,6 +322,7 @@ let projects = [
             "zhaleika_Still 07.jpg"
         ],
         synopsis: "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt. Ab jetzt muss sie Schwarz tragen, darf keine Musik hören und muss diverse Trauerrituale beachten. Dabei will Lora ihre Jugend weiterhin ausleben. Ihr Wunsch aber wird durch den urteilenden Blick der anderen unterbunden, die sie dazu zwingen die Opferrolle eines Waisenkindes zu bedienen.", 
+        synopsis_lang : "_PP_zhaleika_synopsis",
         trailer: "Zhaleika Trailer.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2014, 13 min", 
@@ -399,7 +406,7 @@ let projects = [
             "nabelschnur_Still 05.jpg",
         ],
         synopsis: "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt. Todor arbeitet in einem Großraumbüro, sein routiniertes Leben funktioniert perfekt bis zu dem Tag, an dem er von einer Firmenparty das erste Mal zu spät nach Hause kommt.",
-
+        synopsis_lang : "_PP_nabelschnur_synopsis",
         stats_1: [
             "Kurzfilm, Deutschland 2015, 27 min",
             "ARRI Alexa, Dolby Digital 5.1"
@@ -469,6 +476,7 @@ let projects = [
             "abgeschnitten6.jpg",
         ],
         synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
+        synopsis_lang : "_PP_abgeschnitten_synopsis",
         trailer: "ABGESCHNITTEN trailer.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2012, 8 min", 
@@ -500,6 +508,7 @@ let projects = [
         "soundsofnature01.jpg"
         ],
         synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
+        synopsis_lang :  "_PP_sounds_of_nature_synopsis",
         trailer: "",
         stats_1: [
         "Kurzfilm, Deutschland 2019, 20 min",
@@ -541,79 +550,27 @@ let projects = [
 ];
 
 
-
-//   LANGUAGE : ENGLISH 
-let projects_DE = [  
-   {
-        title: "A FISH SWIMMING UPSIDE DOWN",
-        id: "a fish swimming upside down",
-        caroussel_images : [
-           "einfisch.jpg"
-        ],
-        synopsis: "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
-        trailer: "",
-        stats_1: [
-            "Feature Film, Germany 2019, 105 min",
-            "ARRI Amira, Dolby Surround 5.1"
-        ],
-        stats_2: {
-            Screening_Formats: "DCP, Blu-Ray, Quicktime",
-            Original_Language: "Deutsch",
-            Subtitles: "English"
-        },
-        poster : "",
-        cast: [
-            "NINA SCHWABE",
-            "THEO TREBS",
-            "HENNING KOBER",
-            "ANNA MANOLOVA",
-            "MÁRTON PETER NAGY",
-            "LEON ULLRICH"
-        ],
-        team: {
-            Director_and_Script: "ELIZA PETKOVA",
-            Director_of_Photography: "CONSTANZE SCHMITT",
-            Producer: "KONSTANTIN KANN",
-            Assistant_Production: "NEELE SCHRÖDER, JULITA WITT, MARIE NORDMANN",
-            Costume_and_Make_Up: "NURIA HEYCK, ANNA PHILIPPA MÜLLER",
-            Set_Design: "MIREN OLLER",
-            Prob_Makers: "ANN-CHRISTIN HANSEN, TIZIANA SCHINDLER",
-            Assistants_Set_Design: "HAUKE MAGUHN, JOHN MCINTOSH, EHSAN MORSHED SEFAT PAULINA, CONSTANZA RADIC LOPEZ, JO-MORITZ KRAH, SVEN PHILIPP POHL",
-            Steadicam: "KONSTANTIN KANN",
-            Gaffer: "DAVID SCHMITT",
-            Electricians: "ANNA ILIN, SINA ESLAMI, LYDIA RICHTER, MALTE SIEPEN, BEN BERNHARD, NINA REICHMANN, PAUL NÄTHER", 
-            Stills_Photographer: "LOK KINWAH",
-            Sound: "HANNES MARGET, EMIL MORGENSTERN",
-            Assistant_Director: "WILLY KRISTEN",
-            Assistants_Camera: "SIRINTON KAOMANIT, MALTE SIEPEN, CHRISTINA AMATE GARCIA, NORWIN HATSCHBACH, ELIAS FRITZ, DANIEL MERGET, JENS HALLMANN, JULIAN SCHMITT, KATHARINA HAUKE, KONSTANTIN MINNICH, PAUL ROHLFS",
-            Boom_Operator: "VAZEH MUSTAFA", 
-            Set_Assistants: "PAVEL BOZHILOV, JANEK NEAL LOUIS",
-            Assistants_Wardrobe: "CHARLOTTE SCHWÄRMER",
-            Editors: "ELIZA PETKOVA, HANNES MARGET",
-            Sound_Design: "HANNES MARGET", 
-            Motion_Graphic_Artists: "GUNAR LAUBE, DIRK HEYMANN",
-            Sound_Mixing: "ALEXANDRE LESER",
-            Foley_Artist: "PETER ROIGK",             
-            Color_Grading: "INGO SCHUMACHER",
-            Executive_Producer: "ANDREAS LOUIS",
-            Executive_Production: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
-            Co_Producer: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
-            awards: [
-                "48th Lubuskie Filmsommer, Polen",
-                "52nd Hof International Film Festival"
-            ]
-        }
-    }
-]; 
-
-
-
 for (let i = 0; i < projects.length; i++) {
     //get from local storage : 
     let page = localStorage.getItem("page"); 
     console.log(page);
     if(projects[i].id === page ){
         
+        //TITLE 
+        $("#film_title").append(`
+            <span class="text-justify" data-translate="${projects[i].title_lang}"> 
+                ${projects[i].title.toUpperCase()}
+            </span>
+        `); 
+
+        //SYNOPSIS
+        $("#synopsis_block").append(`
+            <p class="text-justify" data-translate="${projects[i].synopsis_lang}"> 
+                ${projects[i].synopsis}
+            </p>
+        `); 
+
+
         //CAPROUSSEL IMAGES 
         for (let j = 0; j < projects[i].caroussel_images.length; j++) {
             
@@ -631,11 +588,8 @@ for (let i = 0; i < projects.length; i++) {
                 `);
             }
         }
-        
-        //SYNOPSIS
-        let synopsisEl = document.querySelector("#synopsis");
-        synopsisEl.innerHTML= projects[i].synopsis; 
-        
+       
+      
         //CAST
         for (let j = 0; j < projects[i].cast.length; j++) {
             $("#cast_id").append(`
@@ -679,8 +633,6 @@ for (let i = 0; i < projects.length; i++) {
             }
         }
 
-         //TITLE 
-         $('#film_title').html(`${projects[i].title.toUpperCase()}`); 
 
         //POSTER 
         if(projects[i].poster !== ""){

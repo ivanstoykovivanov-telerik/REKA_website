@@ -49,7 +49,7 @@ const projectDescriptions = [
 
 const lang_PD = [
      //"EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
-     "_PD_ein_fisch", 
+     "_PD_ein_fisch_synopsis", 
      //"SOUNDS OF NATURE", 
      "_PD_sounds_of_nature",
      //"DIE ANDEREN"
