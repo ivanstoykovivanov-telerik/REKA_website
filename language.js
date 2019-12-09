@@ -61,7 +61,7 @@ var dictionary = {
         "Farbkorrektur" : "Color Grading",
         "Herstellungsleiter" : "Executive Producer", 
         "Produzent" : "Producer",
-        "Ko_Produzenten" : "Co-Producer", 
+        "Ko Produzenten" : "Co-Producer", 
         "_R_" : "", 
     },
     "DE": {
@@ -126,7 +126,7 @@ var dictionary = {
         "Farbkorrektur" : "Farbkorrektur",
         "Herstellungsleiter" : "Herstellungsleiter", 
         "Produzent" : "Produzent",
-        "Ko_Produzenten" : "Ko-Produzenten", 
+        "Ko Produzenten" : "Ko-Produzenten", 
         "_R_" : "", 
     }
 };
