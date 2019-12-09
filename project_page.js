@@ -166,8 +166,8 @@ let projects = [
             Ko_Produzenten: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
         },
         awards: [
-            "48th Lubuskie Filmsommer, Polen",
-            "52nd Hof International Film Festival"
+            "70th  Berlin Film Festival",
+           
         ]
     },
     
