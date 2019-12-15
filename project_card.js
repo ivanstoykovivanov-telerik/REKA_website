@@ -159,8 +159,8 @@ for (let i = 0; i < projectTitles.length; i++) {
             </div>
             <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
-                    <h3 class="col-xs-10"  data-translate="${lang_TITLES[i]}">${projectTitles[i]}</h3>
-                    <p class="col-xs-12" data-translate="${lang_PD[i]}">${projectDescriptions[i].substr(0, 220)}<b>[mehr...]</b> </p>
+                    <h3 class="col-xs-10" data-translate="${lang_TITLES[i]}">${projectTitles[i]}</h3>
+                    <p class="col-xs-12"> </p> <span data-translate="${lang_PD[i]}">${projectDescriptions[i].substr(0, 220)}</span> <b> [mehr...]</b></p>
                 </a>  
             </div>    
         </div>   
@@ -172,7 +172,7 @@ for (let i = 0; i < projectTitles.length; i++) {
                 <section class="projekte_title">
                     <div class="container">
                         <div class="row">
-                            <p class="col-10 col-sm-12 text-left other_projects projects_title">OTHER PROJECTS BY ELIZA PETKOVA</p>
+                            <p class="col-10 col-sm-12 text-left other_projects projects_title" data-translate="_other_projects_by_eliza">OTHER PROJECTS BY ELIZA PETKOVA</p>
                         </div>
                     </div>
                 </section>
