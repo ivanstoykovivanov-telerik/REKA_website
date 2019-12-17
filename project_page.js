@@ -73,7 +73,7 @@ let projects = [
             "DIE ANDEREN_Still02_1.png",
             "DIE ANDEREN_Still03_1.png"
         ],
-        synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - Sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
+        synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
         synopsis_lang : "_PD_die_anderen",
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
