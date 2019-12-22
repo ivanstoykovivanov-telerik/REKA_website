@@ -5,6 +5,7 @@
 const projectTitles = [
     "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT </br><p id='work_in_progress'>(WORK IN PROGRESS)</p>", 
     "SOUNDS OF NATURE </br><p id='work_in_progress'>(WORK IN PROGRESS)</p>", 
+    "EXTRA PROJECT", 
     "DIE ANDEREN",
     "ZHALEIKA",
     "NABELSCHNUR",
@@ -18,10 +19,13 @@ const projectTitles = [
 const projectDescriptions = [
     //"EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
-    
+        
     //"SOUNDS OF NATURE", 
     "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden,  dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.", 
     
+    //DESCRIPTION OF EXTRA PROJECT
+    "bLA BLA ",
+
     //"DIE ANDEREN"
     "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.",
     
@@ -87,6 +91,9 @@ const projectImages = [
     // "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "einfisch.jpg", 
     
+    //EXTRA PROJECT IMAGE 
+    "soundsofnature01.jpg",
+
     // "SOUNDS OF NATURE", 
     "soundsofnature01.jpg",
     
