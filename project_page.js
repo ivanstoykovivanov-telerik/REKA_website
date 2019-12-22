@@ -1,6 +1,6 @@
 
 // All the contents of the project pages: 
-let projects = [
+const projects = [
     
     //ABWESEND
     {
@@ -119,7 +119,7 @@ let projects = [
         synopsis_lang : "_PP_ein_fisch_synopsis",
         trailer: "",
         stats_1: [
-            "Langspielfilm, Deutschland 2019, 105 min",
+            "Langspielfilm, Deutschland 2020, 103 min",
             "ARRI Amira, Dolby Surround 5.1"
         ],
         stats_2: {
@@ -133,41 +133,43 @@ let projects = [
             "THEO TREBS",
             "HENNING KOBER",
             "ANNA MANOLOVA",
-            "MÁRTON PETER NAGY",
+            "MÁRTON NAGY",
             "LEON ULLRICH"
         ],
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
             Bildgestaltung: "CONSTANZE SCHMITT",
             Producer: "KONSTANTIN KANN",
-            Produktionsassistenz: "NEELE SCHRÖDER, JULITA WITT, MARIE NORDMANN",
             Kostüm_und_Maskenbild: "NURIA HEYCK, ANNA PHILIPPA MÜLLER",
-            Szenenbild: "MIREN OLLER",
-            Innenrequisite: "ANN-CHRISTIN HANSEN, TIZIANA SCHINDLER",
-            Szenenbildassistenz: "HAUKE MAGUHN, JOHN MCINTOSH, EHSAN MORSHED SEFAT, PAULINA CONSTANZA RADIC LOPEZ, JO-MORITZ KRAH, SVEN PHILIPP POHL",
-            Steadicam: "KONSTANTIN KANN",
             Oberbeleuchter: "DAVID SCHMITT",
-            Beleuchter: "ANNA ILIN, SINA ESLAMI, LYDIA RICHTER, MALTE SIEPEN, BEN BERNHARD, NINA REICHMANN, PAUL NÄTHER",
-            Standfotograf: "LOK KINWAH",
+            Szenenbild: "MIREN OLLER",
             Originalton: "HANNES MARGET, EMIL MORGENSTERN",
             Regieassistenz: "WILLY KRISTEN",
-            Kameraassistenz: "SIRINTON KAOMANIT, MALTE SIEPEN, CHRISTINA AMATE GARCIA, NORWIN HATSCHBACH, ELIAS FRITZ, DANIEL MERGET, JENS HALLMANN, JULIAN SCHMITT, KATHARINA HAUKE, KONSTANTIN MINNICH, PAUL ROHLFS",
+            Produktionsassistenz: "NEELE SCHRÖDER, JULITA WITT, MARIE NORDMANN",
             Tonassistenz: "VAZEH MUSTAFA", 
-            Setassistenz: "PAVEL BOZHILOV, JANEK NEAL LOUIS",
+            Innenrequisite: "ANN-CHRISTIN HANSEN, TIZIANA SCHINDLER",
+            Steadicam: "KONSTANTIN KANN",
+            Kameraassistenz: "SIRINTON KAOMANIT, MALTE SIEPEN, CHRISTINA AMATE GARCIA, NORWIN HATSCHBACH, ELIAS FRITZ, DANIEL MERGET, JENS HALLMANN, JULIAN SCHMITT, KATHARINA HAUKE, KONSTANTIN MINNICH, PAUL ROHLFS",
+            Beleuchter: "ANNA ILIN, SINA ESLAMI, LYDIA RICHTER, MALTE SIEPEN, BEN BERNHARD, NINA REICHMANN, PAUL NÄTHER, JULIAN LÜCK",
+            Szenenbildassistenz: "HAUKE MAGUHN, JOHN MCINTOSH, EHSAN MORSHED SEFAT, PAULINA CONSTANZA RADIC LOPEZ, JO-MORITZ KRAH, SVEN PHILIPP POHL",
             Garderobiere: "CHARLOTTE SCHWÄRMER",
+            Friseur: "DIMITAR TRANEV",
+            Setassistenz: "PAVEL BOZHILOV, JANEK NEAL LOUIS",
+            Standfotograf: "LOK KINWAH",
+            Catering: "FELIPE DAMM, WANDA KONIETZNY, ANNA ENGELMANN, ANNIKA GASSEBERGER", 
             Schnitt: "ELIZA PETKOVA, HANNES MARGET",
-            Sound_Design: "HANNES MARGET", 
+            Farbkorrektur: "INGO SCHUMACHER",
             Motion_Graphics: "GUNAR LAUBE, DIRK HEYMANN",
+            Sound_Design: "HANNES MARGET", 
+            Ton_Schnitt: "JOSCHA EICKEL", 
             Tonmischung: "ALEXANDRE LESER",
             Geräuschemacher: "PETER ROIGK",            
-            Farbkorrektur: "INGO SCHUMACHER",
-            Herstellungsleiter: "ANDREAS LOUIS",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
-            Ko_Produzenten: "DAS KIND MIT DER GOLGENEN JACKE FILMPRODUKTION, REKA PICTURES, WILD GRASS FILMS",
+            Herstellungsleiter: "ANDREAS LOUIS",
+            Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE (Production Manager: CAROLINE SCHNELLER), <br>REKA PICTURES, <br>WILD GRASS FILMS ",
         },
         awards: [
-            "70th  Berlin Film Festival",
-           
+            "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino"
         ]
     },
     
@@ -368,7 +370,7 @@ let projects = [
             Licht: "DAVID SCHMITT",
             Szenenbild: "HRISTINA DYAKOVA, JANET IVANOVA",
             Produktion: "SVETOSLAV DRAGANOV, TIM OLIVER SCHULTZ, CÉCILE TOLLU-POLONOWSKI",
-            Regieassistenz_und_Set: "PETAR PETROV",
+            Regieassistenz_und_Setaufnahmeleitung: "PETAR PETROV",
             Produktionassistenz: "TSVETA ERMENKOVA",
             Kameraassistenz: "MALTE SIEPEN, CRISTINA AMATE GARCIA",
             Set_Runner: "GALIN POPOV, VESSELIN DENEV",
@@ -406,7 +408,8 @@ let projects = [
             "Lets Cee Film Festival, Vienna, Austria",
             "Kinotrip Filmfestival, Ljubljana, Slovenia",
             "18th Stockholm International Film Festival Junior, Sweden",
-            "Sehsüchte 46th Student Film Festival, Germany" 
+            "Sehsüchte 46th Student Film Festival, Germany", 
+            "23rd International Film Festival Nancy, France" 
         ], 
     }, 
     
@@ -622,14 +625,14 @@ for (let i = 0; i < projects.length; i++) {
             const newRole = role.replace(/_/g, " "); 
             //TODO: 
             $("#team_id").append(`
-                <p> <span data-translate="${newRole}">${newRole}</span> : ${person}</p>
+                <p> <span data-translate="${newRole}">${newRole}</span>: ${person}</p>
             `);     
         }; 
 
         //STATS_1
         for (let j = 0; j < projects[i].stats_1.length; j++) {
             $("#stats_1_id").append(`
-            <p>${projects[i].stats_1[j]}</p>
+            <p data-translate="">${projects[i].stats_1[j]}</p>
             `); 
         }
 
@@ -648,7 +651,7 @@ for (let i = 0; i < projects.length; i++) {
         if(projects[i].awards.length > 0 ){
             for (let j = 0; j < projects[i].awards.length; j++) {
                 $("#awards_id").append(`
-                    <p><img src="Image/video-camera.png">${projects[i].awards[j]}</p>   
+                    <p><img src="Image/black-laurel.jpg" data-translate="">${projects[i].awards[j]}</p>   
                 `); 
             }
         }

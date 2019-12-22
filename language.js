@@ -61,10 +61,10 @@ var dictionary = {
         "Buch und Regie" : "Director & Script", 
         "Bildgestaltung" : "Director of Photography", 
         "Producer" : "Producer", 
-        "Produktionsassistenz" : "Assistant Production", 
-        "Kostüm und Maskenbild" : "Costume & Make Up", 
+        "Produktionsassistenz" : "Production Assistants", 
+        "Kostüm und Maskenbild" : "Costume Design & Make Up Artists", 
         "Szenenbild" : "Set Design", 
-        "Innenrequisite" : "Prob Makers", 
+        "Innenrequisite" : "Prop Makers", 
         "Szenenbildassistenz" : "Assistants Set Design", 
         "Steadicam" : "Steadicam", 
         "Oberbeleuchter" : "Gaffer", 
@@ -76,6 +76,10 @@ var dictionary = {
         "Tonassistenz" : "Boom Operator", 
         "Setassistenz" : "Set Assistants", 
         "Garderobiere" : "Assistant Wardrobe", 
+        "Friseur" : "Hair dresser",
+        "Catering" : "Catering",
+        "Regieassistenz und Setaufnahmeleitung" : "Assistant Director", 
+        "Ton Schnitt": "Sound Editing",
         "Schnitt" : "Editors", 
         "Sound Design" : "Sound Design",
         "Motion Graphics" : "Motion Graphic Artists", 
@@ -85,7 +89,9 @@ var dictionary = {
         "Herstellungsleiter" : "Executive Producer", 
         "Produzent" : "Producer",
         "Ko Produzenten" : "Co-Producer", 
-        "_R_" : "", 
+        "_R_" : "",
+        "70. Berlinale, Perspective Deutsches Kino" : "70th International Film Festival Berlin, Perspective German Cinema", 
+        "stats_lang_film" : "Feature film, Germany 2020, 103 min."
     },
     "DE": {
         "_news_1" : "SOUNDS OF NATURE ist fertig gedreht und wir freuen uns auf die Fertigstellung.", 
@@ -164,6 +170,10 @@ var dictionary = {
         "Tonassistenz" : "Originalton", 
         "Setassistenz" : "Setassistenz", 
         "Garderobiere" : "Garderobiere", 
+        "Friseur" : "Friseur",
+        "Catering" : "Catering",
+        "Regieassistenz und Setaufnahmeleitung" : "Regieassistenz und Setaufnahmeleitung", 
+        "Ton Schnitt": "Ton Schnitt",
         "Schnitt" : "Schnitt", 
         "Sound Design" : "Sound Design",
         "Motion Graphics" : "Motion Graphics", 
@@ -174,6 +184,8 @@ var dictionary = {
         "Produzent" : "Produzent",
         "Ko Produzenten" : "Ko-Produzenten", 
         "_R_" : "", 
+        "70. Berlinale, Perspective Deutsches Kino" : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino", 
+        "stats_lang_film" : "Langspielfilm, Deutschland 2020, 103 Min."
     }
 };
 
