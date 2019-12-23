@@ -124,12 +124,15 @@ const projectImages = [
 
 //TODO: ids : 
 const projectHTMLS = [
-    // "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
+    //"EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT", 
     "einfisch", 
     
-    // "SOUNDS OF NATURE", 
+    //"SOUNDS OF NATURE", 
     "soundsofnature", 
     
+    //"ELEMENTE", 
+    "elemente", 
+
     // "DIE ANDEREN",
     "dieanderen", 
     
@@ -156,37 +159,45 @@ const projectHTMLS = [
 ]; 
 
 
-for (let i = 0; i < projectTitles.length; i++) {
-    $("#project_card").append(
-        `<div class="row project mt-5 mt-md-0" next_page="${projectHTMLS[i]}">  
-            <div class="col-9 col-md-5 col-xs-10 proj_img">
-                <a href="project_page.html" nextPage="${projectHTMLS[i]}" >
-                    <img src="Image/${projectImages[i]}" class="project-image">
-                </a>
-            </div>
-            <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
-                <a href="project_page.html">
-                    <h3 class="col-xs-10" data-translate="${lang_TITLES[i]}">${projectTitles[i]}</h3>
-                    <p class="col-xs-12"> </p> <span data-translate="${lang_PD[i]}">${projectDescriptions[i].substr(0, 220)}</span> <b> [mehr...]</b></p>
-                </a>  
-            </div>    
-        </div>   
-        `
-    ); 
-    if(i === 2){
-        $("#project_card").append(
-            `   
-                <section class="projekte_title">
-                    <div class="container">
-                        <div class="row">
-                            <p class="col-10 col-sm-12 text-left other_projects projects_title" data-translate="_other_projects_by_eliza">OTHER PROJECTS BY ELIZA PETKOVA</p>
-                        </div>
-                    </div>
-                </section>
+projects.map( film => {
+    console.log(film);
+    if(film.company === "reka"){
+        $("#reka_projects").append(
+            `<div class="row project mt-5 mt-md-0" next_page="${film.id}">  
+                <div class="col-9 col-md-5 col-xs-10 proj_img">
+                    <a href="project_page.html" nextPage="${film.id}" >
+                        <img src="Image/${film.main_image}" class="project-image">
+                    </a>
+                </div>
+                <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
+                    <a href="project_page.html">
+                        <h3 class="col-xs-10" data-translate="${lang_TITLES}">${film.title}</h3>
+                        <p class="col-xs-12"> </p> <span data-translate="${lang_PD}">${film.synopsis.substr(0, 220)}</span> <b> [mehr...]</b></p>
+                    </a>  
+                </div>    
+            </div>   
             `
         );
-    }
-}
+    }else {
+        $("#cinemanda_projects").append(
+            `<div class="row project mt-5 mt-md-0" next_page="${film.id}">  
+                <div class="col-9 col-md-5 col-xs-10 proj_img">
+                    <a href="project_page.html" nextPage="${film.id}" >
+                        <img src="Image/${film.main_image}" class="project-image">
+                    </a>
+                </div>
+                <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
+                    <a href="project_page.html">
+                        <h3 class="col-xs-10" data-translate="${lang_TITLES}">${film.title}</h3>
+                        <p class="col-xs-12"> </p> <span data-translate="${lang_PD}">${film.synopsis.substr(0, 220)}</span> <b> [mehr...]</b></p>
+                    </a>  
+                </div>    
+            </div>   
+            `
+        );
+    } 
+})
+
 
 $('.project').click(function(event){
     event.stopPropagation();  
