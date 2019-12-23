@@ -127,7 +127,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "",
+        poster : "Image/einfisch_poster.jpg",
         cast: [
             "NINA SCHWABE",
             "THEO TREBS",
@@ -659,7 +659,7 @@ for (let i = 0; i < projects.length; i++) {
 
         //POSTER 
         if(projects[i].poster !== ""){
-            $("#poster_id").attr("src",`poster/${projects[i].poster}`);
+            $("#poster_id").attr("src",`${projects[i].poster}`);
         }
 
         //TRAILER
