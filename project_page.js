@@ -2,111 +2,6 @@
 // All the contents of the project pages: 
 const projects = [
     
-    //ABWESEND
-    {
-        title: "Abwesend", 
-        title_lang : "_PP_abwesend_title", 
-        id: "abwesend",
-        caroussel_images : [
-            "Abwesend_Still 01.jpg",
-            "Abwesend_Still 02.jpg",
-            "Abwesend_Still 03.jpg",
-            "Abwesend_Still 04.jpg"
-        ], 
-        synopsis: "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung: Anton, 9 Jahre alt, entdeckt sie im Bett. Am darauffolgenden Morgen ist Anton weg.",
-        synopsis_lang : "_PD_abwesend",
-        trailer: "ABWESEND trailer.mp4", 
-        stats_1: [
-            "Kurzfilm, Deutschland 2014, 13 min", 
-            "ARRI Amira, Dolby Digital 5.1"
-        ],
-        stats_2: {
-            Vorführformate: "DCP, Blu-Ray, Quicktime", 
-            Originalsprache: "Deutsch", 
-            Untertitel: "Englisch, Französisch" 
-        },
-        poster : "Abwesend-Poster.jpg",   
-        cast: [
-            "KATRIN SOMMER", 
-            "MÁRTON PETER NAGY", 
-            "MIKE SOMMER", 
-            "CLAUDIA BALKO", 
-            "WERNER ZWOSTA"
-        ], 
-        team: {
-            Buch_und_Regie: "ELIZA PETKOVA", 
-            Producer: "TIM OLIVER SCHULTZ, CÉCILE TOLLU-POLONOWSKI", 
-            Kostümbild: "WARIS KLAMPFER", 
-            Originalton: "HANNES MARGET", 
-            Lichtgestaltung: "DAVID SCHMITT", 
-            Maskenbild: "STELLA VON SENGER", 
-            Regieassistenz_und_Set_AL: "MARCEL SCHROETER", 
-            Kameraassistenz: "NATHANAEL BESSON-VIGO,MARCUS SCHÜTZE", 
-            Licht: "SARA GFRÖRER, GIULIA SCHELHAS", 
-            Aufnahmeleitung: "CARLOTTA CORNEHL", 
-            Schnitt: "ELIZA PETKOVA", 
-            Farbkorrektur: "INGO SCHUMACHER, CONSTANZE SCHMITT", 
-            Tongestaltung: "HANNES MARGET", 
-            Tonmischung: "SILVIO NAUMANN", 
-            Videospiel_Programmierung: "HANNES MARGET", 
-            Herstellungsleitung: "ANDREAS LOUIS", 
-            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
-        }, 
-        awards: [
-                "68. Festival de Cannes - Sélection Cinéfondation",   
-                "4th Evolution Mallorca International Film Festival (EMIFF)",   
-                "International Film Festival TOFIFEST, Poland",   
-                "17. Landshuter Kurzfilmfestival, Germany",   
-                "20th Sofia International Film Festival, Bulgaria",   
-                "Ruberoid Festival 2016, Berlin, Germany",   
-                "12th Femina International Women’s Film Festival, Brazil"
-        ]
-    }, 
-    
-    // DIE ANDEREN
-    {
-        title: "DIE ANDEREN",
-        title_lang : "_TITLES_die_anderen", 
-        id: "dieanderen",
-        caroussel_images : [
-            "DIE ANDEREN_Still01_1.jpg",
-            "DIE ANDEREN_Still02_1.png",
-            "DIE ANDEREN_Still03_1.png"
-        ],
-        synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
-        synopsis_lang : "_PD_die_anderen",
-        trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
-        stats_1: [
-            "Kurzfilm, Deutschland 2018, 11:13 min",
-            "ARRI Amira, Dolby Digital 5.1"
-        ],
-        stats_2: {
-            Vorführformate: "DCP, Blu-Ray, Quicktime",
-            Originalsprache: "Deutsch",
-            Untertitel: "Englisch"
-        },
-        poster : "Die Anderen Poster.jpg",
-        cast: [
-            "MÁRTON PETER NAGY"
-        ],
-        team: {
-            Buch_und_Regie: "ELIZA PETKOVA",
-            Bildgestaltung: "KONSTANTIN KANN",
-            Kostümbild: "WARIS KLAMPFER",
-            Kameraassistenz: "SABINE BALLNAT",
-            Schnitt: "ELIZA PETKOVA",
-            Tongestaltung: "HANNES MARGET",
-            Farbkorrektur: "INGO SCHUMACHER",
-            Tonmischung: "SILVIO NAUMANN",
-            Herstellungsleitung_DFFB: "ANDREAS LOUIS",
-            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN, REKA PICTURES"
-        },
-        awards: [
-            "48th Lubuskie Filmsommer, Polen",
-            "52nd Hof International Film Festival"
-        ]
-    }, 
-    
     // EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT
     {
         title: "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT",
@@ -116,6 +11,7 @@ const projects = [
             "einfisch.jpg"
         ],
         synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
+        synopsis_length : 30, 
         synopsis_lang : "_PP_ein_fisch_synopsis",
         trailer: "",
         stats_1: [
@@ -172,159 +68,102 @@ const projects = [
             "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino"
         ]
     },
-    
-    //ZUR RECHTEN ZEIT
+
+      //SOUNDS OF NATURE
     {
-        title: "Zur rechten Zeit",
-        title_lang : "_TITLES_zur_rechten",
-        id: "zurrechtenzeit",
+        title: "SOUNDS OF NATURE",
+        title_lang : "_TITLES_sounds_of_nature",
+        id: "soundsofnature",
         caroussel_images : [
-            "zurrechtenzeit_Still 1.jpg",
-            "zurrechtenzeit_Still 2.jpg",
-            "zurrechtenzeit_Still 3.jpg",
-            "zurrechtenzeit_Still 4.jpg",
-            "zurrechtenzeit_Still 5.jpg",
+            "soundsofnature01.jpg"
         ],
-        synopsis: "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung. Ihr Alltag wird zunehmend von Machtspielen und Verlustängsten bestimmt. Adriane muss schmerzhaft erfahren, dass sie sich dem Menschlichen nicht entziehen kann.Die Verneinung der Körperlichkeit durch Waschzwänge, die Vermeidung von Begegnungen durch soziale Isolation, zeigen das Bild einer Frau, die die Kälte und Einsamkeit einer Gesellschaft verkörpert, in der die Angst vorm Scheitern die Lust zum Leben erstickt.",
-        synopsis_lang : "_PD_zur_rechten",
+        synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
+        synopsis_length : 30, 
+        synopsis_lang :  "_PD_sounds_of_nature",
+        trailer: "",
         stats_1: [
-            "Kurzfilm, Deutschland 2014, 22 min",
-            "RED One, Dolby Digital 5.1"
+            "Kurzfilm, Deutschland 2019, 20 min",
+            "35 mm, Farbe, Dolby Surround 5.1"
+        ],
+        stats_2: {
+        Vorführformate: "DCP, Blu-Ray, Quicktime",
+        Originalsprache: "Deutsch",
+        Untertitel: "Englisch"
+        },
+        poster : "",
+        cast: [
+        "ULRIKE BEERBAUM",
+        "SUSANNE LÜNING",
+        "MÁRTON PETER NAGY",
+        ],
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung: "KONSTANTIN KANN",
+            Produktionsassistenz: "LOREDANA TASSONE",
+            Originalton: "NILS PLAMBECK, MARCO DAMKE",
+            Tonassistenz: "MIKE ENDERLEIN",
+            Szenenbild: "NURIA SASTRE",
+            Maskenbild: "LILLI PARTHUM",
+            Steadicam: "KONSTANTIN KANN,  MALTE SCHWIND",
+            Licht: "SABINE BALLNAT",
+            Kameraassistenz: "NOÉ BECK, MALTE SCHWIND, EDOARDO SCUSSEL, ELIAS FRITZ, TIM SEDGWICK",
+            Setassistenz: "SUSANNA GUILLIMO",
+            Schnitt: "ELIZA PETKOVA",
+            Motion_Graphics: "GUNAR LAUBE",
+            Farbkorrektur: "INGO SCHUMACHER",  
+            Tongestaltung: "NILS PLAMBECK", 
+            Tonmischung: "ALEXANDRE LESER",       
+            Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
+            In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
+        },
+        awards: []
+    },
+
+      // DIE ANDEREN
+      {
+        title: "DIE ANDEREN",
+        title_lang : "_TITLES_die_anderen", 
+        id: "dieanderen",
+        caroussel_images : [
+            "DIE ANDEREN_Still01_1.jpg",
+            "DIE ANDEREN_Still02_1.png",
+            "DIE ANDEREN_Still03_1.png"
+        ],
+        synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
+        synopsis_length : 30, 
+        synopsis_lang : "_PD_die_anderen",
+        trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
+        stats_1: [
+            "Kurzfilm, Deutschland 2018, 11:13 min",
+            "ARRI Amira, Dolby Digital 5.1"
         ],
         stats_2: {
             Vorführformate: "DCP, Blu-Ray, Quicktime",
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "", 
+        poster : "Die Anderen Poster.jpg",
         cast: [
-            "KIRSTEN ALBSMEIER",
-            "MÁRTON PETER NAGY",
-            "KATRIN SOMMER",
-            "MICHAEL DANISCH",
-            "FRANK KALLINOWSKI",
-            "PAULA MATHEIS",
-            "JAKOB D'APRILE",
+            "MÁRTON PETER NAGY"
         ],
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
-            Bildgestaltung : "JAKOB KRÜGER",
-            Produktion: "CLEMENS KÖSTLIN",
+            Bildgestaltung: "KONSTANTIN KANN",
             Kostümbild: "WARIS KLAMPFER",
-            Szenenbild: "ANNA-SOPHIA EPPSTEIN, HENDRIKE ROERS",
-            Originalton : "HANNES MARGET",
-            Lichtgestaltung: "CHRISIAN TRIELOFF, CONSTANZE SCHMITT",
-            Maskenbild:  "EMOKE SAMU",
-            Regieassistenz_und_Set_AL: "MARCEL SCHROETER",
-            Produktionassistenz: "HENNING WAGNER",
-            Kameraassistenz: "NATHANAEL BESSON-VIGO",
-            Zweite_Kameraassistent: "JONAS FRIEDRICH",
-            Licht: "GIULIA SCHELHAAS, MORITZ BAUER, SARA GFÖRER",
-            Tonassistenz: "PETER LORENZ",
-            Schnitt: "HANNES MARGET, ELIZA PETKOVA",
-            Grading: "DANIEL STÜBNER",
+            Kameraassistenz: "SABINE BALLNAT",
+            Schnitt: "ELIZA PETKOVA",
             Tongestaltung: "HANNES MARGET",
+            Farbkorrektur: "INGO SCHUMACHER",
             Tonmischung: "SILVIO NAUMANN",
-            Herstellungsleitung_DFFB: "MYRIAM EICHLER",
-            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+            Herstellungsleitung_DFFB: "ANDREAS LOUIS",
+            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN, REKA PICTURES"
         },
         awards: [
-            "48. Internationale Hofer Filmtage",
-            "Shortcutz, Berlin",
-        ]
-    },  
-    
-    //MEIN SOHN   
-    {
-        title: "Mein Sohn",
-        title_lang : "_TITLES_mein_sohn",
-        id: "meinsohn",
-        caroussel_images : [
-            "meinsohn_Still 1.jpg",
-            "meinsohn_Still 2.jpg",
-            "meinsohn_Still 3.jpg",
-        ],
-        synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
-        synopsis_lang : "_PD_mein_sohn",
-        stats_1: [
-            "Docfiction, Kurzfilm, Deutschland 2013, 17:47 min, HD",
-        ],
-        stats_2: {
-            Vorführformate: "Blu-Ray, Quicktime",
-            Originalsprache: "Deutsch",
-            Untertitel: "Englisch"
-        },
-        poster : "", 
-        cast: [
-            "KIM SCHIMMLER",
-            "CLAUDA BALKO",
-            "MICHAEL DANISCH",
-        ],
-        team: {
-            Buch_und_Regie: "ELIZA PETKOVA",
-            Bildgestaltung : "JAKOB KRÜGER",
-            Tongestaltung: "HANNES MARGET",
-            Produktion: "CINEMANDA & KRÜGER",
-        },
-        awards: [
-            "INTERFILM 29th International Shortfilmfestival, Berlin",
-            "European Media Art Festival (EMAF), Osnabrück",
-            "26. Exground Filmfest, Wiesbaden",
-            "Bangkok International Student Film Festival, Thailand",
-            "Buldoc Festival Berlin",
-            "Festival Of Nations, Österreich",
-            "Shortcutz, Berlin",
-            "Shorts Attack",
-            "Berlin Art Film Festival",
+            "48th Lubuskie Filmsommer, Polen",
+            "52nd Hof International Film Festival"
         ]
     },
-    
-    //WILLKOMMEN ZUHAUSE 
-    {
-        title: "Willkommen zuhause",
-        title_lang : "_TITLES_willkommen_zuhause",
-        id: "willkommenzuhause",
-        caroussel_images : [
-            "willkommenzuhause1.jpg",
-            "willkommenzuhause2.jpg",
-            "willkommenzuhause3.jpg",
-        ],
-        synopsis: " Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
-        synopsis_lang : "_PD_willkommen_zuhause",
-        stats_1: [
-        " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
-        ],
-        stats_2: {
-            Vorführformat: "Quicktime",
-            Originalsprache: "Deutsch",
-            Untertitel: "Englisch"
-        },
-        poster : "", 
-        cast: [], 
-        team: {
-            Buch_und_Regie: "ELIZA PETKOVA",
-            Kamera: "HANNES MARGET",
-            Originalton: "JOHANNES KUHN",
-            Producer: "JAN DERKSEN",
-            Recherche: "EVA WEBER",
-            Schnitt: "HANNES MARGET, ELIZA PETKOVA",
-            Tongestaltung: "SILVAN OSCHMANN",
-            Tonmischung: "HANNES MARGET",
-            Farbkorrektur: "MAURICE BRAUN",
-            Untertitel: "JOHN NEILAN",
-            Produktion: "Cinemanda, Chun & Derksen",
-        },
-        awards: [
-            "Globale Mittelhessen 2013",
-            "Videodrom Salzburg 2013",
-            "Globale Berlin 2011",
-            "39th Festival of Nations",
-            "Transeuropa Filmfestival",
-            "Balkan Cinema Filmfestival Bremen",
-            "Rolling Film Festival Kosovo",
-        ]
-    }, 
-    
+
     //ZHALEIKA
     {
         title: "Zhaleika", 
@@ -340,6 +179,7 @@ const projects = [
             "zhaleika_Still 07.jpg"
         ],
         synopsis: "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt. Ab jetzt muss sie Schwarz tragen, darf keine Musik hören und muss diverse Trauerrituale beachten. Dabei will Lora ihre Jugend weiterhin ausleben. Ihr Wunsch aber wird durch den urteilenden Blick der anderen unterbunden, die sie dazu zwingen die Opferrolle eines Waisenkindes zu bedienen.", 
+        synopsis_length : 30, 
         synopsis_lang : "_PD_zhaleika",
         trailer: "Zhaleika Trailer.mp4",
         stats_1: [
@@ -411,7 +251,7 @@ const projects = [
             "Sehsüchte 46th Student Film Festival, Germany", 
             "23rd International Film Festival Nancy, France" 
         ], 
-    }, 
+    },
     
     //NABELSCHNUR
     {
@@ -426,6 +266,7 @@ const projects = [
             "nabelschnur_Still 05.jpg",
         ],
         synopsis: "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt. Todor arbeitet in einem Großraumbüro, sein routiniertes Leben funktioniert perfekt bis zu dem Tag, an dem er von einer Firmenparty das erste Mal zu spät nach Hause kommt.",
+        synopsis_length : 30, 
         synopsis_lang : "_PD_nabelschnur",
         stats_1: [
             "Kurzfilm, Deutschland 2015, 27 min",
@@ -482,7 +323,177 @@ const projects = [
             "Ruberoid Festival Berlin, Germany",
             "Randfilm Fest Kassel, Germany"
         ]
+    },
+    
+    //ABWESEND
+    {
+        title: "Abwesend", 
+        title_lang : "_PP_abwesend_title", 
+        id: "abwesend",
+        caroussel_images : [
+            "Abwesend_Still 01.jpg",
+            "Abwesend_Still 02.jpg",
+            "Abwesend_Still 03.jpg",
+            "Abwesend_Still 04.jpg"
+        ], 
+        synopsis: "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung: Anton, 9 Jahre alt, entdeckt sie im Bett. Am darauffolgenden Morgen ist Anton weg.",
+        synopsis_length : 30, 
+        synopsis_lang : "_PD_abwesend",
+        trailer: "ABWESEND trailer.mp4", 
+        stats_1: [
+            "Kurzfilm, Deutschland 2014, 13 min", 
+            "ARRI Amira, Dolby Digital 5.1"
+        ],
+        stats_2: {
+            Vorführformate: "DCP, Blu-Ray, Quicktime", 
+            Originalsprache: "Deutsch", 
+            Untertitel: "Englisch, Französisch" 
+        },
+        poster : "Abwesend-Poster.jpg",   
+        cast: [
+            "KATRIN SOMMER", 
+            "MÁRTON PETER NAGY", 
+            "MIKE SOMMER", 
+            "CLAUDIA BALKO", 
+            "WERNER ZWOSTA"
+        ], 
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA", 
+            Producer: "TIM OLIVER SCHULTZ, CÉCILE TOLLU-POLONOWSKI", 
+            Kostümbild: "WARIS KLAMPFER", 
+            Originalton: "HANNES MARGET", 
+            Lichtgestaltung: "DAVID SCHMITT", 
+            Maskenbild: "STELLA VON SENGER", 
+            Regieassistenz_und_Set_AL: "MARCEL SCHROETER", 
+            Kameraassistenz: "NATHANAEL BESSON-VIGO,MARCUS SCHÜTZE", 
+            Licht: "SARA GFRÖRER, GIULIA SCHELHAS", 
+            Aufnahmeleitung: "CARLOTTA CORNEHL", 
+            Schnitt: "ELIZA PETKOVA", 
+            Farbkorrektur: "INGO SCHUMACHER, CONSTANZE SCHMITT", 
+            Tongestaltung: "HANNES MARGET", 
+            Tonmischung: "SILVIO NAUMANN", 
+            Videospiel_Programmierung: "HANNES MARGET", 
+            Herstellungsleitung: "ANDREAS LOUIS", 
+            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+        }, 
+        awards: [
+                "68. Festival de Cannes - Sélection Cinéfondation",   
+                "4th Evolution Mallorca International Film Festival (EMIFF)",   
+                "International Film Festival TOFIFEST, Poland",   
+                "17. Landshuter Kurzfilmfestival, Germany",   
+                "20th Sofia International Film Festival, Bulgaria",   
+                "Ruberoid Festival 2016, Berlin, Germany",   
+                "12th Femina International Women’s Film Festival, Brazil"
+        ]
     }, 
+    
+    //ZUR RECHTEN ZEIT
+    {
+        title: "Zur rechten Zeit",
+        title_lang : "_TITLES_zur_rechten",
+        id: "zurrechtenzeit",
+        caroussel_images : [
+            "zurrechtenzeit_Still 1.jpg",
+            "zurrechtenzeit_Still 2.jpg",
+            "zurrechtenzeit_Still 3.jpg",
+            "zurrechtenzeit_Still 4.jpg",
+            "zurrechtenzeit_Still 5.jpg",
+        ],
+        synopsis: "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung. Ihr Alltag wird zunehmend von Machtspielen und Verlustängsten bestimmt. Adriane muss schmerzhaft erfahren, dass sie sich dem Menschlichen nicht entziehen kann.Die Verneinung der Körperlichkeit durch Waschzwänge, die Vermeidung von Begegnungen durch soziale Isolation, zeigen das Bild einer Frau, die die Kälte und Einsamkeit einer Gesellschaft verkörpert, in der die Angst vorm Scheitern die Lust zum Leben erstickt.",
+        synopsis_length : 30, 
+        synopsis_lang : "_PD_zur_rechten",
+        stats_1: [
+            "Kurzfilm, Deutschland 2014, 22 min",
+            "RED One, Dolby Digital 5.1"
+        ],
+        stats_2: {
+            Vorführformate: "DCP, Blu-Ray, Quicktime",
+            Originalsprache: "Deutsch",
+            Untertitel: "Englisch"
+        },
+        poster : "", 
+        cast: [
+            "KIRSTEN ALBSMEIER",
+            "MÁRTON PETER NAGY",
+            "KATRIN SOMMER",
+            "MICHAEL DANISCH",
+            "FRANK KALLINOWSKI",
+            "PAULA MATHEIS",
+            "JAKOB D'APRILE",
+        ],
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung : "JAKOB KRÜGER",
+            Produktion: "CLEMENS KÖSTLIN",
+            Kostümbild: "WARIS KLAMPFER",
+            Szenenbild: "ANNA-SOPHIA EPPSTEIN, HENDRIKE ROERS",
+            Originalton : "HANNES MARGET",
+            Lichtgestaltung: "CHRISIAN TRIELOFF, CONSTANZE SCHMITT",
+            Maskenbild:  "EMOKE SAMU",
+            Regieassistenz_und_Set_AL: "MARCEL SCHROETER",
+            Produktionassistenz: "HENNING WAGNER",
+            Kameraassistenz: "NATHANAEL BESSON-VIGO",
+            Zweite_Kameraassistent: "JONAS FRIEDRICH",
+            Licht: "GIULIA SCHELHAAS, MORITZ BAUER, SARA GFÖRER",
+            Tonassistenz: "PETER LORENZ",
+            Schnitt: "HANNES MARGET, ELIZA PETKOVA",
+            Grading: "DANIEL STÜBNER",
+            Tongestaltung: "HANNES MARGET",
+            Tonmischung: "SILVIO NAUMANN",
+            Herstellungsleitung_DFFB: "MYRIAM EICHLER",
+            Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
+        },
+        awards: [
+            "48. Internationale Hofer Filmtage",
+            "Shortcutz, Berlin",
+        ]
+    },  
+    
+    //MEIN SOHN   
+    {
+        title: "Mein Sohn",
+        title_lang : "_TITLES_mein_sohn",
+        id: "meinsohn",
+        caroussel_images : [
+            "meinsohn_Still 1.jpg",
+            "meinsohn_Still 2.jpg",
+            "meinsohn_Still 3.jpg",
+        ],
+        synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
+        synopsis_length : 30, 
+        synopsis_lang : "_PD_mein_sohn",
+        stats_1: [
+            "Docfiction, Kurzfilm, Deutschland 2013, 17:47 min, HD",
+        ],
+        stats_2: {
+            Vorführformate: "Blu-Ray, Quicktime",
+            Originalsprache: "Deutsch",
+            Untertitel: "Englisch"
+        },
+        poster : "", 
+        cast: [
+            "KIM SCHIMMLER",
+            "CLAUDA BALKO",
+            "MICHAEL DANISCH",
+        ],
+        team: {
+            Buch_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung : "JAKOB KRÜGER",
+            Tongestaltung: "HANNES MARGET",
+            Produktion: "CINEMANDA & KRÜGER",
+        },
+        awards: [
+            "INTERFILM 29th International Shortfilmfestival, Berlin",
+            "European Media Art Festival (EMAF), Osnabrück",
+            "26. Exground Filmfest, Wiesbaden",
+            "Bangkok International Student Film Festival, Thailand",
+            "Buldoc Festival Berlin",
+            "Festival Of Nations, Österreich",
+            "Shortcutz, Berlin",
+            "Shorts Attack",
+            "Berlin Art Film Festival",
+        ]
+    },
 
     //ABGESCHNITTEN
     {
@@ -497,6 +508,7 @@ const projects = [
             "abgeschnitten6.jpg",
         ],
         synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
+        synopsis_length : 30, 
         synopsis_lang : "_PD_abgeschnitten",
         trailer: "ABGESCHNITTEN trailer.mp4",
         stats_1: [
@@ -520,55 +532,53 @@ const projects = [
         },
         awards: []
     }, 
-    
-    //SOUNDS OF NATURE
+   
+    //WILLKOMMEN ZUHAUSE 
     {
-        title: "SOUNDS OF NATURE",
-        title_lang : "_TITLES_sounds_of_nature",
-        id: "soundsofnature",
+        title: "Willkommen zuhause",
+        title_lang : "_TITLES_willkommen_zuhause",
+        id: "willkommenzuhause",
         caroussel_images : [
-        "soundsofnature01.jpg"
+            "willkommenzuhause1.jpg",
+            "willkommenzuhause2.jpg",
+            "willkommenzuhause3.jpg",
         ],
-        synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
-        synopsis_lang :  "_PD_sounds_of_nature",
-        trailer: "",
+        synopsis: " Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
+        synopsis_length : 30, 
+        synopsis_lang : "_PD_willkommen_zuhause",
         stats_1: [
-        "Kurzfilm, Deutschland 2019, 20 min",
-        "35 mm, Farbe, Dolby Surround 5.1"
+        " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
         ],
         stats_2: {
-        Vorführformate: "DCP, Blu-Ray, Quicktime",
-        Originalsprache: "Deutsch",
-        Untertitel: "Englisch"
+            Vorführformat: "Quicktime",
+            Originalsprache: "Deutsch",
+            Untertitel: "Englisch"
         },
-        poster : "",
-        cast: [
-        "ULRIKE BEERBAUM",
-        "SUSANNE LÜNING",
-        "MÁRTON PETER NAGY",
-        ],
+        poster : "", 
+        cast: [], 
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
-            Bildgestaltung: "KONSTANTIN KANN",
-            Produktionsassistenz: "LOREDANA TASSONE",
-            Originalton: "NILS PLAMBECK, MARCO DAMKE",
-            Tonassistenz: "MIKE ENDERLEIN",
-            Szenenbild: "NURIA SASTRE",
-            Maskenbild: "LILLI PARTHUM",
-            Steadicam: "KONSTANTIN KANN,  MALTE SCHWIND",
-            Licht: "SABINE BALLNAT",
-            Kameraassistenz: "NOÉ BECK, MALTE SCHWIND, EDOARDO SCUSSEL, ELIAS FRITZ, TIM SEDGWICK",
-            Setassistenz: "SUSANNA GUILLIMO",
-            Schnitt: "ELIZA PETKOVA",
-            Motion_Graphics: "GUNAR LAUBE",
-            Farbkorrektur: "INGO SCHUMACHER",  
-            Tongestaltung: "NILS PLAMBECK", 
-            Tonmischung: "ALEXANDRE LESER",       
-            Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
-            In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
+            Kamera: "HANNES MARGET",
+            Originalton: "JOHANNES KUHN",
+            Producer: "JAN DERKSEN",
+            Recherche: "EVA WEBER",
+            Schnitt: "HANNES MARGET, ELIZA PETKOVA",
+            Tongestaltung: "SILVAN OSCHMANN",
+            Tonmischung: "HANNES MARGET",
+            Farbkorrektur: "MAURICE BRAUN",
+            Untertitel: "JOHN NEILAN",
+            Produktion: "Cinemanda, Chun & Derksen",
         },
-        awards: []
-    }
+        awards: [
+            "Globale Mittelhessen 2013",
+            "Videodrom Salzburg 2013",
+            "Globale Berlin 2011",
+            "39th Festival of Nations",
+            "Transeuropa Filmfestival",
+            "Balkan Cinema Filmfestival Bremen",
+            "Rolling Film Festival Kosovo",
+        ]
+    }, 
 ];
 
 
