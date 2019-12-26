@@ -98,7 +98,7 @@ const projects = [
         cast: [
         "ULRIKE BEERBAUM",
         "SUSANNE LÜNING",
-        "MÁRTON PETER NAGY",
+        "MÁRTON NAGY",
         ],
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
@@ -123,8 +123,53 @@ const projects = [
         awards: []
     },
 
-      // DIE ANDEREN
-      {
+      //ELEMENTE
+    {
+        company: "reka",
+        title: "ELEMENTE",
+        title_lang : "_TITLES_elemente",
+        id: "elemente",
+        main_image: "soundsofnature01.jpg",
+        caroussel_images : [
+            "elemente01.jpg"
+        ],
+        synopsis: "Spot for MEDIAS",
+        synopsis_length : 30, 
+        synopsis_lang :  "_PD_elemente",
+        trailer: "",
+        stats_1: [
+            "Kurzfilm, Deutschland 2019, 20 min",
+            "35 mm, Farbe, Dolby Surround 5.1"
+        ],
+        stats_2: {
+        Vorführformate: "DCP, Blu-Ray, Quicktime",
+        Originalsprache: "Deutsch",
+        Untertitel: "Englisch"
+        },
+        poster : "",
+        cast: [
+            "SAMY GHARIANI",
+            "ALIYAH BEN SALEM",
+        ],
+        team: {
+            Konzept_und_Regie: "ELIZA PETKOVA",
+            Bildgestaltung: "KONSTANTIN KANN",
+            Szenenbild: "WANDA KONIETZNY",
+            Originalton: "INGE ØLMHEIM",
+            Oberbeleuchter: "JULIAN LÜCK",
+            Beleuchter: "STEVE",
+            Lichtassistenz: "NOCH OFFEN", 
+            Kameraassistenz: "ELIAS FRITZ",
+            Schnitt: "ELIZA PETKOVA",
+            Tongestaltung: "NILS NEUMANN, PHILIP CALISTO",
+            Sprecherin: "ELLEN PREUSS, CELINA VON WROCHEM",
+            Produzent: "REKA PICTURES",
+        },
+        awards: []
+    },
+
+      // DIE ANDEREN 
+    {
         company: "reka",
         title: "DIE ANDEREN",
         title_lang : "_TITLES_die_anderen", 
@@ -150,7 +195,7 @@ const projects = [
         },
         poster : "Die Anderen Poster.jpg",
         cast: [
-            "MÁRTON PETER NAGY"
+            "MÁRTON NAGY"
         ],
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
@@ -289,7 +334,7 @@ const projects = [
         },
 
         cast: [
-            "MÁRTON PETER NAGY",
+            "MÁRTON NAGY",
             "SABINE WINTERFELDT",
             "ULRIKE BEERBAUM",
             "JOHANNES MOELDERS",
@@ -364,7 +409,7 @@ const projects = [
         poster : "Abwesend-Poster.jpg",   
         cast: [
             "KATRIN SOMMER", 
-            "MÁRTON PETER NAGY", 
+            "MÁRTON NAGY", 
             "MIKE SOMMER", 
             "CLAUDIA BALKO", 
             "WERNER ZWOSTA"
@@ -428,7 +473,7 @@ const projects = [
         poster : "", 
         cast: [
             "KIRSTEN ALBSMEIER",
-            "MÁRTON PETER NAGY",
+            "MÁRTON NAGY",
             "KATRIN SOMMER",
             "MICHAEL DANISCH",
             "FRANK KALLINOWSKI",
