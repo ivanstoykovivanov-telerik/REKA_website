@@ -1,15 +1,15 @@
 
 var synopsis_length = {
     _SYNOPSIS_ein_fisch: 160,
-    _SYNOPSIS_sounds_of_nature : 150,
+    _SYNOPSIS_sounds_of_nature : 205,
     _SYNOPSIS_die_anderen : 150,
-    _SYNOPSIS_zhaleika : 150,
-    _SYNOPSIS_nabelschnur: 150,
-    _SYNOPSIS_abwesend : 150,
-    _SYNOPSIS_zur_rechten : 150,
-    _SYNOPSIS_mein_sohn : 150,
-    _SYNOPSIS_abgeschnitten : 150,
-    _SYNOPSIS_willkommen_zuhause : 150,
+    _SYNOPSIS_zhaleika : 266,
+    _SYNOPSIS_nabelschnur: 305,
+    _SYNOPSIS_abwesend : 300,
+    _SYNOPSIS_zur_rechten : 264,
+    _SYNOPSIS_mein_sohn : 380,
+    _SYNOPSIS_abgeschnitten : 130,
+    _SYNOPSIS_willkommen_zuhause : 389,
 }
 
 
@@ -38,7 +38,7 @@ var dictionary = {
         "_TITLES_zhaleika" : "ZHALEIKA",
         "_TITLES_nabelschnur" : "UMBILICAL CORD",
         "_TITLES_abgeschnitten" : "CUT OFF",
-        "_SYNOPSIS_ein_fisch": "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
+        "_SYNOPSIS_ein_fisch": "A film about an unusual love triangle, where the lovers demand more from each other than they are able to bear.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
         "_SYNOPSIS_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
         "_SYNOPSIS_zhaleika" : "Lora, a 17 years old girl, has to deal with her father’s death. In the small Bulgarian village where time seems to stand still, her family and the villagers expect her to give herself over to grief.",
@@ -47,7 +47,7 @@ var dictionary = {
         "_SYNOPSIS_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt.",
         "_SYNOPSIS_mein_sohn" : " Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\".",
         "_SYNOPSIS_abgeschnitten" : "A story about a man, whose passion is to collect hair of foreign people.",
-        "_SYNOPSIS_willkommen_zuhause" : " ",
+        "_SYNOPSIS_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
         "_other_projects_by_eliza" : "OTHER PROJECTS BY ELIZA PETKOVA",
         "_PP_abwesend_title" : "ABSENT",
         "_PP_die_anderen_title" : "THE OTHERS", 
@@ -69,7 +69,6 @@ var dictionary = {
         "_PP_zur_rechten_synopsis" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt. Her everyday life is more and more ruled by power games and fears of loss. Adriane makes the painful experience that she cannot get rid of her own human weaknesses.",
         "_PP_mein_sohn_synopsis" : "Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\". ",
         "_PP_abgeschnitten_synopsis" : "A story about a man, whos passion is to collect hair of foreign people.",
-        "_PP_willkommen_zuhause_synopsis" : " ",
  
         "_R_cast" : "CAST", 
         "_R_crew" : "CREW", 

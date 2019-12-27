@@ -160,11 +160,12 @@ footer{
     text-align: center; 
 }
 
-.other_projects{
-  margin: 0em 0em ; 
-  margin-top: 0.5em;  
-  margin-bottom: 0.5em; 
-  /* margin-left: 3em;  */
+.other_projects_title {
+    color: #737373;
+    margin: 2.75em 0;
+    background-color: #d4d4d4; 
+    font-size: 2.5em;
+    text-align: center;
 }
 
 #projects {
@@ -301,7 +302,11 @@ section.projekte-filme a:hover {
 }
 
 #poster_id{
-  height : 560px;
+  width: 635px;
+}
+
+#trailer_id{
+  width: 603px;
 }
 
 .content {

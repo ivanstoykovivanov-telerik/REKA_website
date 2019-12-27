@@ -12,8 +12,9 @@ const projects = [
         caroussel_images : [
             "einfisch.jpg"
         ],
-        synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
-        synopsis_length : 150, 
+        synopsis: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
+        mehr : true,  
+        synopsis_length : 200, 
         synopsis_lang : "_SYNOPSIS_ein_fisch",
         trailer: "",
         stats_1: [
@@ -82,7 +83,8 @@ const projects = [
             "soundsofnature01.jpg"
         ],
         synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
-        synopsis_length : 30, 
+        mehr : true,  
+        synopsis_length : 205, 
         synopsis_lang :  "_SYNOPSIS_sounds_of_nature",
         trailer: "",
         stats_1: [
@@ -90,9 +92,9 @@ const projects = [
             "35 mm, Farbe, Dolby Surround 5.1"
         ],
         stats_2: {
-        Vorführformate: "DCP, Blu-Ray, Quicktime",
-        Originalsprache: "Deutsch",
-        Untertitel: "Englisch"
+            Vorführformate: "DCP, Blu-Ray, Quicktime",
+            Originalsprache: "Deutsch",
+            Untertitel: "Englisch"
         },
         poster : "",
         cast: [
@@ -134,6 +136,7 @@ const projects = [
             "elemente01.jpg"
         ],
         synopsis: "Spot for MEDIAS",
+        mehr : false,  
         synopsis_length : 30, 
         synopsis_lang :  "_SYNOPSIS_elemente",
         trailer: "",
@@ -165,7 +168,7 @@ const projects = [
             Sprecherin: "ELLEN PREUSS, CELINA VON WROCHEM",
             Produzent: "REKA PICTURES",
         },
-        awards: ["tEST" , "tEST2"]
+        awards: []
     },
 
       // DIE ANDEREN 
@@ -181,7 +184,8 @@ const projects = [
             "DIE ANDEREN_Still03_1.png"
         ],
         synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
-        synopsis_length : 30, 
+        mehr : true,  
+        synopsis_length : 320, 
         synopsis_lang : "_SYNOPSIS_die_anderen",
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
@@ -193,7 +197,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "Die Anderen Poster.jpg",
+        poster : "poster/Die Anderen Poster.jpg",
         cast: [
             "MÁRTON NAGY"
         ],
@@ -232,19 +236,20 @@ const projects = [
             "zhaleika_Still 07.jpg"
         ],
         synopsis: "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt. Ab jetzt muss sie Schwarz tragen, darf keine Musik hören und muss diverse Trauerrituale beachten. Dabei will Lora ihre Jugend weiterhin ausleben. Ihr Wunsch aber wird durch den urteilenden Blick der anderen unterbunden, die sie dazu zwingen die Opferrolle eines Waisenkindes zu bedienen.", 
-        synopsis_length : 30, 
+        mehr : true,  
+        synopsis_length : 266, 
         synopsis_lang : "_SYNOPSIS_zhaleika",
         trailer: "Zhaleika Trailer.mp4",
         stats_1: [
-            "Kurzfilm, Deutschland 2014, 13 min", 
-            "ARRI Amira, Dolby Digital 5.1"
+            "Langfilm, Deutschland 2016, 92 min", 
+            "ARRI Amira, Dolby Surround 5.1"
         ],
         stats_2: {
             Vorführformate: "DCP, Blu-Ray, Quicktime", 
-            Originalsprache: "Deutsch", 
-            Untertitel: "Englisch, Französisch" 
+            Originalsprache: "Bulgarisch", 
+            Untertitel: "Deutsch, Englisch" 
         },
-        poster : "Zhaleika Poster.jpg", 
+        poster : "poster/Zhaleika Poster.jpg", 
         cast: [
             "ANNA MANOLOVA", 
             "SNEZHINA PETROVA", 
@@ -321,7 +326,8 @@ const projects = [
             "nabelschnur_Still 05.jpg",
         ],
         synopsis: "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt. Todor arbeitet in einem Großraumbüro, sein routiniertes Leben funktioniert perfekt bis zu dem Tag, an dem er von einer Firmenparty das erste Mal zu spät nach Hause kommt.",
-        synopsis_length : 30, 
+        mehr : true,  
+        synopsis_length : 305, 
         synopsis_lang : "_SYNOPSIS_nabelschnur",
         stats_1: [
             "Kurzfilm, Deutschland 2015, 27 min",
@@ -332,7 +338,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-
+        poster : "", 
         cast: [
             "MÁRTON NAGY",
             "SABINE WINTERFELDT",
@@ -394,7 +400,8 @@ const projects = [
             "Abwesend_Still 04.jpg"
         ], 
         synopsis: "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung: Anton, 9 Jahre alt, entdeckt sie im Bett. Am darauffolgenden Morgen ist Anton weg.",
-        synopsis_length : 30, 
+        mehr : false,  
+        synopsis_length : 330, 
         synopsis_lang : "_SYNOPSIS_abwesend",
         trailer: "ABWESEND trailer.mp4", 
         stats_1: [
@@ -406,7 +413,7 @@ const projects = [
             Originalsprache: "Deutsch", 
             Untertitel: "Englisch, Französisch" 
         },
-        poster : "Abwesend-Poster.jpg",   
+        poster : "poster/Abwesend-Poster.jpg",   
         cast: [
             "KATRIN SOMMER", 
             "MÁRTON NAGY", 
@@ -459,7 +466,8 @@ const projects = [
             "zurrechtenzeit_Still 5.jpg",
         ],
         synopsis: "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung. Ihr Alltag wird zunehmend von Machtspielen und Verlustängsten bestimmt. Adriane muss schmerzhaft erfahren, dass sie sich dem Menschlichen nicht entziehen kann.Die Verneinung der Körperlichkeit durch Waschzwänge, die Vermeidung von Begegnungen durch soziale Isolation, zeigen das Bild einer Frau, die die Kälte und Einsamkeit einer Gesellschaft verkörpert, in der die Angst vorm Scheitern die Lust zum Leben erstickt.",
-        synopsis_length : 30, 
+        mehr : true,  
+        synopsis_length : 264, 
         synopsis_lang : "_SYNOPSIS_zur_rechten",
         stats_1: [
             "Kurzfilm, Deutschland 2014, 22 min",
@@ -470,7 +478,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "", 
+        poster : "poster/Zur Rechten Zeit Poster.jpg", 
         cast: [
             "KIRSTEN ALBSMEIER",
             "MÁRTON NAGY",
@@ -521,7 +529,7 @@ const projects = [
             "meinsohn_Still 3.jpg",
         ],
         synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
-        synopsis_length : 30, 
+        synopsis_length : 380, 
         synopsis_lang : "_SYNOPSIS_mein_sohn",
         stats_1: [
             "Docfiction, Kurzfilm, Deutschland 2013, 17:47 min, HD",
@@ -572,7 +580,7 @@ const projects = [
             "abgeschnitten6.jpg",
         ],
         synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
-        synopsis_length : 30, 
+        synopsis_length : 130, 
         synopsis_lang : "_SYNOPSIS_abgeschnitten",
         trailer: "ABGESCHNITTEN trailer.mp4",
         stats_1: [
@@ -609,8 +617,8 @@ const projects = [
             "willkommenzuhause2.jpg",
             "willkommenzuhause3.jpg",
         ],
-        synopsis: " Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
-        synopsis_length : 30, 
+        synopsis: "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
+        synopsis_length : 389, 
         synopsis_lang : "_SYNOPSIS_willkommen_zuhause",
         stats_1: [
         " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
