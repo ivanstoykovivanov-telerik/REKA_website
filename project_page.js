@@ -1,4 +1,6 @@
 
+// LOGIC FOR A SINGLE PROJECT PAGE : 
+
 for (let i = 0; i < projects.length; i++) {
     //get from local storage : 
     let page = localStorage.getItem("page"); 
@@ -74,7 +76,7 @@ for (let i = 0; i < projects.length; i++) {
             };
         };
 
-        //AWARDS 
+        //FESTIVALS 
         if(projects[i].awards.length > 0 ){
             for (let j = 0; j < projects[i].awards.length; j++) {
                 $("#awards_id").append(`

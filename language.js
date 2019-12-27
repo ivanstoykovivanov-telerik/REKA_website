@@ -1,3 +1,18 @@
+
+var synopsis_length = {
+    _SYNOPSIS_ein_fisch: 160,
+    _SYNOPSIS_sounds_of_nature : 150,
+    _SYNOPSIS_die_anderen : 150,
+    _SYNOPSIS_zhaleika : 150,
+    _SYNOPSIS_nabelschnur: 150,
+    _SYNOPSIS_abwesend : 150,
+    _SYNOPSIS_zur_rechten : 150,
+    _SYNOPSIS_mein_sohn : 150,
+    _SYNOPSIS_abgeschnitten : 150,
+    _SYNOPSIS_willkommen_zuhause : 150,
+}
+
+
 var dictionary = {
     "EN": {
         "_news_1" : "SOUNDS OF NATURE wraps shooting and we are looking forward to the completion.", 
@@ -22,17 +37,17 @@ var dictionary = {
         "_TITLES_willkommen_zuhause" : "WELCOME HOME",
         "_TITLES_zhaleika" : "ZHALEIKA",
         "_TITLES_nabelschnur" : "UMBILICAL CORD",
-        "_TITLES_abgeschnitten" : "CUT OFF" ,
-        "_PD_ein_fisch": "A film about an unusual love triangle; where the protagonists place unbearable demands on each other.",
-        "_PD_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
-        "_PD_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
-        "_PD_zhaleika" : "Lora, a 17 years old girl, has to deal with her father’s death. In the small Bulgarian village where time seems to stand still, her family and the villagers expect her to give herself over to grief.",
-        "_PD_nabelschnur": "Todor is in his early thirties and he still lives with his mother. Every day she cooks for him, irons his shirts, washes him and watches TV with him in her arms. She sets all the rules.",
-        "_PD_abwesend" : "Winter in a big city. Klara, a 30-year old woman, arrives home with a random guy that she has just met. Both are drunk, they are giggling, having fun. But there is someone else in the apartment",
-        "_PD_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt.",
-        "_PD_mein_sohn" : " Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\".",
-        "_PD_abgeschnitten" : "A story about a man, whose passion is to collect hair of foreign people.",
-        "_PD_willkommen_zuhause" : " ",
+        "_TITLES_abgeschnitten" : "CUT OFF",
+        "_SYNOPSIS_ein_fisch": "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
+        "_SYNOPSIS_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
+        "_SYNOPSIS_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
+        "_SYNOPSIS_zhaleika" : "Lora, a 17 years old girl, has to deal with her father’s death. In the small Bulgarian village where time seems to stand still, her family and the villagers expect her to give herself over to grief.",
+        "_SYNOPSIS_nabelschnur": "Todor is in his early thirties and he still lives with his mother. Every day she cooks for him, irons his shirts, washes him and watches TV with him in her arms. She sets all the rules.",
+        "_SYNOPSIS_abwesend" : "Winter in a big city. Klara, a 30-year old woman, arrives home with a random guy that she has just met. Both are drunk, they are giggling, having fun. But there is someone else in the apartment",
+        "_SYNOPSIS_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt.",
+        "_SYNOPSIS_mein_sohn" : " Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\".",
+        "_SYNOPSIS_abgeschnitten" : "A story about a man, whose passion is to collect hair of foreign people.",
+        "_SYNOPSIS_willkommen_zuhause" : " ",
         "_other_projects_by_eliza" : "OTHER PROJECTS BY ELIZA PETKOVA",
         "_PP_abwesend_title" : "ABSENT",
         "_PP_die_anderen_title" : "THE OTHERS", 
@@ -117,16 +132,16 @@ var dictionary = {
         "_TITLES_mein_sohn" : "MEIN SOHN" ,
         "_TITLES_abgeschnitten" : "ABGESCHNITTEN" ,
         "_TITLES_willkommen_zuhause" : "WILLKOMMEN ZUHAUSE" ,
-        "_PD_ein_fisch": "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
-        "_PD_sounds_of_nature" : "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. ",  
-        "_PD_die_anderen" : "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung",  
-        "_PD_zhaleika" : "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt.",  
-        "_PD_nabelschnur" : "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt.",
-        "_PD_abwesend" : "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung.",  
-        "_PD_zur_rechten" : "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung.",  
-        "_PD_mein_sohn" : "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen.",  
-        "_PD_abgeschnitten" : "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.",  
-        "_PD_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt.",  
+        "_SYNOPSIS_ein_fisch": "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
+        "_SYNOPSIS_sounds_of_nature" : "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. ",  
+        "_SYNOPSIS_die_anderen" : "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung",  
+        "_SYNOPSIS_zhaleika" : "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt.",  
+        "_SYNOPSIS_nabelschnur" : "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt.",
+        "_SYNOPSIS_abwesend" : "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung.",  
+        "_SYNOPSIS_zur_rechten" : "Adriane Gertz ist Philosophielehrerin in der Oberstufe. Ihr Ideal sozial unabhängig zu sein und ihr Bestreben nach Selbstgenügsamkeit werden durch die Liebesbeziehung zu ihrem Schüler Dominik erschüttert. Die Unmöglichkeit ihren Werten gerecht zu werden bringt sie zur Selbstverachtung.",  
+        "_SYNOPSIS_mein_sohn" : "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen.",  
+        "_SYNOPSIS_abgeschnitten" : "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.",  
+        "_SYNOPSIS_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt.",  
         "_other_projects_by_eliza" : "WEITERE PROJEKTE VON ELIZA PETKOVA",
         "_PP_abwesend_title" : "ABWESEND",
         "_PP_die_anderen_title" : "THE OTHERS", 
@@ -194,7 +209,11 @@ $(function() {
     let set_lang = function (dictionary) {
         $("[data-translate]").text(function () {
             var key = $(this).data("translate");
+            console.log($(this).data());
             if (dictionary.hasOwnProperty(key)) {
+                if (synopsis_length.hasOwnProperty(key)){
+                    return dictionary[key].substr(0,synopsis_length[key]);
+                } 
                 return dictionary[key];
             }
         });

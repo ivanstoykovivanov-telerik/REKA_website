@@ -99,8 +99,8 @@ projects.map( film => {
                 </div>
                 <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                     <a href="project_page.html">
-                        <h3 class="col-xs-10" data-translate="${lang_TITLES}">${film.title}</h3>
-                        <p class="col-xs-12"> </p> <span data-translate="${lang_PD}">${film.synopsis.substr(0, 220)}</span> <b> [mehr...]</b></p>
+                        <h3 class="col-xs-10" data-translate="${film.title_lang}">${film.title}</h3>
+                        <p class="col-xs-12"> </p> <span data-translate="${film.synopsis_lang}">${film.synopsis.substr(0,film.synopsis_length)}</span> <b> [mehr...]</b></p>
                     </a>  
                 </div>    
             </div>   
@@ -116,8 +116,8 @@ projects.map( film => {
                 </div>
                 <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
                     <a href="project_page.html">
-                        <h3 class="col-xs-10" data-translate="${lang_TITLES}">${film.title}</h3>
-                        <p class="col-xs-12"> </p> <span data-translate="${lang_PD}">${film.synopsis.substr(0, 220)}</span> <b> [mehr...]</b></p>
+                        <h3 class="col-xs-10" data-translate="${film.title_lang}">${film.title}</h3>
+                        <p class="col-xs-12"> </p> <span data-translate="${film.synopsis_lang}">${film.synopsis.substr(0,film.synopsis_length)}</span> <b> [mehr...]</b></p>
                     </a>  
                 </div>    
             </div>   
