@@ -12,10 +12,11 @@ const projects = [
         caroussel_images : [
             "einfisch.jpg"
         ],
-        synopsis: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
+        synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
         mehr : true,  
         synopsis_length : 200, 
         synopsis_lang : "_SYNOPSIS_ein_fisch",
+        logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
         trailer: "",
         stats_1: [
             "Langspielfilm, Deutschland 2020, 103 min",
@@ -86,6 +87,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 205, 
         synopsis_lang :  "_SYNOPSIS_sounds_of_nature",
+        logline: "", 
         trailer: "",
         stats_1: [
             "Kurzfilm, Deutschland 2019, 20 min",
@@ -139,6 +141,7 @@ const projects = [
         mehr : false,  
         synopsis_length : 30, 
         synopsis_lang :  "_SYNOPSIS_elemente",
+        logline: "", 
         trailer: "",
         stats_1: [
             "Kurzfilm, Deutschland 2019, 20 min",
@@ -187,6 +190,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 320, 
         synopsis_lang : "_SYNOPSIS_die_anderen",
+        logline: "", 
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
@@ -239,6 +243,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 266, 
         synopsis_lang : "_SYNOPSIS_zhaleika",
+        logline: "", 
         trailer: "Zhaleika Trailer.mp4",
         stats_1: [
             "Langfilm, Deutschland 2016, 92 min", 
@@ -329,6 +334,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 305, 
         synopsis_lang : "_SYNOPSIS_nabelschnur",
+        logline: "",
         stats_1: [
             "Kurzfilm, Deutschland 2015, 27 min",
             "ARRI Alexa, Dolby Digital 5.1"
@@ -403,6 +409,7 @@ const projects = [
         mehr : false,  
         synopsis_length : 330, 
         synopsis_lang : "_SYNOPSIS_abwesend",
+        logline: "", 
         trailer: "ABWESEND trailer.mp4", 
         stats_1: [
             "Kurzfilm, Deutschland 2014, 13 min", 
@@ -469,6 +476,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 264, 
         synopsis_lang : "_SYNOPSIS_zur_rechten",
+        logline: "",
         stats_1: [
             "Kurzfilm, Deutschland 2014, 22 min",
             "RED One, Dolby Digital 5.1"
@@ -531,6 +539,7 @@ const projects = [
         synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
         synopsis_length : 380, 
         synopsis_lang : "_SYNOPSIS_mein_sohn",
+        logline: "",
         stats_1: [
             "Docfiction, Kurzfilm, Deutschland 2013, 17:47 min, HD",
         ],
@@ -582,6 +591,7 @@ const projects = [
         synopsis: "Ein Kurzfilm über einen Mann, dessen Leidenschaft das Sammeln von Haar fremder Menschen ist.", 
         synopsis_length : 130, 
         synopsis_lang : "_SYNOPSIS_abgeschnitten",
+        logline: "", 
         trailer: "ABGESCHNITTEN trailer.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2012, 8 min", 
@@ -620,6 +630,7 @@ const projects = [
         synopsis: "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
         synopsis_length : 389, 
         synopsis_lang : "_SYNOPSIS_willkommen_zuhause",
+        logline: "",
         stats_1: [
         " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
         ],
