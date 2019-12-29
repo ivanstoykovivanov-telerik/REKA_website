@@ -356,7 +356,9 @@ section.projekte-filme a:hover {
   margin-top: 0;
 }
 
-.awards {
+
+/*  Festivals fields */ 
+.festivals {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 10%;
@@ -364,15 +366,26 @@ section.projekte-filme a:hover {
   margin-top: 5vh;
 }
 
-.awards img {
+.festivals img {
   height: 25px;
   padding: 5px;
   margin-right: 20px;
 }
 
-.awards th {
+.festivals th {
   padding-top: 1%;
 }
+
+.festival {
+  margin-top : 15px; 
+}
+
+.award{
+  margin-left: 5%;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 
 /* About us page  */
 #pic-Eliz-Konst{
@@ -465,10 +478,6 @@ footer a:hover {
   margin-right: 1rem;
   /* margin-bottom: 3rem;    */
   /* padding-bottom: 7rem; */
-}
-
-.footer_customized a {
-  /* padding-right: 3.7rem;  */
 }
 
  /* Startseite fade in element  */ 

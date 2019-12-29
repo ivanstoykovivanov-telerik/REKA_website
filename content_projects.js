@@ -70,7 +70,10 @@ const projects = [
             Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE (Production Manager: CAROLINE SCHNELLER), <br>REKA PICTURES, <br>WILD GRASS FILMS ",
         },
         festivals: [
-            "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino"
+                {
+                    festival : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino",
+                    awards: []
+                }
         ]
     },
 
@@ -125,7 +128,12 @@ const projects = [
             Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
         },
-        festivals: []
+        festivals: [
+            {
+                festival : "",
+                awards: []
+            }
+        ]
     },
 
       //ELEMENTE
@@ -172,7 +180,12 @@ const projects = [
             Sprecherin: "ELLEN PREUSS, CELINA VON WROCHEM",
             Produzent: "REKA PICTURES",
         },
-        festivals: []
+        festivals: [
+            {
+                festival : "",
+                awards: []
+            }
+        ]
     },
 
       // DIE ANDEREN 
@@ -220,8 +233,14 @@ const projects = [
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN, REKA PICTURES"
         },
         festivals: [
-            "48th Lubuskie Filmsommer, Polen",
-            "52nd Hof International Film Festival"
+            {
+                festival : "48th Lubuskie Filmsommer, Polen",
+                awards: []
+            },
+            {
+                festival : "52nd Hof International Film Festival",
+                awards: []
+            }
         ]
     },
 
@@ -289,32 +308,110 @@ const projects = [
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
         festivals: [ 
-            "66. Berlinale - Internationale Filmfestspiele Berlin - Generation",
-            "20th International Sofia Film Festival - International Competition",
-            "56th Zlin Film Festival, Czech Republic",
-            "The Golden Linden International Film Festival of New European Cinema, Bulgaria",
-            "31th Festival Internacional de Cine de Valencia CINEMA JOVE, Spain",
-            "2Cinema City International Film Festival Novi Sad, Serbia",
-            "Burgas International Film Festival, Bulgaria",
-            "10. Internationales Fünf Seen Festival, Germany",
-            "Cinematik International Film Festival, Slovakia",
-            "9th Cine East, Luxembourg",
-            "Film Fest Gent, Belgium",
-            "39th Mill Valley Film Festival, California, USA",
-            "Balkanmania, Istanbul Modern, Turkey",
-            "33th Chicago International Children’s Film Festival, USA",
-            "35th Oulu International Children's and Youth Film Festival, Finland",
-            "23th Minsk International Film Festival, Belarus",
-            "Cinedays Skopje, Makedonia",
-            "Zagreb Film Festival, Croatia",
-            "Tbilisi International Film Festival, Georgia",
-            "Küstendorf Film and Music Festival, Serbia",
-            "15th Pune International Film Festival PIFF, India",
-            "Lets Cee Film Festival, Vienna, Austria",
-            "Kinotrip Filmfestival, Ljubljana, Slovenia",
-            "18th Stockholm International Film Festival Junior, Sweden",
-            "Sehsüchte 46th Student Film Festival, Germany", 
-            "23rd International Film Festival Nancy, France" 
+            {
+                festival : "66. Berlinale - Internationale Filmfestspiele Berlin - Generation",
+                awards: ["Nominated for Best First Feature", "Special Mention by the International Jury Generation 14+" ]
+            }, 
+            {
+                festival : "20th International Sofia Film Festival - International Competition",
+                awards: ["GRAND PRIX for Best Film in the International Competition"]
+            },
+            {
+                festival : "56th Zlin Film Festival, Czech Republic",
+                awards : []
+            },
+            {
+                festival : "The Golden Linden International Film Festival of New European Cinema, Bulgaria",
+                awards : []
+            },
+            {
+                festival : "31th Festival Internacional de Cine de Valencia CINEMA JOVE, Spain",
+                awards : ["Nominated for the Luna de Valencia"]
+            },
+            {
+                festival : "2Cinema City International Film Festival Novi Sad, Serbia",
+                awards : []
+            }, 
+            {
+                festival : "Burgas International Film Festival, Bulgaria",
+                awards : []
+            },
+            {
+                festival : "10. Internationales Fünf Seen Festival, Germany",
+                awards : []
+            },
+            {
+                festival : "Cinematik International Film Festival, Slovakia",
+                awards : []
+            },
+            {
+                festival : "9th Cine East, Luxembourg",
+                awards : []
+            },
+            {
+                festival : "Film Fest Gent, Belgium",
+                awards : []
+            }, 
+            {
+                festival : "39th Mill Valley Film Festival, California, USA",
+                awards : []
+            },
+            {
+                festival : "Balkanmania, Istanbul Modern, Turkey",
+                awards : []
+            },
+            {
+                festival : "33th Chicago International Children’s Film Festival, USA",
+                awards : []
+            },
+            {
+                festival : "35th Oulu International Children's and Youth Film Festival, Finland",
+                awards : []
+            },
+            {
+                festival : "23th Minsk International Film Festival, Belarus",
+                awards : []
+            }, 
+            {
+                festival : "Cinedays Skopje, Makedonia",
+                awards : []
+            },
+            {
+                festival : "Zagreb Film Festival, Croatia",
+                awards : []
+            },
+            {
+                festival : "Tbilisi International Film Festival, Georgia",
+                awards : []
+            },
+            {
+                festival : "Küstendorf Film and Music Festival, Serbia",
+                awards : []
+            },
+            {
+                festival : "15th Pune International Film Festival PIFF, India",
+                awards : []
+            }, 
+            {
+                festival : "Lets Cee Film Festival, Vienna, Austria",
+                awards : []
+            },
+            {
+                festival : "Kinotrip Filmfestival, Ljubljana, Slovenia",
+                awards : []
+            },
+            {
+                festival : "18th Stockholm International Film Festival Junior, Sweden",
+                awards : []
+            },
+            {
+                festival : "Sehsüchte 46th Student Film Festival, Germany",
+                awards : []
+            },
+            {
+                festival : "23rd International Film Festival Nancy, France",
+                awards : []
+            }, 
         ], 
     },
     
@@ -657,13 +754,34 @@ const projects = [
             Produktion: "Cinemanda, Chun & Derksen",
         },
         festivals: [
-            "Globale Mittelhessen 2013",
-            "Videodrom Salzburg 2013",
-            "Globale Berlin 2011",
-            "39th Festival of Nations",
-            "Transeuropa Filmfestival",
-            "Balkan Cinema Filmfestival Bremen",
-            "Rolling Film Festival Kosovo",
+            {
+                festival : "Globale Mittelhessen 2013",
+                awards : []
+            },
+            {
+                festival : "Videodrom Salzburg 2013",
+                awards : []
+            },
+            {
+                festival : "Globale Berlin 2011",
+                awards : []
+            },
+            {
+                festival : "39th Festival of Nations",
+                awards : []
+            },
+            {
+                festival : "Transeuropa Filmfestival",
+                awards : []
+            },
+            {
+                festival : "Balkan Cinema Filmfestival Bremen",
+                awards : []
+            },
+            {
+                festival : "Rolling Film Festival Kosovo",
+                awards : []
+            },
         ]
     }, 
 ];

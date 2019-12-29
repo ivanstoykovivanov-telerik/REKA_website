@@ -76,17 +76,7 @@ for (let i = 0; i < projects.length; i++) {
             };
         };
 
-        //FESTIVALS 
-        if(projects[i].festivals.length > 0 ){
-            for (let j = 0; j < projects[i].festivals.length; j++) {
-                console.log(projects[i].festivals[j]);
-                $("#festivals_id").append(`
-                    <p><img src="Image/black-laurel.jpg" data-translate="">${projects[i].festivals[j]}</p>   
-                `); 
-            }
-        }
-
-
+        
         //POSTER 
         if(projects[i].poster !== ""){
             $("#poster_id").attr("src",`${projects[i].poster}`);
@@ -95,5 +85,28 @@ for (let i = 0; i < projects.length; i++) {
         //TRAILER
         $("#trailer_id").attr("src",`trailer/${projects[i].trailer}`);
 
-    };  
-}; 
+
+        //FESTIVALS 
+        projects[i].festivals.map(
+            festival => {
+                $("#festivals_id").append(
+                    `
+                        <div class="festival"><img src="Image/black-laurel.jpg" data-translate="">${festival.festival}</div> 
+                    `
+                ); 
+                if(festival.awards.length  > 0 ){
+                        festival.awards.map(
+                            award => {
+                            $("#festivals_id").append(
+                                `
+                                    <div class="award"><img src="" data-translate="">${award}</div> 
+                                `   
+                            ); 
+                        }
+                    )
+                };  
+            } 
+        )
+    }
+}                 
+
