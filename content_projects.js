@@ -190,7 +190,7 @@ const projects = [
         mehr : true,  
         synopsis_length : 320, 
         synopsis_lang : "_SYNOPSIS_die_anderen",
-        logline: "", 
+        logline: "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.", 
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
