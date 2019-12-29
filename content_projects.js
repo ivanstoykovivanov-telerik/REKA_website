@@ -69,7 +69,7 @@ const projects = [
             Herstellungsleiter: "ANDREAS LOUIS",
             Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE (Production Manager: CAROLINE SCHNELLER), <br>REKA PICTURES, <br>WILD GRASS FILMS ",
         },
-        awards: [
+        festivals: [
             "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino"
         ]
     },
@@ -125,7 +125,7 @@ const projects = [
             Produzent: "REKA PICTURES, DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             In_Kooperation_mit: "STIFTUNG FÜR NATURSCHUTZ BERLIN"
         },
-        awards: []
+        festivals: []
     },
 
       //ELEMENTE
@@ -172,7 +172,7 @@ const projects = [
             Sprecherin: "ELLEN PREUSS, CELINA VON WROCHEM",
             Produzent: "REKA PICTURES",
         },
-        awards: []
+        festivals: []
     },
 
       // DIE ANDEREN 
@@ -219,7 +219,7 @@ const projects = [
             Herstellungsleitung_DFFB: "ANDREAS LOUIS",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN, REKA PICTURES"
         },
-        awards: [
+        festivals: [
             "48th Lubuskie Filmsommer, Polen",
             "52nd Hof International Film Festival"
         ]
@@ -288,7 +288,7 @@ const projects = [
             Herstellungsleitung_DFFB: "ANDREAS LOUIS",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
-        awards: [ 
+        festivals: [ 
             "66. Berlinale - Internationale Filmfestspiele Berlin - Generation",
             "20th International Sofia Film Festival - International Competition",
             "56th Zlin Film Festival, Czech Republic",
@@ -381,7 +381,7 @@ const projects = [
             Herstellungsleitung_DFFB: "MYRIAM EICHLER",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
-        awards: [
+        festivals: [
             "22. Festival International du Film Nancy-Lorraine 2016, France",
             "9th Küstendorf International Film & Music Festival, Serbia",
             " LAUSITZiale IV, Germany",
@@ -449,7 +449,7 @@ const projects = [
             Herstellungsleitung: "ANDREAS LOUIS", 
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         }, 
-        awards: [
+        festivals: [
                 "68. Festival de Cannes - Sélection Cinéfondation",   
                 "4th Evolution Mallorca International Film Festival (EMIFF)",   
                 "International Film Festival TOFIFEST, Poland",   
@@ -520,7 +520,7 @@ const projects = [
             Herstellungsleitung_DFFB: "MYRIAM EICHLER",
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
-        awards: [
+        festivals: [
             "48. Internationale Hofer Filmtage",
             "Shortcutz, Berlin",
         ]
@@ -562,7 +562,7 @@ const projects = [
             Tongestaltung: "HANNES MARGET",
             Produktion: "CINEMANDA & KRÜGER",
         },
-        awards: [
+        festivals: [
             "INTERFILM 29th International Shortfilmfestival, Berlin",
             "European Media Art Festival (EMAF), Osnabrück",
             "26. Exground Filmfest, Wiesbaden",
@@ -614,7 +614,7 @@ const projects = [
                 Farbkorrektur: "CHRISTINE HIAM",
                 Produktion: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
-        awards: []
+        festivals: []
     }, 
    
     //WILLKOMMEN ZUHAUSE 
@@ -656,7 +656,7 @@ const projects = [
             Untertitel: "JOHN NEILAN",
             Produktion: "Cinemanda, Chun & Derksen",
         },
-        awards: [
+        festivals: [
             "Globale Mittelhessen 2013",
             "Videodrom Salzburg 2013",
             "Globale Berlin 2011",

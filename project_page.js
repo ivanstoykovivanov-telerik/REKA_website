@@ -77,10 +77,11 @@ for (let i = 0; i < projects.length; i++) {
         };
 
         //FESTIVALS 
-        if(projects[i].awards.length > 0 ){
-            for (let j = 0; j < projects[i].awards.length; j++) {
-                $("#awards_id").append(`
-                    <p><img src="Image/black-laurel.jpg" data-translate="">${projects[i].awards[j]}</p>   
+        if(projects[i].festivals.length > 0 ){
+            for (let j = 0; j < projects[i].festivals.length; j++) {
+                console.log(projects[i].festivals[j]);
+                $("#festivals_id").append(`
+                    <p><img src="Image/black-laurel.jpg" data-translate="">${projects[i].festivals[j]}</p>   
                 `); 
             }
         }
