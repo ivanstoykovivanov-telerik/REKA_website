@@ -38,7 +38,7 @@ const projects = [
             "LEON ULLRICH"
         ],
         team: {
-            Buch_und_Regie: "ELIZA PETKOVA",
+            Buch_und_Regie: "DAVID SCHMITT",
             Bildgestaltung: "CONSTANZE SCHMITT",
             Producer: "KONSTANTIN KANN",
             Kostüm_und_Maskenbild: "NURIA HEYCK, ANNA PHILIPPA MÜLLER",

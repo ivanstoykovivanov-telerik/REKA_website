@@ -1,0 +1,14 @@
+# Don't track content of these folders
+Image/
+poster/
+trailer/
+
+
+# Compiled source #
+###################
+*.jpg
+*.mp4
+*.png
+
+
+
