@@ -17,6 +17,7 @@ const projects = [
         synopsis_length : 200, 
         synopsis_lang : "_SYNOPSIS_ein_fisch",
         logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
+        logline_lang: "_LOGLINE_ein_fisch",
         trailer: "",
         stats_1: [
             "Langspielfilm, Deutschland 2020, 103 min",
@@ -191,6 +192,7 @@ const projects = [
         synopsis_length : 320, 
         synopsis_lang : "_SYNOPSIS_die_anderen",
         logline: "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.", 
+        logline_lang: "_LOGLINE_die_anderen", 
         trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
