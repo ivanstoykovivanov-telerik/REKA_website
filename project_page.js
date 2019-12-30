@@ -42,11 +42,16 @@ for (let i = 0; i < projects.length; i++) {
        
       
         //CAST
-        for (let j = 0; j < projects[i].cast.length; j++) {
-            $("#cast_id").append(`
-            <p>${projects[i].cast[j]}</p>
-            `); 
+        if(projects[i].title === "Willkommen zuhause"){
+            $("#cast_title").remove();
+        }else{
+            for (let j = 0; j < projects[i].cast.length; j++) {
+                $("#cast_id").append(`
+                <p>${projects[i].cast[j]}</p>
+                `); 
+            }
         }
+        
 
         //TEAM
         const entries = Object.entries(projects[i].team);
