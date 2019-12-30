@@ -80,7 +80,7 @@ const projects = [
         },
         festivals: [
                 {
-                    festival : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino",
+                    festival : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspektive Deutsches Kino",
                     awards: []
                 }
         ]
@@ -191,6 +191,7 @@ const projects = [
             Lichtassistenz: "JOHANNES WEINBACHER", 
             Kameraassistenz: "ELIAS FRITZ",
             Schnitt: "ELIZA PETKOVA",
+            Farbkorrektur: "Susan Dollnig",
             Tongestaltung: "NILS NEUMANN, PHILIP CALISTO",
             Sprecherin: "ELLEN PREUSS, CELINA VON WROCHEM",
             Produzent: "REKA PICTURES",
@@ -250,11 +251,11 @@ const projects = [
         },
         festivals: [
             {
-                festival : "48th Lubuskie Filmsommer, Polen",
+                festival : "52nd Hof International Film Festival",
                 awards: []
             },
             {
-                festival : "52nd Hof International Film Festival",
+                festival : "48th Lubuskie Filmsommer, Polen",
                 awards: []
             }
         ]
@@ -331,11 +332,11 @@ const projects = [
         festivals: [ 
             {
                 festival : "66. Berlinale - Internationale Filmfestspiele Berlin - Generation",
-                awards: ["Nominated for Best First Feature", "Special Mention by the International Jury Generation 14+" ]
+                awards: ["* Nominated for Best First Feature", "Special Mention by the International Jury Generation 14+" ]
             }, 
             {
                 festival : "20th International Sofia Film Festival - International Competition",
-                awards: ["GRAND PRIX for Best Film in the International Competition"]
+                awards: ["* GRAND PRIX for Best Film in the International Competition"]
             },
             {
                 festival : "56th Zlin Film Festival, Czech Republic",
@@ -347,7 +348,7 @@ const projects = [
             },
             {
                 festival : "31th Festival Internacional de Cine de Valencia CINEMA JOVE, Spain",
-                awards : ["Nominated for the Luna de Valencia"]
+                awards : ["* Nominated for the Luna de Valencia"]
             },
             {
                 festival : "2Cinema City International Film Festival Novi Sad, Serbia",
@@ -359,7 +360,7 @@ const projects = [
             },
             {
                 festival : "10. Internationales Fünf Seen Festival, Germany",
-                awards : []
+                awards : ["* Nominated for the Five Lakes Newcomer´s Awards"]
             },
             {
                 festival : "Cinematik International Film Festival, Slovakia",
@@ -383,7 +384,7 @@ const projects = [
             },
             {
                 festival : "33th Chicago International Children’s Film Festival, USA",
-                awards : []
+                awards : ["* 2nd Youth Jury Price"]
             },
             {
                 festival : "35th Oulu International Children's and Youth Film Festival, Finland",
@@ -391,7 +392,7 @@ const projects = [
             },
             {
                 festival : "23th Minsk International Film Festival, Belarus",
-                awards : []
+                awards : ["* Best Director - Listapadzik"]
             }, 
             {
                 festival : "Cinedays Skopje, Makedonia",
@@ -500,15 +501,42 @@ const projects = [
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
         festivals: [
-            "22. Festival International du Film Nancy-Lorraine 2016, France",
-            "9th Küstendorf International Film & Music Festival, Serbia",
-            " LAUSITZiale IV, Germany",
-            " Festival Européen du Court Métrage de Nice, France",
-            "23th International Film Festival Etiuda & Anima Krakow, Poland",
-            "37th European Short Film Festival of Lyon-Villeurbanne, France",
-            "2morrow Film Festival Moscow, Russia",
-            "Ruberoid Festival Berlin, Germany",
-            "Randfilm Fest Kassel, Germany"
+            {
+                festival : "22. Festival International du Film Nancy-Lorraine 2016, France",
+                awards: ["* Compétition Internationale du film court GRAND PRIX DU FESTIVAL - Jury Iycéen"]
+            }, 
+            {
+                festival : "9th Küstendorf International Film & Music Festival, Serbia",
+                awards: []
+            }, 
+            {
+                festival : "LAUSITZiale IV, Germany",
+                awards: []
+            }, 
+            {
+                festival : "LAUSITZiale IV, Germany",
+                awards: ["* Festival Européen du Court Métrage de Nice, France"]
+            }, 
+            {
+                festival : "23th International Film Festival Etiuda & Anima Krakow, Poland",
+                awards: ["* Bronze Dinosaur", "Student Jury Award", "Price of the International Jury IF Filmclubs"]
+            },
+            {
+                festival : "37th European Short Film Festival of Lyon-Villeurbanne, France",
+                awards: []
+            }, 
+            {
+                festival : "2morrow Film Festival Moscow, Russia",
+                awards: []
+            }, 
+            {
+                festival : "Ruberoid Festival Berlin, Germany",
+                awards: []
+            }, 
+            {
+                festival : "Randfilm Fest Kassel, Germany",
+                awards: ["* 1st place audience award"]
+            }, 
         ]
     },
     
@@ -572,13 +600,34 @@ const projects = [
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         }, 
         festivals: [
-                "68. Festival de Cannes - Sélection Cinéfondation",   
-                "4th Evolution Mallorca International Film Festival (EMIFF)",   
-                "International Film Festival TOFIFEST, Poland",   
-                "17. Landshuter Kurzfilmfestival, Germany",   
-                "20th Sofia International Film Festival, Bulgaria",   
-                "Ruberoid Festival 2016, Berlin, Germany",   
-                "12th Femina International Women’s Film Festival, Brazil"
+            {
+                festival : "68. Festival de Cannes - Sélection Cinéfondation",
+                awards: []
+            }, 
+            {
+                festival : "4th Evolution Mallorca International Film Festival (EMIFF)",
+                awards: []
+            }, 
+            {
+                festival : "International Film Festival TOFIFEST, Poland",
+                awards: []
+            }, 
+            {
+                festival : "17. Landshuter Kurzfilmfestival, Germany",
+                awards: []
+            }, 
+            {
+                festival : "20th Sofia International Film Festival, Bulgaria",
+                awards: []
+            },
+            {
+                festival : "Ruberoid Festival 2016, Berlin, Germany",
+                awards: []
+            },
+            {
+                festival : "12th Femina International Women’s Film Festival, Brazil",
+                awards: []
+            },
         ]
     }, 
     
@@ -644,8 +693,14 @@ const projects = [
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN"
         },
         festivals: [
-            "48. Internationale Hofer Filmtage",
-            "Shortcutz, Berlin",
+            {
+                festival : "48. Internationale Hofer Filmtage",
+                awards: []
+            },
+            {
+                festival : "Shortcutz, Berlin",
+                awards: []
+            },
         ]
     },  
     
@@ -687,15 +742,42 @@ const projects = [
             Produktion: "CINEMANDA & KRÜGER",
         },
         festivals: [
-            "INTERFILM 29th International Shortfilmfestival, Berlin",
-            "European Media Art Festival (EMAF), Osnabrück",
-            "26. Exground Filmfest, Wiesbaden",
-            "Bangkok International Student Film Festival, Thailand",
-            "Buldoc Festival Berlin",
-            "Festival Of Nations, Österreich",
-            "Shortcutz, Berlin",
-            "Shorts Attack",
-            "Berlin Art Film Festival",
+            {
+                festival : "INTERFILM 29th International Shortfilmfestival, Berlin",
+                awards: []
+            },
+            {
+                festival : "European Media Art Festival (EMAF), Osnabrück",
+                awards: []
+            },
+            {
+                festival : "26. Exground Filmfest, Wiesbaden",
+                awards: []
+            },
+            {
+                festival : "Bangkok International Student Film Festival, Thailand",
+                awards: []
+            },
+            {
+                festival : "Buldoc Festival Berlin",
+                awards: ["* 1. Preis Bester Kurzfilm"]
+            },
+            {
+                festival : "Festival Of Nations, Österreich",
+                awards: []
+            },
+            {
+                festival : "Shortcutz, Berlin",
+                awards: []
+            },
+            {
+                festival : "Shorts Attack",
+                awards: []
+            },
+            {
+                festival : "Berlin Art Film Festival",
+                awards: []
+            },
         ]
     },
 

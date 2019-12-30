@@ -6,7 +6,7 @@ var synopsis_length = {
     _SYNOPSIS_zhaleika : 266,
     _SYNOPSIS_nabelschnur: 305,
     _SYNOPSIS_abwesend : 300,
-    _SYNOPSIS_zur_rechten : 264,
+    _SYNOPSIS_zur_rechten : 300,
     _SYNOPSIS_mein_sohn : 380,
     _SYNOPSIS_abgeschnitten : 130,
     _SYNOPSIS_willkommen_zuhause : 389,
@@ -42,10 +42,10 @@ var dictionary = {
         "_SYNOPSIS_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
         "_SYNOPSIS_elemente" : "Spot for Medias",
         "_SYNOPSIS_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
-        "_SYNOPSIS_zhaleika" : "Lora, a 17 years old girl, has to deal with her father’s death. In the small Bulgarian village where time seems to stand still, her family and the villagers expect her to give herself over to grief.",
-        "_SYNOPSIS_nabelschnur": "Todor is in his early thirties and he still lives with his mother. Every day she cooks for him, irons his shirts, washes him and watches TV with him in her arms. She sets all the rules.",
-        "_SYNOPSIS_abwesend" : "Winter in a big city. Klara, a 30-year old woman, arrives home with a random guy that she has just met. Both are drunk, they are giggling, having fun. But there is someone else in the apartment",
-        "_SYNOPSIS_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt.",
+        "_SYNOPSIS_zhaleika" : "Lora, a 17 years old girl, has to deal with her father’s death. In the small Bulgarian village where time seems to stand still, her family and the villagers expect her to give herself over to grief. From now on, she must wear black, not listen to any music and observe verious mourning rituals. However, Lora wants to keep on enjoying her youth but her desire to live a normal life is disrupted by the judgment of others, who force her to play the role of an orphan.",
+        "_SYNOPSIS_nabelschnur": "Todor is in his early thirties and he still lives with his mother. Every day she cooks for him, irons his shirts, washes him and watches TV with him in her arms. She sets all the rules: their everyday life is set by rituals and recurring patterns. Todor works in an open space. His life is perfect until the day he comes home late for the first time ever, after an office party.",
+        "_SYNOPSIS_abwesend" : "Winter in a big city. Klara, a 30-year old woman, arrives home with a random guy that she has just met. Both are drunk, they are giggling, having fun. But there is someone else in the apartment: Anton (9) catches them having sex. The next morning, Anton is gone.",
+        "_SYNOPSIS_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt. Her everyday life is more and more ruled by power games and fears of loss. Adriane makes the painful experience that she cannot get rid of her own human weaknesses.",
         "_SYNOPSIS_mein_sohn" : " Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\".",
         "_SYNOPSIS_abgeschnitten" : "A story about a man, whose passion is to collect hair of foreign people.",
         "_SYNOPSIS_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
@@ -75,7 +75,8 @@ var dictionary = {
  
         "_R_cast" : "CAST", 
         "_R_crew" : "CREW", 
-        "Buch und Regie" : "Director & Script", 
+        "Buch und Regie" : "Director & Script",
+        "Konzept und Regie" : "Concept and Director", 
         "Bildgestaltung" : "Director of Photography", 
         "Producer" : "Producer", 
         "Produktionsassistenz" : "Production Assistant", 
@@ -90,7 +91,8 @@ var dictionary = {
         "Beleuchter" : "Electrician", 
         "Standfotograf" : "Stills Photographer", 
         "Originalton" : "Sound", 
-        "Regieassistenz" : "Assistant Director",  
+        "Regieassistenz" : "Assistant Director",
+        "Aufnahmeleitung" : "Assistant Director",  
         "Kameraassistenz" : "Assistant Camera", 
         "Tonassistenz" : "Boom Operator", 
         "Setassistenz" : "Set Assistant", 
@@ -111,7 +113,7 @@ var dictionary = {
         "Ko Produzenten" : "Co-Producer",
         "In Kooperation mit" : "In Cooperation with",
         "_R_" : "",
-        "70. Berlinale, Perspective Deutsches Kino" : "70th International Film Festival Berlin, Perspective German Cinema", 
+        "70. Berlinale - Internationale Filmfestspiele Berlin - Perspektive Deutsches Kino" : "70th Berlinale - International Film Festival Berlin - Perspektive Deutsches Kino", 
         "stats_lang_film" : "Feature film, Germany 2020, 103 min."
     },
     "DE": {
@@ -208,7 +210,7 @@ var dictionary = {
         "Produzent" : "Produzent",
         "Ko Produzenten" : "Ko-Produzenten", 
         "_R_" : "", 
-        "70. Berlinale, Perspective Deutsches Kino" : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspective Deutsches Kino", 
+        "70. Berlinale, Perspektive Deutsches Kino" : "70. Berlinale - Internationale Filmfestspiele Berlin - Perspektive Deutsches Kino", 
         "stats_lang_film" : "Langspielfilm, Deutschland 2020, 103 Min."
     }
 };
