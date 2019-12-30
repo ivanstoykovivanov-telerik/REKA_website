@@ -8,9 +8,18 @@ const projects = [
         title: "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT",
         title_lang : "_TITLES_ein_fisch", 
         id: "einfisch",
-        main_image: "einfisch.jpg",
+        main_image: "einfisch_title_01.jpg",
         caroussel_images : [
-            "einfisch.jpg"
+            "einfisch_Still 01.jpg",
+            "einfisch_Still 02.jpg",
+            "einfisch_Still 03.jpg",
+            "einfisch_Still 04.jpg",
+            "einfisch_Still 05.jpg",
+            "einfisch_Still 06.jpg",
+            "einfisch_Still 07.jpg",
+            "einfisch_Still 08.jpg",
+            "einfisch_Still 09.jpg",
+            "einfisch_Still 10_1.jpg"
         ],
         synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
         mehr : true,  
@@ -18,7 +27,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_ein_fisch",
         logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
         logline_lang: "_LOGLINE_ein_fisch",
-        trailer: "",
+        trailer: "EIN FISCH, DER AUF DEM RUECKEN SCHWIMMT_Trailer.jpg",
         stats_1: [
             "Langspielfilm, Deutschland 2020, 103 min",
             "ARRI Amira, Dolby Surround 5.1"
@@ -28,7 +37,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "Image/einfisch_poster.jpg",
+        poster : "EIN FISCH_Plakat V2_vorlaeufig.jpg",
         cast: [
             "NINA SCHWABE",
             "THEO TREBS",
@@ -67,7 +76,7 @@ const projects = [
             Geräuschemacher: "PETER ROIGK",            
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             Herstellungsleiter: "ANDREAS LOUIS",
-            Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE (Production Manager: CAROLINE SCHNELLER), <br>REKA PICTURES, <br>WILD GRASS FILMS ",
+            Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE/ MATHIEU MIVILLE & NATHAN NILL/ Production Manager: CAROLINE SCHELLER, <br>REKA PICTURES/ ELIZA PETKOVA & KONSTANTIN KANN, <br>WILD GRASS FILMS/ EDMOND YANG",
         },
         festivals: [
                 {
@@ -83,16 +92,18 @@ const projects = [
         title: "SOUNDS OF NATURE",
         title_lang : "_TITLES_sounds_of_nature",
         id: "soundsofnature",
-        main_image: "soundsofnature01.jpg",
+        main_image: "soundsofnature_title.jpg",
         caroussel_images : [
-            "soundsofnature01.jpg"
+            "soundsofnature_Still 01.jpg",
+            "soundsofnature_Still 02.jpg",
+            "soundsofnature_Still 03.jpg"
         ],
         synopsis: "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. Eva findet Trost und Geborgenheit in dem Wald, im Gegensatz zu Luisa, die den selben Ort als Gefahr wahrnimmt.  Es häufen sich verschiedene Missverständnisse und eine Überreaktion veranlasst Luisa ihre Mutter im Wald alleine zu lassen und umzukehren. Am Ende bleibt der Wald ganz still, während eine Tochter vergeblich und verzweifelt nach ihrer Mutter sucht.",
         mehr : true,  
         synopsis_length : 205, 
         synopsis_lang :  "_SYNOPSIS_sounds_of_nature",
         logline: "", 
-        trailer: "",
+        trailer: "SOUNDS OF NATURE_Trailer_vorlaeufig.jpg",
         stats_1: [
             "Kurzfilm, Deutschland 2019, 20 min",
             "35 mm, Farbe, Dolby Surround 5.1"
@@ -111,17 +122,17 @@ const projects = [
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
             Bildgestaltung: "KONSTANTIN KANN",
-            Produktionsassistenz: "LOREDANA TASSONE",
             Originalton: "NILS PLAMBECK, MARCO DAMKE",
-            Tonassistenz: "MIKE ENDERLEIN",
             Szenenbild: "NURIA SASTRE",
             Maskenbild: "LILLI PARTHUM",
             Steadicam: "KONSTANTIN KANN,  MALTE SCHWIND",
             Licht: "SABINE BALLNAT",
             Kameraassistenz: "NOÉ BECK, MALTE SCHWIND, EDOARDO SCUSSEL, ELIAS FRITZ, TIM SEDGWICK",
+            Produktionsassistenz: "LOREDANA TASSONE",
+            Tonassistenz: "MIKE ENDERLEIN",
             Setassistenz: "SUSANNA GUILLIMO",
             Schnitt: "ELIZA PETKOVA",
-            Motion_Graphics: "GUNAR LAUBE",
+            Motion_Graphic_Artist: "GUNAR LAUBE",
             Farbkorrektur: "INGO SCHUMACHER",  
             Tongestaltung: "NILS PLAMBECK", 
             Tonmischung: "ALEXANDRE LESER",       
@@ -142,16 +153,20 @@ const projects = [
         title: "ELEMENTE",
         title_lang : "_TITLES_elemente",
         id: "elemente",
-        main_image: "soundsofnature01.jpg",
+        main_image: "elemente_title.jpg",
         caroussel_images : [
-            "elemente01.jpg"
+            "Elemente_Still 01.jpg",
+            "Elemente_Still 02.jpg",
+            "Elemente_Still 03.jpg",
+            "Elemente_Still 04.jpg",
+            "Elemente_Still 05.jpg"
         ],
-        synopsis: "Spot for MEDIAS",
+        synopsis: "Spot für MEDIAS",
         mehr : false,  
         synopsis_length : 30, 
         synopsis_lang :  "_SYNOPSIS_elemente",
         logline: "", 
-        trailer: "",
+        trailer: "ELEMENTE_Trailer.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2019, 20 min",
             "35 mm, Farbe, Dolby Surround 5.1"
@@ -194,11 +209,11 @@ const projects = [
         title: "DIE ANDEREN",
         title_lang : "_TITLES_die_anderen", 
         id: "dieanderen",
-        main_image: "DIE ANDEREN_Still02_1.png",
+        main_image: "dieanderen_title.jpg",
         caroussel_images : [
             "DIE ANDEREN_Still01_1.jpg",
-            "DIE ANDEREN_Still02_1.png",
-            "DIE ANDEREN_Still03_1.png"
+            "DIE ANDEREN_Still02_1.jpg",
+            "DIE ANDEREN_Still03_1.jpg"
         ],
         synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
         mehr : true,  
@@ -206,7 +221,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_die_anderen",
         logline: "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.", 
         logline_lang: "_LOGLINE_die_anderen", 
-        trailer: "DieAnderen_Trailer_DE-en_20190330_kleiner.mp4",
+        trailer: "DieAnderen_Trailer_DE-en__20190330_normal.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
             "ARRI Amira, Dolby Digital 5.1"
@@ -216,7 +231,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "poster/Die Anderen Poster.jpg",
+        poster : "Die Anderen Poster.jpg",
         cast: [
             "MÁRTON NAGY"
         ],
@@ -224,6 +239,7 @@ const projects = [
             Buch_und_Regie: "ELIZA PETKOVA",
             Bildgestaltung: "KONSTANTIN KANN",
             Kostümbild: "WARIS KLAMPFER",
+            Aufnahmeleitung: "THOMAS PÜRSTINGER",
             Kameraassistenz: "SABINE BALLNAT",
             Schnitt: "ELIZA PETKOVA",
             Tongestaltung: "HANNES MARGET",
@@ -250,7 +266,7 @@ const projects = [
         title: "Zhaleika", 
         title_lang : "_TITLES_zhaleika",
         id: "zhaleika", 
-        main_image: "zhaleika_Still 01.jpg",
+        main_image: "zhaleika_title.jpg",
         caroussel_images : [
             "zhaleika_Still 01.jpg",
             "zhaleika_Still 02.jpg",
@@ -258,7 +274,12 @@ const projects = [
             "zhaleika_Still 04.jpg",
             "zhaleika_Still 05.jpg",
             "zhaleika_Still 06.jpg",
-            "zhaleika_Still 07.jpg"
+            "zhaleika_Still 07.jpg",
+            "zhaleika_Still 08.jpg",
+            "zhaleika_Still 09.jpg",
+            "zhaleika_Still 10.jpg",
+            "zhaleika_Still 11.jpg",
+            "zhaleika_Still 12.jpg"
         ],
         synopsis: "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt. Ab jetzt muss sie Schwarz tragen, darf keine Musik hören und muss diverse Trauerrituale beachten. Dabei will Lora ihre Jugend weiterhin ausleben. Ihr Wunsch aber wird durch den urteilenden Blick der anderen unterbunden, die sie dazu zwingen die Opferrolle eines Waisenkindes zu bedienen.", 
         mehr : true,  
@@ -275,7 +296,7 @@ const projects = [
             Originalsprache: "Bulgarisch", 
             Untertitel: "Deutsch, Englisch" 
         },
-        poster : "poster/Zhaleika Poster.jpg", 
+        poster : "Zhaleika Poster.jpg", 
         cast: [
             "ANNA MANOLOVA", 
             "SNEZHINA PETROVA", 
@@ -421,13 +442,13 @@ const projects = [
         title: "Nabelschnur",
         title_lang : "_TITLES_nabelschnur",
         id: "nabelschnur",
-        main_image: "nabelschnur_title.png",
+        main_image: "nabelschnur_title.jpg",
         caroussel_images : [
             "nabelschnur_Still 01.jpg",
             "nabelschnur_Still 02.jpg",
             "nabelschnur_Still 03.jpg",
             "nabelschnur_Still 04.jpg",
-            "nabelschnur_Still 05.jpg",
+            "nabelschnur_Still 05.jpg"
         ],
         synopsis: "Todor ist Anfang 30. Er wohnt immer noch mit seiner Mutter zusammen, die jeden Tag für ihn kocht, seine Hemden bügelt, ihn badet und abends mit ihm im Arm Fernsehen schaut. Sie gibt alle Regeln vor: Der Alltag der beiden ist von Ritualen und Musterverhalten bestimmt. Todor arbeitet in einem Großraumbüro, sein routiniertes Leben funktioniert perfekt bis zu dem Tag, an dem er von einer Firmenparty das erste Mal zu spät nach Hause kommt.",
         mehr : true,  
@@ -449,7 +470,7 @@ const projects = [
             "SABINE WINTERFELDT",
             "ULRIKE BEERBAUM",
             "JOHANNES MOELDERS",
-            " FRANK KALLINOWSKI",
+            "FRANK KALLINOWSKI",
             "ANDREJ LAKISOV",
             "JOSCHA EICKEL",
         ],
@@ -462,7 +483,7 @@ const projects = [
             Lichtgestaltung: "DAVID SCHMITT",
             Originalton : "JOSCHA EICKEL, THOMAS ORR",
             Maskenbild:  "STELLA VON SENGER",
-            Regieassistenz:  "MARCEL SCHROETER",
+            Regieassistent:  "MARCEL SCHROETER",
             Kameraassistenz: "MARCUS SCHÜTZE, NATHANAEL BESSON-VIGO, JENS HALLMANN ",
             Produktion: "CÉCILE TOLLU-POLONOWSKI",
             Produktionassistenz: "KEVIN BERTHOLD",
@@ -497,12 +518,16 @@ const projects = [
         title: "Abwesend", 
         title_lang : "_PP_abwesend_title", 
         id: "abwesend",
-        main_image: "abwesend_title.png",
+        main_image: "abwesend_title.jpg",
         caroussel_images : [
             "Abwesend_Still 01.jpg",
             "Abwesend_Still 02.jpg",
             "Abwesend_Still 03.jpg",
-            "Abwesend_Still 04.jpg"
+            "Abwesend_Still 04.jpg",
+            "Abwesend_Still 05.jpg",
+            "Abwesend_Still 06.jpg",
+            "Abwesend_Still 07.jpg",
+            "Abwesend_Still 08.jpg"
         ], 
         synopsis: "Winter in einer deutschen Großstadt. Klara, 30-jährige alleinerziehende Mutter, kommt mit einem fremden Mann nach Hause. Beide sind betrunken, sie lachen, haben Spaß. Aber es ist noch jemand in der Wohnung: Anton, 9 Jahre alt, entdeckt sie im Bett. Am darauffolgenden Morgen ist Anton weg.",
         mehr : false,  
@@ -519,7 +544,7 @@ const projects = [
             Originalsprache: "Deutsch", 
             Untertitel: "Englisch, Französisch" 
         },
-        poster : "poster/Abwesend-Poster.jpg",   
+        poster : "Abwesend-Poster.jpg",   
         cast: [
             "KATRIN SOMMER", 
             "MÁRTON NAGY", 
@@ -563,7 +588,7 @@ const projects = [
         title: "Zur rechten Zeit",
         title_lang : "_TITLES_zur_rechten",
         id: "zurrechtenzeit",
-        main_image: "zur_rechten_zeit_title.png",
+        main_image: "zur_rechten_zeit_title.jpg",
         caroussel_images : [
             "zurrechtenzeit_Still 1.jpg",
             "zurrechtenzeit_Still 2.jpg",
@@ -576,6 +601,7 @@ const projects = [
         synopsis_length : 264, 
         synopsis_lang : "_SYNOPSIS_zur_rechten",
         logline: "",
+        trailer: "ZUR RECHTEN ZEIT TRAILER.mp4",
         stats_1: [
             "Kurzfilm, Deutschland 2014, 22 min",
             "RED One, Dolby Digital 5.1"
@@ -585,7 +611,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "poster/Zur Rechten Zeit Poster.jpg", 
+        poster : "Zur Rechten Zeit Poster.jpg", 
         cast: [
             "KIRSTEN ALBSMEIER",
             "MÁRTON NAGY",
@@ -629,11 +655,12 @@ const projects = [
         title: "Mein Sohn",
         title_lang : "_TITLES_mein_sohn",
         id: "meinsohn",
-        main_image: "mein_sohn_title.png",
+        main_image: "mein_sohn_title.jpg",
         caroussel_images : [
             "meinsohn_Still 1.jpg",
             "meinsohn_Still 2.jpg",
             "meinsohn_Still 3.jpg",
+            "meinsohn_Still 4.jpg"
         ],
         synopsis: "Leonard von Thiel hat Jura studiert und sollte die Kanzlei seines Vaters übernehmen. Stattdessen verkauft er tropische Früchte in einem Bonbon-Outfit und versucht damit andere Menschen glücklich zu machen. Ein Doc-Fiction Film, der unveränderte Realität und inszenierte Wirklichkeiten vermischt und die Frage nach dem „Richtig“ und „Falsch“ erst gar nicht zu stellen vermag.",
         synopsis_length : 380, 
@@ -650,7 +677,7 @@ const projects = [
         poster : "", 
         cast: [
             "KIM SCHIMMLER",
-            "CLAUDA BALKO",
+            "CLAUDIA BALKO",
             "MICHAEL DANISCH",
         ],
         team: {
@@ -679,9 +706,10 @@ const projects = [
         title: "Abgeschnitten", 
         title_lang : "_TITLES_abgeschnitten",
         id: "abgeschnitten", 
-        main_image: "abgeschnitten_title.png",
+        main_image: "abgeschnitten_title.jpg",
         caroussel_images : [
             "abgeschnitten1.jpg",
+            "abgeschnitten2.jpg",
             "abgeschnitten3.jpg",
             "abgeschnitten4.jpg",
             "abgeschnitten5.jpg",
@@ -720,16 +748,26 @@ const projects = [
         title: "Willkommen zuhause",
         title_lang : "_TITLES_willkommen_zuhause",
         id: "willkommenzuhause",
-        main_image: "willkommen_zuhause_title.png",
+        main_image: "wilkommen_zuhause_title.jpg",
         caroussel_images : [
             "willkommenzuhause1.jpg",
             "willkommenzuhause2.jpg",
             "willkommenzuhause3.jpg",
+            "willkommenzuhause4.jpg",
+            "willkommenzuhause5.jpg",
+            "willkommenzuhause6.jpg",
+            "willkommenzuhause7.jpg",
+            "willkommenzuhause8.jpg",
+            "willkommenzuhause9.jpg",
+            "willkommenzuhause10.jpg",
+            "willkommenzuhause11.jpg",
+            "willkommenzuhause12.jpg"
         ],
         synopsis: "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
         synopsis_length : 389, 
         synopsis_lang : "_SYNOPSIS_willkommen_zuhause",
         logline: "",
+        trailer: "Willkommen Zuhause Trailer.mp4",
         stats_1: [
         " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
         ],
@@ -738,7 +776,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "", 
+        poster : "Wilkommen Zuhause Poster.jpg", 
         cast: [], 
         team: {
             Buch_und_Regie: "ELIZA PETKOVA",
