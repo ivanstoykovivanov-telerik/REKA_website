@@ -16,3 +16,30 @@ for (let i = news.length-1; i >= 0; i--) {
 };
 
 
+
+  //CAPROUSSEL IMAGES  CONTENT
+//   const caroussel_images = [
+//     "einfisch.jpg",
+//     "soundsofnature01.jpg",
+//     "dieanderen_Still 01.jpg",
+//     "dieanderen_Still 02.jpg",
+//     "dieanderen_Still 03.jpg",
+//   ]; 
+
+  //CAPROUSSEL IMAGES  (NOT USED)
+//   for (let j = 0; j < caroussel_images.length; j++) {
+            
+//     if(j === 0 ){
+//         $(".startpage-carousel").append(`
+//             <div class="carousel-item active">
+//                 <img class="img-fluid" src="Image/${caroussel_images[j]}" alt="Slide_${j}">
+//             </div>
+//         `); 
+//     }else{
+//         $(".startpage-carousel").append(`
+//             <div class="carousel-item">
+//                 <img class="img-fluid" src="Image/${caroussel_images[j]}" alt="Slide_${j}">
+//             </div>
+//         `);
+//     }
+// }
