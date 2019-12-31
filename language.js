@@ -1,15 +1,14 @@
-
 var synopsis_length = {
-    _SYNOPSIS_ein_fisch: 1000,
-    _SYNOPSIS_sounds_of_nature : 205,
-    _SYNOPSIS_die_anderen : 150,
-    _SYNOPSIS_zhaleika : 266,
-    _SYNOPSIS_nabelschnur: 305,
+    _SYNOPSIS_ein_fisch: 600,
+    _SYNOPSIS_sounds_of_nature : 400,
+    _SYNOPSIS_die_anderen : 210,
+    _SYNOPSIS_zhaleika : 700,
+    _SYNOPSIS_nabelschnur: 600,
     _SYNOPSIS_abwesend : 300,
-    _SYNOPSIS_zur_rechten : 300,
+    _SYNOPSIS_zur_rechten : 650,
     _SYNOPSIS_mein_sohn : 380,
     _SYNOPSIS_abgeschnitten : 130,
-    _SYNOPSIS_willkommen_zuhause : 389,
+    _SYNOPSIS_willkommen_zuhause : 1600,
 }
 
 
@@ -140,6 +139,7 @@ var dictionary = {
         "_TITLES_mein_sohn" : "MEIN SOHN" ,
         "_TITLES_abgeschnitten" : "ABGESCHNITTEN" ,
         "_TITLES_willkommen_zuhause" : "WILLKOMMEN ZUHAUSE" ,
+        "_SYNOPSIS_ein_fisch" : "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. ",  
         "_SYNOPSIS_die_anderen" : "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung",  
         "_SYNOPSIS_zhaleika" : "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt.",  
