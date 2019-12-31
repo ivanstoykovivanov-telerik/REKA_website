@@ -23,7 +23,7 @@ const projects = [
         ],
         synopsis: "Andrea, eine Frau ohne Vergangenheit – verspielt, unmittelbar, leicht, energetisch, ehrlich, unberechenbar. Sie ist ein Kind. Philipp und Martin sind Vater und Sohn – beide lieben sie. Andreas Anwesenheit soll die Lücke der verstorbenen Hanna füllen. Es folgt ein Sommer der erfüllten Sehnsüchte. Doch die innere Leere beginnt nach Trost, nach Bindung und nicht zuletzt nach Sicherheit zu suchen. Sie will besitzen. Die Liebe wird durch Angst verdrängt und die Gegenwart verschwindet mit der Frage nach dem morgigen Tag. Drei Personen. Ein Haus. Sie leben und handeln jenseits der Gesellschaftsnormen und scheitern dann doch an ihren viel zu menschlichen Bedürfnissen. Am Ende bleiben die Leere und die Frage nach der Schuld, die nicht verortet werden kann.",
         mehr : true,  
-        synopsis_length : 200, 
+        synopsis_length : 900, 
         synopsis_lang : "_SYNOPSIS_ein_fisch",
         logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
         logline_lang: "_LOGLINE_ein_fisch",
