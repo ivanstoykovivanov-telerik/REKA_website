@@ -1,15 +1,15 @@
 
 var synopsis_length = {
-    _SYNOPSIS_ein_fisch: 600,
-    _SYNOPSIS_sounds_of_nature : 400,
-    _SYNOPSIS_die_anderen : 210,
-    _SYNOPSIS_zhaleika : 700,
-    _SYNOPSIS_nabelschnur: 600,
+    _SYNOPSIS_ein_fisch: 1000,
+    _SYNOPSIS_sounds_of_nature : 205,
+    _SYNOPSIS_die_anderen : 150,
+    _SYNOPSIS_zhaleika : 266,
+    _SYNOPSIS_nabelschnur: 305,
     _SYNOPSIS_abwesend : 300,
-    _SYNOPSIS_zur_rechten : 650,
+    _SYNOPSIS_zur_rechten : 300,
     _SYNOPSIS_mein_sohn : 380,
     _SYNOPSIS_abgeschnitten : 130,
-    _SYNOPSIS_willkommen_zuhause : 1600,
+    _SYNOPSIS_willkommen_zuhause : 389,
 }
 
 
@@ -38,7 +38,7 @@ var dictionary = {
         "_TITLES_zhaleika" : "ZHALEIKA",
         "_TITLES_nabelschnur" : "UMBILICAL CORD",
         "_TITLES_abgeschnitten" : "CUT OFF",
-        "_SYNOPSIS_ein_fisch": "",
+        "_SYNOPSIS_ein_fisch": "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
         "_SYNOPSIS_elemente" : "Spot for Medias",
         "_SYNOPSIS_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
@@ -48,7 +48,7 @@ var dictionary = {
         "_SYNOPSIS_zur_rechten" : "Adriane Gertz is a philosophy teacher for senior classes. Her ideal to be socially independent and her ambition for self-sufficiency, are shaken in their very foundations through her mistress relationship to her student Dominik. Violating her own social values leaves her in a feeling of self-contempt. Her everyday life is more and more ruled by power games and fears of loss. Adriane makes the painful experience that she cannot get rid of her own human weaknesses.",
         "_SYNOPSIS_mein_sohn" : " Leonard von Thiel studied law and should take over the company of his father. Instead, he sells tropical fruits in a candy outfit, trying to make other people happy. A doc fiction film that mixes unchanged reality and staged realities and does not even ask the question of the \"right\" and \"wrong\".",
         "_SYNOPSIS_abgeschnitten" : "A story about a man, whose passion is to collect hair of foreign people.",
-        "_SYNOPSIS_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen.",
+        "_SYNOPSIS_willkommen_zuhause" : "Am 14. April 2010 wurde das Rückübernahmeabkommen zwischen Deutschland und Kosovo unterzeichnet. Seitdem finden zunehmend Abschiebungen von aus dem Kosovo stammenden Roma statt. In den Flugzeugen sitzen Menschen, die meistens seit über zehn Jahren in Deutschland leben und nun im Kosovo ihre Heimat finden sollen. Wie gelingt es jemandem, der in Deutschland geboren und aufgewachsen ist, sich in einem fremden Land zu Hause zu fühlen, ohne dass er die Sprache beherrscht, ohne die Möglichkeit, die Straße in Ruhe und Sicherheit zu betreten? Wie viele Träume und Hoffnungen bleiben da noch übrig? Und wie fühlt man sich, wenn 40 Polizisten mitten in der Nacht an der Tür klingeln mit der Ankündigung: „Ihr habt 30 Minuten Zeit, eure Sachen zu packen.“? Der Film ermöglicht einen Einblick in das Leben abgeschobener Roma im Kosovo und solchen, die in Deutschland von der Abschiebung bedroht sind. Keines der abgeschobenen Kinder besucht die Schule; meistens übernachten alle Familienmitglieder in einem Raum; medizinische Versorgung ist den Roma nur schwer zugänglich; die wenigsten besitzen ein Bad, und sogar fließendes Wasser in der Toilette zählt zum Luxus. Hier wie dort können die Roma nachts nicht ruhig schlafen. In Deutschland, weil sie jede Sekunde mit der Abschiebung rechnen, im Kosovo vor lauter Heimweh nach Deutschland - und aus Angst vor rassistischen Übergriffen..",
         "_LOGLINE_ein_fisch" : "A film about an unusual love triangle, where the lovers demand more from each other than they are able to bear.", 
         "_LOGLINE_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.", 
         "_other_projects_by_eliza" : "OTHER PROJECTS BY ELIZA PETKOVA",
@@ -140,7 +140,6 @@ var dictionary = {
         "_TITLES_mein_sohn" : "MEIN SOHN" ,
         "_TITLES_abgeschnitten" : "ABGESCHNITTEN" ,
         "_TITLES_willkommen_zuhause" : "WILLKOMMEN ZUHAUSE" ,
-        "_SYNOPSIS_ein_fisch": "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. ",  
         "_SYNOPSIS_die_anderen" : "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung",  
         "_SYNOPSIS_zhaleika" : "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt.",  
@@ -217,6 +216,10 @@ var dictionary = {
 
 
 $(function() {
+    
+    /* 
+    *   Sets the language and converts text to the chosen language
+    */
     let set_lang = function (dictionary) {
         $("[data-translate]").text(function () {
             var key = $(this).data("translate");
@@ -231,18 +234,32 @@ $(function() {
     };
 
 
+    if( localStorage.getItem('language')){
+        let language = localStorage.getItem('language'); 
+        // TODO: Change the language  based on the saved value
+        console.log(language);
+        set_lang(dictionary[language]); 
+    } 
+
+
+    /*
+    *  Get the language from the clicked "lang" button: 
+    */
     $("#language").on("click", function(){
-
         let language = $(this).text(); 
-
+        localStorage.removeItem("language"); 
+        console.log("Clicked");
+        
         if(language ==="EN"){
             console.log($(this).text());
+            localStorage.setItem('language', 'EN');
             if (dictionary.hasOwnProperty(language)) {
                 set_lang(dictionary[language]);
             }
             $("#language").text("DE"); 
         }else if(language === "DE"){
             console.log($(this).text());
+            localStorage.setItem('language', 'DE');
             if (dictionary.hasOwnProperty(language)) {
                 set_lang(dictionary[language]);
             }

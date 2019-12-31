@@ -108,12 +108,11 @@ for (let i = 0; i < projects.length; i++) {
                                     `
                                     <div class="award"><img src="" data-translate="">${award}</div> 
                                     `   
-                                    ); 
-                                }
-                                )
+                                ); 
+                            }
+                        )
                     };  
                 }
-
             } 
         )
     }
