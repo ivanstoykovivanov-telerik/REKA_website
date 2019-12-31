@@ -237,6 +237,7 @@ $(function() {
 
     if( localStorage.getItem('language')){
         let language = localStorage.getItem('language'); 
+        // TODO: Change the language  based on the saved value
         console.log(language);
         set_lang(dictionary[language]); 
     } 
