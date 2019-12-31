@@ -37,7 +37,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "EIN FISCH_Plakat V2_vorlaeufig.jpg",
+        poster : "EIN FISCH_Plakat V2_vorlauefig.jpg",
         cast: [
             "NINA SCHWABE",
             "THEO TREBS",

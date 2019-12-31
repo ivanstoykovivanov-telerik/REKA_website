@@ -84,7 +84,7 @@ for (let i = 0; i < projects.length; i++) {
         
         //POSTER 
         if(projects[i].poster !== ""){
-            $("#poster_id").attr("src",`${projects[i].poster}`);
+            $("#poster_id").attr("src",`poster/${projects[i].poster}`);
         }
 
         //TRAILER
@@ -94,22 +94,26 @@ for (let i = 0; i < projects.length; i++) {
         //FESTIVALS 
         projects[i].festivals.map(
             festival => {
-                $("#festivals_id").append(
-                    `
-                        <div class="festival"><img src="Image/black-laurel.jpg" data-translate="">${festival.festival}</div> 
-                    `
-                ); 
-                if(festival.awards.length  > 0 ){
+                if(festival.festival !== ""){
+                    $("#festivals_id").append(
+                        `
+                            <div class="festival"><img src="Image/black-laurel.jpg" data-translate="">${festival.festival}</div> 
+                        `
+                    ); 
+                    
+                    if(festival.awards.length  > 0 ){
                         festival.awards.map(
                             award => {
-                            $("#festivals_id").append(
-                                `
+                                $("#festivals_id").append(
+                                    `
                                     <div class="award"><img src="" data-translate="">${award}</div> 
-                                `   
-                            ); 
-                        }
-                    )
-                };  
+                                    `   
+                                    ); 
+                                }
+                                )
+                    };  
+                }
+
             } 
         )
     }
