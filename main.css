@@ -150,8 +150,7 @@ nav a.active {
   } */
   .greybox{
     max-width: 100%; 
-    font-size: 1.0em; 
-    background-color: rgba(122, 123, 124, 0.027);
+    font-size: 1.2em; 
   }
 }
 
@@ -163,7 +162,6 @@ nav a.active {
   .greybox{
     max-width: 55%;
     font-size: 0.9em; 
-    background-color: rgba(122, 123, 124, 0.452);
   }
 }
 
@@ -175,7 +173,6 @@ nav a.active {
   .greybox{
     max-width : 37%; 
     font-size: 0.9em;
-    background-color: rgba(122, 123, 124, 0.479);
   }
 } 
 
@@ -185,7 +182,6 @@ nav a.active {
   .greybox{
     max-width : 35%; 
     font-size: 0.9em;
-    background-color: rgba(122, 123, 124, 0.582);
   }
 } 
 
@@ -195,7 +191,6 @@ nav a.active {
   .greybox{
     max-width : 25%; 
     font-size: 0.9em;
-    background-color: rgba(122, 123, 124, 0.582);
   }
 }
 
@@ -205,7 +200,6 @@ nav a.active {
   .greybox{
     max-width : 20%; 
     font-size: 0.9em;
-    background-color: rgba(122, 123, 124, 0.66);
   }
 }
 
