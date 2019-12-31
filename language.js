@@ -1,6 +1,6 @@
 
 var synopsis_length = {
-    _SYNOPSIS_ein_fisch: 160,
+    _SYNOPSIS_ein_fisch: 1000,
     _SYNOPSIS_sounds_of_nature : 205,
     _SYNOPSIS_die_anderen : 150,
     _SYNOPSIS_zhaleika : 266,
@@ -38,7 +38,7 @@ var dictionary = {
         "_TITLES_zhaleika" : "ZHALEIKA",
         "_TITLES_nabelschnur" : "UMBILICAL CORD",
         "_TITLES_abgeschnitten" : "CUT OFF",
-        "_SYNOPSIS_ein_fisch": "",
+        "_SYNOPSIS_ein_fisch": "Andrea, a woman without a past - playful, direct, ethereal, vivacious, honest, unpredictable. She is a child. Philipp and Martin are father and son – and both love Andrea. Andrea’s presence should fill the gap of the Hanna, the recently deceased wife and mother. A summer of desire follows. But the inner emptiness inside each person begins to seek consolation, commitment and, not least, security. Its aim is to possess. Love is suppressed by fear, and the present disappears under the weight of tomorrow. Three people. One house. They live and behave outside of social norms and then fail because of their all too human needs. All that remains is emptiness and the question of guilt, which cannot be answered.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa tries to balance caring for her mother (Eva), who is in a wheelchair, with her work in a dental practice and her personal life. During a walk in the woods they discover that a great distance has already developed between them.",
         "_SYNOPSIS_elemente" : "Spot for Medias",
         "_SYNOPSIS_die_anderen" : "A man has a special power, yet is condemned for it. He is required to fit in, to surrender, to change. Ultimately he’s faced with the decision to either assert himself or to submit.",
@@ -140,7 +140,6 @@ var dictionary = {
         "_TITLES_mein_sohn" : "MEIN SOHN" ,
         "_TITLES_abgeschnitten" : "ABGESCHNITTEN" ,
         "_TITLES_willkommen_zuhause" : "WILLKOMMEN ZUHAUSE" ,
-        "_SYNOPSIS_ein_fisch": "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.",
         "_SYNOPSIS_sounds_of_nature" : "Luisa versucht die Fürsorge für ihre im Rollstuhl sitzende Mutter (Eva) zwischen der Arbeit in der Zahnarztpraxis und dem privaten Stress unterzubringen. Während einem Waldspaziergang entdecken die beiden, dass sich bereits eine große Entfremdung zwischen ihnen ausgebreitet hat. ",  
         "_SYNOPSIS_die_anderen" : "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung",  
         "_SYNOPSIS_zhaleika" : "Lora, ein 17 jähriges Mädchen wird mit dem Tod ihres Vaters konfrontiert. In dem kleinen bulgarischen Dorf, wo die Zeit stehengeblieben zu sein scheint, erwarten ihre Familie und die Dorfbewohner, dass sie sich ihrer Trauer hingibt.",  
