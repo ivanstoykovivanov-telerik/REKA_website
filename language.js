@@ -217,6 +217,10 @@ var dictionary = {
 
 
 $(function() {
+    
+    /* 
+    *   Sets the language and converts text to the chosen language
+    */
     let set_lang = function (dictionary) {
         $("[data-translate]").text(function () {
             var key = $(this).data("translate");
@@ -231,18 +235,31 @@ $(function() {
     };
 
 
+    if( localStorage.getItem('language')){
+        let language = localStorage.getItem('language'); 
+        console.log(language);
+        set_lang(dictionary[language]); 
+    } 
+
+
+    /*
+    *  Get the language from the clicked "lang" button: 
+    */
     $("#language").on("click", function(){
-
         let language = $(this).text(); 
-
+        localStorage.removeItem("language"); 
+        console.log("Clicked");
+        
         if(language ==="EN"){
             console.log($(this).text());
+            localStorage.setItem('language', 'EN');
             if (dictionary.hasOwnProperty(language)) {
                 set_lang(dictionary[language]);
             }
             $("#language").text("DE"); 
         }else if(language === "DE"){
             console.log($(this).text());
+            localStorage.setItem('language', 'DE');
             if (dictionary.hasOwnProperty(language)) {
                 set_lang(dictionary[language]);
             }
