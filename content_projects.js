@@ -105,7 +105,7 @@ const projects = [
         logline: "", 
         trailer: "SOUNDS OF NATURE_Trailer_vorlaeufig.jpg",
         stats_1: [
-            "Kurzfilm, Deutschland 2019, 20 min",
+            "Kurzfilm, Deutschland 2019, 21 min",
             "35 mm, Farbe, Dolby Surround 5.1"
         ],
         stats_2: {
