@@ -37,7 +37,7 @@ const projects = [
             Originalsprache: "Deutsch",
             Untertitel: "Englisch"
         },
-        poster : "EIN FISCH_Plakat V2_vorlauefig.jpg",
+        poster : "Ein Fisch_Plakat.jpg",
         cast: [
             "NINA SCHWABE",
             "THEO TREBS",
@@ -76,7 +76,7 @@ const projects = [
             Geräuschemacher: "PETER ROIGK",            
             Produzent: "DEUTSCHE FILM- UND FERNSEHAKADEMIE BERLIN",
             Herstellungsleiter: "ANDREAS LOUIS",
-            Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE/ MATHIEU MIVILLE & NATHAN NILL/ Production Manager: CAROLINE SCHELLER, <br>REKA PICTURES/ ELIZA PETKOVA & KONSTANTIN KANN, <br>WILD GRASS FILMS/ EDMOND YANG",
+            Ko_Produzenten: "<br>DAS KIND MIT DER GOLDENEN JACKE <br>/MATHIEU MIVILLE & NATHAN NILL <br>/Production Manager: CAROLINE SCHELLER, <br><br>REKA PICTURES <br>/ELIZA PETKOVA & KONSTANTIN KANN, <br><br>WILD GRASS FILMS <br>/EDMOND YANG",
         },
         festivals: [
                 {
