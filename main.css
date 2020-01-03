@@ -161,8 +161,8 @@ nav a.active {
     color: green;
   } */
   .greybox{
-    max-width: 55%;
-    font-size: 0.9em; 
+    max-width: 100%;
+    font-size: 1.0em; 
     background-color: rgba(122, 123, 124, 0.452);
   }
 }
@@ -173,7 +173,7 @@ nav a.active {
     color: blue;
   } */
   .greybox{
-    max-width : 37%; 
+    max-width : 100%; 
     font-size: 0.9em;
     background-color: rgba(122, 123, 124, 0.479);
   }
