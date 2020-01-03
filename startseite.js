@@ -1,9 +1,5 @@
-const news = [
-         "SOUNDS OF NATURE ist fertig gedreht und wir freuen uns auf die Fertigstellung.", 
-         "DIE ANDEREN feiert Premiere auf den 52. Internationalen Hofer Filmtagen.",
-         "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT wurde abgedreht. Jetzt geht es in die Postproduktion.",
-         "EIN FISCH, DER AUF DEM RÜCKEN SCHWIMMT läuft auf der 70. Berlinale in der Perspektive Deutsches Kino – wir freuen uns sehr!",
-];
+
+// LOGIC FOR STARTSEITE :
 
 for (let i = news.length-1; i >= 0; i--) {
     $(".news-container").append(
@@ -14,3 +10,11 @@ for (let i = news.length-1; i >= 0; i--) {
         `
     );
 };
+
+carousselPictures.map(
+    picName => {
+        $('.slider').append(
+            ` <img class="mySlides img-fluid" src="Image/${picName}">`
+        )
+    }
+)
