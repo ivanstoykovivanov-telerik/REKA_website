@@ -680,9 +680,10 @@ footer a:hover {
 /* Extra small devices (phones, 320 and down) */
 @media screen and (max-device-width:320px), screen and (max-width:320px) {
   .news {
-   font-size: 1.1em;
+   font-size: .9em;
    color: white;
    font-weight: 500;
+   padding: 10px 0; 
    /* padding : 55px 0px;  */
    padding-left: 18px;
   }
@@ -690,9 +691,13 @@ footer a:hover {
     max-width: 100%; 
     /* font-size: 1.5em;  */
     background-color: rgba(122, 123, 124, 0.582);
-    height: 60%;
+    height: 70%;
     /* margin-top: 65em; */
-    margin-top: 20em;
+    margin-top: 8em;
+  }
+
+  .bird-news {
+    margin-left: 0px;
   }
 
   .other_projects_title {
