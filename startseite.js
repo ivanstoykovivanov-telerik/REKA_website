@@ -4,7 +4,7 @@
 for (let i = news.length-1; i >= 0; i--) {
     $(".news-container").append(
         `<div class="row">   
-            <div class="col-2 col-sm-1"><img src="Image/Vogel_Symbol_News.png" alt="" class="bird-news"></div>
+            <div class="col-2"><img src="Image/Vogel_Symbol_News.png" alt="" class="bird-news"></div>
             <div class="col-9 news" data-translate="_news_${i + 1}">${news[i]}</div>  
         </div>   
         `
