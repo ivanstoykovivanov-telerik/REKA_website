@@ -218,7 +218,7 @@ const projects = [
         ],
         synopsis: "Jonas verfügt über eine besondere Fähigkeit, die er aber vor den anderen verstecken muss, damit er weiterhin in der Gesellschaft fortbestehen kann, die keine Abweichungen von der Norm duldet. Er versucht Erwartungen zu entsprechen und entfernt sich somit immer mehr von sich selbst. Am Ende steht er vor der Entscheidung - sich selbst treu zu bleiben oder sich für die Anerkennung anderer aufzugeben.",
         mehr : true,  
-        synopsis_length : 320, 
+        synopsis_length : 350, 
         synopsis_lang : "_SYNOPSIS_die_anderen",
         logline: "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.", 
         logline_lang: "_LOGLINE_die_anderen", 

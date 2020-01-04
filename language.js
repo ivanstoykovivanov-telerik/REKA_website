@@ -1,7 +1,7 @@
 var synopsis_length = {
     _SYNOPSIS_ein_fisch: 900,
     _SYNOPSIS_sounds_of_nature : 400,
-    _SYNOPSIS_die_anderen : 210,
+    _SYNOPSIS_die_anderen : 330,
     _SYNOPSIS_zhaleika : 700,
     _SYNOPSIS_nabelschnur: 600,
     _SYNOPSIS_abwesend : 300,

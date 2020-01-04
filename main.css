@@ -581,7 +581,8 @@ footer a:hover {
 @media only screen and (max-width: 992px) {
   .news {
      font-size: 1.0em;
-     color: yellow; 
+     /* color: yellow;  */
+     color: white; 
     }
   
     .greybox{
