@@ -147,6 +147,14 @@ nav a.active {
   margin-top: 6rem;
 }
 
+.other_projects_title {
+  color: #737373;
+  margin: 2.75em 0;
+  background-color: #d4d4d4; 
+  font-size: 2.5em;
+  text-align: center;
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1900px) {
   .news {
@@ -207,10 +215,12 @@ nav a.active {
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-device-width:768px), screen and (max-width:768px) {
  .news {
-   font-size:  1.6em;
+   font-size:  1.1em;
    padding: 25px 0px; 
    color: white; 
    font-weight: 500;
+   padding : 20px 0px;
+   padding-left: 10px;  
   }
 
   .greybox{
@@ -220,6 +230,7 @@ nav a.active {
     height: 60%;
     padding-top: 1em; 
     margin-top: 25em;
+    padding-left: 15px;
   }
   
   .news-container {
@@ -230,34 +241,32 @@ nav a.active {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-device-width:425px), screen and (max-width:425px) {
   .news {
-    font-size: 2.8em;
+    font-size: 0.9em;
     color: white ; 
     font-weight: 500;
-    padding : 55px 0px; 
+    padding : 20px 0px; 
    }
 
   .greybox{
     max-width: 100%;
     background-color: rgba(122, 123, 124, 0.582);
-    margin-top: 34em;
+    margin-top: 23em;
   }
 }
 
 /* Small devices (phones, 375 and down) */
 @media screen and (max-device-width:375px), screen and (max-width:375px) {
   .news {
-   font-size: 2.9em;
-   color: white;
-   font-weight: 500;
-   padding : 55px 0px; 
-  }
+    font-size: 0.9em;
+    color: white ; 
+    font-weight: 500;
+    padding : 20px 0px; 
+   }
+
   .greybox{
-    max-width: 100%; 
-    /* font-size: 1.5em;  */
+    max-width: 100%;
     background-color: rgba(122, 123, 124, 0.582);
-    height: 60%;
-    padding-top: 1em; 
-    margin-top: 55em;
+    margin-top: 20em;
   }
   .news-container {
     margin-top: 0em;
@@ -268,17 +277,28 @@ nav a.active {
 /* Extra small devices (phones, 320 and down) */
 @media screen and (max-device-width:320px), screen and (max-width:320px) {
   .news {
-   font-size: 2.9em;
+   font-size: 0.9em;
    color: white;
    font-weight: 500;
-   padding : 55px 0px; 
+   /* padding : 55px 0px;  */
+   padding-left: 18px;
   }
   .greybox{
     max-width: 100%; 
     /* font-size: 1.5em;  */
     background-color: rgba(122, 123, 124, 0.582);
     height: 60%;
-    margin-top: 65em;
+    /* margin-top: 65em; */
+    margin-top: 20em;
+  }
+
+  .other_projects_title {
+    color: #737373;
+    margin: 1.1em 0;
+    
+    background-color: #d4d4d4;
+    font-size: 1.9em;
+    text-align: center;
   }
 }
 
@@ -303,13 +323,7 @@ nav a.active {
     text-align: center; 
 }
 
-.other_projects_title {
-    color: #737373;
-    margin: 2.75em 0;
-    background-color: #d4d4d4; 
-    font-size: 2.5em;
-    text-align: center;
-}
+
 
 #projects {
   width: 100%;
