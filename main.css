@@ -61,7 +61,7 @@ nav a.active {
 }
 
 .collapsed-section{
-  background-color: #0505058f; 
+  background-color: rgb(3, 3, 3); 
 }
 
 #language {
@@ -161,9 +161,9 @@ nav a.active {
     color: green;
   } */
   .greybox{
-    max-width: 55%;
-    font-size: 0.9em; 
-    background-color: rgba(122, 123, 124, 0.452);
+    max-width: 100%;
+    font-size: 1.1em; 
+    background-color: rgba(122, 123, 124, 0.027);
   }
 }
 
@@ -173,9 +173,9 @@ nav a.active {
     color: blue;
   } */
   .greybox{
-    max-width : 37%; 
-    font-size: 0.9em;
-    background-color: rgba(122, 123, 124, 0.479);
+    max-width : 100%; 
+    font-size: 1.2em;
+    background-color: rgba(122, 123, 124, 0.027);
   }
 } 
 

@@ -22,17 +22,7 @@
     <div class="startpage-wrapper">
       <!-- Slideshow container -->
       <div class="slider">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 10_1.jpg">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 03.jpg">
-        <img class="mySlides img-fluid" src="Image/DIE ANDEREN_Still03_1.jpg">
-        <img class="mySlides img-fluid" src="Image/DIE ANDEREN_Still01_1.jpg">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 01.jpg">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 09.jpg">
-        <img class="mySlides img-fluid" src="Image/DIE ANDEREN_Still02_1.jpg">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 08.jpg">
-        <img class="mySlides img-fluid" src="Image/einfisch_Still 02.jpg">
-        <img class="mySlides img-fluid" src="Image/soundsofnature_Still 02.jpg">
-        <img class="mySlides img-fluid" src="Image/Elemente_Still 02.jpg">
+       
         <div class="greybox hide">
           <div class="news-container">  
             <!-- NEWS SECTION COMES HERE  -->
@@ -69,27 +59,9 @@
           
         });
     </script>
-    <script>
-      var myIndex = 0;
-      carousel();
-      
-      function carousel(){
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        myIndex++;
-        if(myIndex > x.length){
-          myIndex = 1
-        }
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4000); // Change image every 8 seconds
-      }
-    </script>
-    <script src="greybox.js"></script>
     <script src="content_startseite.js"></script>
     <script src="startseite.js"></script>
+    <script src="greybox.js"></script>
     <script src="carousel.js"></script>
 
 </body>
