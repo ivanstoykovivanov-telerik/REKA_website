@@ -444,7 +444,7 @@ section.projekte-filme a:hover {
   height: auto;
   width: 40%;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 15%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -545,6 +545,10 @@ footer a:hover {
     max-width : 20%; 
     font-size: 0.9em;
   }
+
+  .contact img {
+    margin-top: 20em;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -559,6 +563,11 @@ footer a:hover {
     /* font-size: 0.9em; */
     background-color: rgba(122, 123, 124, 0.66);
   }
+
+  .contact img {
+    margin-top: 20em;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -574,6 +583,11 @@ footer a:hover {
     /* font-size: 0.9em; */
     background-color: rgba(122, 123, 124, 0.582);
   }
+
+  .contact img {
+    margin-top: 20em;
+  }
+
 }
 
 
@@ -589,6 +603,10 @@ footer a:hover {
       max-width : 45%; 
       /* font-size: 0.9em; */
       background-color: rgba(122, 123, 124, 0.582);
+    }
+
+    .contact img {
+      margin-top: 20em;
     }
   } 
 
@@ -616,6 +634,11 @@ footer a:hover {
   .news-container {
     margin-top: 0em;
   }
+  
+  .contact img {
+    margin-top: 20em;
+  }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -631,6 +654,10 @@ footer a:hover {
     max-width: 100%;
     background-color: rgba(122, 123, 124, 0.582);
     margin-top: 23em;
+  }
+  
+  .contact img {
+    margin-top: 19em;
   }
 }
 
@@ -669,6 +696,9 @@ footer a:hover {
     font-size: 2.1em; 
   }
   
+  .contact img {
+    margin-top: 15em;
+  }
   .slider {
     /* calc(100vh -50px);  */
   }
@@ -713,5 +743,9 @@ footer a:hover {
   .projekte_title{
     margin-bottom: 0em;
     font-size: 2.1em; 
+  }
+
+  .contact img {
+    margin-top: 15em;
   }
 }
