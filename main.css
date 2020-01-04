@@ -244,7 +244,9 @@ nav a.active {
   .greybox{
     max-width: 100%; 
     /* font-size: 1.5em;  */
-    background-color: rgba(122, 123, 124, 0.027);
+    background-color: rgba(122, 123, 124, 0.582);
+    height: 60%;
+    margin-top: 34em;
   }
 }
 
