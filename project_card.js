@@ -45,7 +45,7 @@ function displayProjectCard(htmlIDForCompany, id, main_image, title_lang, title,
             </div>
             <div class="col-12 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
-                    <h3 class="col-xs-10" data-translate="${title_lang}">${title}</h3>
+                    <p class="col-xs-10 single_project_title" data-translate="${title_lang}">${title}</p>
                     <p class="col-xs-12 text-justify"> </p> <span class="text-justify" data-translate="${ logline !== "" ? logline_lang : synopsis_lang }">${logline === "" ? synopsis.substr(0,synopsis_length) : logline }</span> <b>${ logline !=="" && mehr  ? "" : "[mehr...]"} </b></p>
                 </a>  
             </div>    

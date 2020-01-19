@@ -176,6 +176,12 @@ nav a.active {
     text-align: center; 
 }
 
+.title_all_projects_page{
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-top: 6%;
+}
+
 #projects {
   width: 100%;
   height: auto;
@@ -378,7 +384,7 @@ section.projekte-filme a:hover {
 
 /*  Festivals fields */ 
 .festivals {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   margin-right: 5%;
   margin-bottom: 10%;
   text-align: justify;
@@ -519,6 +525,11 @@ footer a:hover {
   padding: 0 0; 
 }
 
+.single_project_title{
+  font-size: 1.81em;
+}
+
+
 @media (min-width: 300px) {
   .wrapper-start-page.container {
       max-width: 100%;
@@ -577,6 +588,7 @@ footer a:hover {
   .contact img {
     margin-top: 20em;
   }
+
 
 }
 
@@ -704,6 +716,15 @@ footer a:hover {
     margin-top: 4.7em; 
   }
 
+  .title_all_projects_page {
+    font-size: .55em;
+  }
+
+  .single_project_title{
+    font-size: 1.21em;
+    font-weight: 500; 
+  }
+
 }
 
 /* Small devices (phones, 375 and down) */
@@ -744,13 +765,7 @@ footer a:hover {
   .contact img {
     margin-top: 15em;
   }
-  .slider {
-    /* calc(100vh -50px);  */
-  }
-  footer {
-    /* height: 50px;  */
-  }
-
+  
   .cast_and_team{
     margin-top: 1em;
     margin-left: 0em; 
@@ -781,6 +796,15 @@ footer a:hover {
   
   .carousel {
     margin-top: 4.7em; ; 
+  }
+
+  .title_all_projects_page {
+    font-size: .7em;
+  }
+
+  .single_project_title{
+    font-size: 1.1em;
+    font-weight: 600; 
   }
 
 }
@@ -858,4 +882,12 @@ footer a:hover {
     margin-top: 4.7em; 
   }
 
+  .title_all_projects_page {
+    font-size: .7em;
+  }
+
+  .single_project_title{
+    font-size: 1.0em;
+    font-weight: 600; 
+  }
 }
