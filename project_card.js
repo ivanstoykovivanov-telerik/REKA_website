@@ -1,3 +1,6 @@
+
+
+// LIST OF ALL PROJECTS
 // LOGIC FOR THE PAGE DISPLAYING ALL THE PROJECTS (REKA PICTURES AND OTHER PROJECTS BY ELIZA)
 
 
@@ -35,12 +38,12 @@ $('.project').click(function(event){
 function displayProjectCard(htmlIDForCompany, id, main_image, title_lang, title, synopsis_lang, logline, logline_lang,  synopsis, synopsis_length, mehr){
     $(`#${htmlIDForCompany}`).append(
         `<div class="row project mt-5 mt-md-0" next_page="${id}">  
-            <div class="col-9 col-md-5 col-xs-10 proj_img">
+            <div class="col-12 col-md-5 col-xs-10">
                 <a href="project_page.html" nextPage="${id}" >
-                    <img src="Image/${main_image}" class="project-image">
+                    <img src="Image/${main_image}" class="project-image img-fluid">
                 </a>
             </div>
-            <div class="col-9 mx-auto col-md-4 mt-3 mt-md-0">
+            <div class="col-12 mx-auto col-md-4 mt-3 mt-md-0">
                 <a href="project_page.html">
                     <h3 class="col-xs-10" data-translate="${title_lang}">${title}</h3>
                     <p class="col-xs-12 text-justify"> </p> <span class="text-justify" data-translate="${ logline !== "" ? logline_lang : synopsis_lang }">${logline === "" ? synopsis.substr(0,synopsis_length) : logline }</span> <b>${ logline !=="" && mehr  ? "" : "[mehr...]"} </b></p>
