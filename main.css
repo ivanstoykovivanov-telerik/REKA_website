@@ -558,6 +558,16 @@ footer a:hover {
 }
 
 
+.impres_datenschutz {
+  padding-top: .3em;
+}
+
+.impres_datenschutz a{
+  font-size: .75em;
+  padding-top: .9em;
+  /* color:red;  */
+}
+
 @media (min-width: 300px) {
   .wrapper-start-page.container {
       max-width: 100%;
@@ -840,7 +850,7 @@ footer a:hover {
     font-weight: 600; 
   }
 
-  .impres_datenschutz{
+  .impres_datenschutz a{
     font-size: 1.0em;
     padding-top: .4em;
   }
