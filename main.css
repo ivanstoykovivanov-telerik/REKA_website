@@ -485,6 +485,29 @@ footer {
   
 }
 
+.fa {
+  padding: 13px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998;
+  color: white; */
+}
+
+.fa-instagram {
+  /* background: #125688;
+  color: white; */
+}
+
 .impressum {
   padding-left: 2.4rem; 
 }
@@ -499,8 +522,13 @@ footer a:hover {
   text-decoration:none; 
 } 
 
+.impr_and_datenschutz{
+  font-size: 0.7em;
+}
+
 .footer_customized{
-  padding-top: 1.5rem; 
+  /* padding-top: 0.2rem;  */
+  padding-bottom: .2rem; 
   padding-left: 1rem;
   margin-right: 1rem;
   /* margin-bottom: 3rem;    */
@@ -725,6 +753,11 @@ footer a:hover {
     font-weight: 500; 
   }
 
+  .impres_datenschutz{
+    font-size: .8em;
+    padding-top: .4em;
+  }
+
 }
 
 /* Small devices (phones, 375 and down) */
@@ -805,6 +838,11 @@ footer a:hover {
   .single_project_title{
     font-size: 1.1em;
     font-weight: 600; 
+  }
+
+  .impres_datenschutz{
+    font-size: 1.0em;
+    padding-top: .4em;
   }
 
 }
@@ -889,5 +927,13 @@ footer a:hover {
   .single_project_title{
     font-size: 1.0em;
     font-weight: 600; 
+  }
+
+  .impr_and_datenschutz{
+    font-size: 0.5em;
+  }
+
+  .impres_datenschutz{
+    font-size: .2em;
   }
 }
