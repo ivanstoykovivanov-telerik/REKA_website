@@ -498,16 +498,6 @@ footer {
     opacity: 0.7;
 }
 
-.fa-facebook {
-  /* background: #3B5998;
-  color: white; */
-}
-
-.fa-instagram {
-  /* background: #125688;
-  color: white; */
-}
-
 .impressum {
   padding-left: 2.4rem; 
 }
@@ -524,6 +514,10 @@ footer a:hover {
 
 .impr_and_datenschutz{
   font-size: 0.9em;
+}
+
+.impress_datenschutz{
+  margin-left : 20%; 
 }
 
 .footer_customized{
@@ -764,8 +758,12 @@ footer a:hover {
   }
 
   .impres_datenschutz{
-    font-size: .8em;
-    padding-top: .4em;
+    font-size: 1.0em;
+    padding-left: 25%;
+  }
+
+  .impress_datenschutz{
+    margin-left : 0%; 
   }
 
 }
@@ -853,6 +851,11 @@ footer a:hover {
   .impres_datenschutz a{
     font-size: 1.0em;
     padding-top: .4em;
+  }
+
+  .impres_datenschutz{
+    font-size: 1.0em;
+    padding-left: 25%;
   }
 
 }
@@ -944,6 +947,15 @@ footer a:hover {
   }
 
   .impres_datenschutz{
+    font-size: 1.0em;
+    padding-left: 25%;
+  }
+
+  .impres_datenschutz{
     font-size: .2em;
+  }
+
+  .impress_datenschutz{
+    margin-left : 0%; 
   }
 }

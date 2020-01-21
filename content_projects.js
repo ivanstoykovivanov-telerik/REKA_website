@@ -27,7 +27,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_ein_fisch",
         logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
         logline_lang: "_LOGLINE_ein_fisch",
-        trailer: "EIN FISCH, DER AUF DEM RUECKEN SCHWIMMT_Trailer.jpg",
+        trailer: "EIN FISCH_Trailer_25p_HD-239_DE-en_20DVD_MON_rec709g22_Master_ProRes4422HQ.mp4",
         stats_1: [
             "Langspielfilm, Deutschland 2020, 103 min",
             "ARRI Amira, Dolby Surround 5.1"
