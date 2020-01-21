@@ -587,6 +587,35 @@ footer a:hover {
 }
 
 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 2560px) {
+  .news {
+    font-size: 1.0em;
+    color: white; 
+   }
+  
+  .greybox{
+    max-width : 20%; 
+    font-size: 0.9em;
+  }
+
+  .contact img {
+    margin-top: 20em;
+  }
+
+  .impres_datenschutz{
+    padding-top: 0%;
+    font-size: 1.5em;
+    padding-left: 0%;
+  }
+
+  .impress_datenschutz{
+    margin-left : 5%; 
+  }
+  
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1900px) {
   .news {
@@ -605,9 +634,10 @@ footer a:hover {
 
   .impres_datenschutz{
     padding-top: 0%;
-    font-size: 2.0em;
-    padding-left: 25%;
+    font-size: 1.5em;
+    padding-left: 0%;
   }
+  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -628,9 +658,9 @@ footer a:hover {
   }
 
   .impres_datenschutz{
-    padding-top: 0%;
-    font-size: 2.0em;
-    padding-left: 25%;
+    padding-top: 1%;
+    font-size: 1.5em;
+    padding-left: 1%;
   }
 
 }
@@ -642,7 +672,6 @@ footer a:hover {
     color: white; 
    }
   
-
   .greybox{
     max-width : 30%; 
     /* font-size: 0.9em; */
@@ -651,6 +680,16 @@ footer a:hover {
 
   .contact img {
     margin-top: 20em;
+  }
+
+  .impres_datenschutz{
+    font-size: 1.4em;
+    padding-left: 5%;
+    padding-bottom: 0%; 
+  }
+
+  .impress_datenschutz{
+    margin-left : 0%; 
   }
 
 }
@@ -672,6 +711,12 @@ footer a:hover {
 
     .contact img {
       margin-top: 20em;
+    }
+
+    .impres_datenschutz{
+      font-size: 1.4em;
+      padding-left: 15%;
+      padding-bottom: 0%; 
     }
   } 
 
@@ -702,6 +747,16 @@ footer a:hover {
   
   .contact img {
     margin-top: 20em;
+  }
+
+  .impres_datenschutz{
+    font-size: 1.4em;
+    padding-left: 15%;
+    padding-bottom: 0%; 
+  }
+
+  .impress_datenschutz{
+    margin-left : 0%; 
   }
 
 } 
@@ -768,13 +823,15 @@ footer a:hover {
     font-weight: 500; 
   }
 
-  .impres_datenschutz{
-    font-size: 1.0em;
-    padding-left: 25%;
-  }
-
   .impress_datenschutz{
     margin-left : 0%; 
+  }
+
+  .impres_datenschutz{
+    font-size: 1.1em;
+    padding-left: 15%;
+    padding-bottom: 0%; 
+    padding-top: 2%;  
   }
 
 }
@@ -865,8 +922,10 @@ footer a:hover {
   }
 
   .impres_datenschutz{
-    font-size: 1.0em;
-    padding-left: 25%;
+    font-size: 0.8em;
+    padding-left: 15%;
+    padding-bottom: 0%;
+    padding-top: 5%;  
   }
 
 }
@@ -958,8 +1017,10 @@ footer a:hover {
   }
 
   .impres_datenschutz{
-    font-size: 2.0em;
-    padding-left: 25%;
+    font-size: 0.8em;
+    padding-left: 15%;
+    padding-bottom: 0%;
+    padding-top: 5% 
   }
 
   .impress_datenschutz{
