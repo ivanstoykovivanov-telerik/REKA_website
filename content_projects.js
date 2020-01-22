@@ -28,6 +28,7 @@ const projects = [
         logline: "Ein Film über eine ungewöhnliche Dreiecksbeziehung, in der sich die Beteiligten mehr zumuten als sie zu ertragen fähig sind.", 
         logline_lang: "_LOGLINE_ein_fisch",
         trailer: "EIN FISCH_Trailer_25p_HD-239_DE-en_20DVD_MON_rec709g22_Master_ProRes4422HQ.mp4",
+        trailer_poster: "EIN FISCH DER AUF DEM RUECKEN SCHWIMMT_Trailer.jpg", 
         stats_1: [
             "Langspielfilm, Deutschland 2020, 103 min",
             "ARRI Amira, Dolby Surround 5.1"
@@ -104,6 +105,7 @@ const projects = [
         synopsis_lang :  "_SYNOPSIS_sounds_of_nature",
         logline: "", 
         trailer: "SOUNDS OF NATURE_Trailer_vorlaeufig.jpg",
+        trailer_poster: "Sounds of Nature_Vorschaubild.jpg", 
         stats_1: [
             "Kurzfilm, Deutschland 2019, 21 min",
             "35 mm, Farbe, Dolby Surround 5.1"
@@ -167,6 +169,7 @@ const projects = [
         synopsis_lang :  "_SYNOPSIS_elemente",
         logline: "", 
         trailer: "ELEMENTE_Trailer.mp4",
+        trailer_poster: "", 
         stats_1: [
             "Kurzfilm, Deutschland 2019, 20 min",
             "35 mm, Farbe, Dolby Surround 5.1"
@@ -223,6 +226,7 @@ const projects = [
         logline: "Ein Mann hat eine besondere Fähigkeit und wird dafür verurteilt. Es wird von ihm verlangt sich anzupassen, sich aufzugeben, anders zu sein. Am Ende steht er vor der Entscheidung zwischen Selbstbehauptung und Selbstauflösung.", 
         logline_lang: "_LOGLINE_die_anderen", 
         trailer: "DieAnderen_Trailer_DE-en__20190330_normal.mp4",
+        trailer_poster: "Die Anderen_Vorschaubild.jpg", 
         stats_1: [
             "Kurzfilm, Deutschland 2018, 11:13 min",
             "ARRI Amira, Dolby Digital 5.1"
@@ -288,6 +292,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_zhaleika",
         logline: "", 
         trailer: "Zhaleika Trailer.mp4",
+        trailer_poster: "Zhaleika_Vorschaubild.jpg", 
         stats_1: [
             "Langfilm, Deutschland 2016, 92 min", 
             "ARRI Amira, Dolby Surround 5.1"
@@ -563,6 +568,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_abwesend",
         logline: "", 
         trailer: "ABWESEND trailer.mp4", 
+        trailer_poster: "Abwesend_Vorschaubild.jpg", 
         stats_1: [
             "Kurzfilm, Deutschland 2014, 13 min", 
             "ARRI Amira, Dolby Digital 5.1"
@@ -651,6 +657,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_zur_rechten",
         logline: "",
         trailer: "ZUR RECHTEN ZEIT TRAILER.mp4",
+        trailer_poster: "Zur Rechten Zeit_Vorschaubild.jpg", 
         stats_1: [
             "Kurzfilm, Deutschland 2014, 22 min",
             "RED One, Dolby Digital 5.1"
@@ -802,6 +809,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_abgeschnitten",
         logline: "", 
         trailer: "ABGESCHNITTEN trailer.mp4",
+        trailer_poster: "Abgeschnitten_Vorschaubild.jpg", 
         stats_1: [
             "Kurzfilm, Deutschland 2012, 8 min", 
             "Super 16mm"
@@ -850,6 +858,7 @@ const projects = [
         synopsis_lang : "_SYNOPSIS_willkommen_zuhause",
         logline: "",
         trailer: "Willkommen Zuhause Trailer.mp4",
+        trailer_poster: "Willkommen Zuhause_Vorschaubild.jpg", 
         stats_1: [
         " Dokumentarfilm, Deutschland, Kosovo, 2011, 70 min, HD",
         ],

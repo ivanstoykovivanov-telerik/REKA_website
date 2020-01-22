@@ -89,6 +89,8 @@ for (let i = 0; i < projects.length; i++) {
 
         //TRAILER
         $("#trailer_id").attr("src",`trailer/${projects[i].trailer}`);
+        // POSTER FOR VIDEO PLAYER
+        $("#trailer_id").attr("poster",`trailer/${projects[i].trailer_poster}`);
 
 
         //FESTIVALS 
