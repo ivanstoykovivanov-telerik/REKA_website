@@ -270,38 +270,42 @@ $(function() {
      /*  
      *  Get the selected page from the landing page 
      */   
-    $(".landing_page_language").on("click", function(e){
+    $(".landing_page_language").on("click",                 //setLanguage(this) 
+        function(e){
         //prevent going to the default page of the anchor
-        
-        console.log("Test");
-        e.stopImmediatePropagation();
-        
-        console.log(e); 
-        
-        let language = $(this).text(); 
-        localStorage.removeItem("language"); 
-        console.log("Clicked");
-        
-        if(language ==="EN"){
-            console.log($(this).text());
-            localStorage.setItem('language', 'EN');
-            if (dictionary.hasOwnProperty(language)) {
-                set_lang(dictionary[language]);
+            
+            console.log("Test");
+            e.stopImmediatePropagation();
+            
+            console.log(e); 
+            
+            let language = $(this).text(); 
+            localStorage.removeItem("language"); 
+            console.log("Clicked");
+            
+            if(language ==="EN"){
+                console.log($(this).text());
+                localStorage.setItem('language', 'EN');
+                if (dictionary.hasOwnProperty(language)) {
+                    set_lang(dictionary[language]);
+                }
+                $(location).attr('href', 'startseite.html')
+                $("#language").text("DE"); 
+            }else if(language === "DE"){
+                console.log($(this).text());
+                localStorage.setItem('language', 'DE');
+                if (dictionary.hasOwnProperty(language)) {
+                    set_lang(dictionary[language]);
+                }
+                $(location).attr('href', 'startseite.html')
+                $("#language").text("EN"); 
             }
-            $(location).attr('href', 'startseite.html')
-            $("#language").text("DE"); 
-        }else if(language === "DE"){
-            console.log($(this).text());
-            localStorage.setItem('language', 'DE');
-            if (dictionary.hasOwnProperty(language)) {
-                set_lang(dictionary[language]);
-            }
-            $(location).attr('href', 'startseite.html')
-            $("#language").text("EN"); 
-        }
-        set_lang(dictionary.english);
+            set_lang(dictionary.english);
        
-    });
+    }
+    );
+
+  
 
     
     //TODO: Make a separate function for the language 
