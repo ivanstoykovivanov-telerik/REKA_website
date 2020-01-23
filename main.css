@@ -447,6 +447,11 @@ section.projekte-filme a:hover {
 /* About us */
 .reka_mission {
   margin-bottom: 5%; 
+  padding-right: 10%;
+}
+
+.kosta_bio{
+  padding-right: 10%;
 }
 
 
@@ -858,6 +863,10 @@ footer a:hover {
     margin-left : 0%; 
   }
 
+  .kosta_bio{
+    padding-right: 0%;
+  }
+
 }
 
 /* Small devices (phones, 375 and down) */
@@ -955,7 +964,12 @@ footer a:hover {
   .bird{
     margin-left : 0%; 
   }
+
+  .kosta_bio, .reka_mission{
+    padding-right: 4%;
+  }
 }
+
 
 
 /* Extra small devices (phones, 320 and down) */
@@ -1061,5 +1075,9 @@ footer a:hover {
 
   .bird{
     margin-left : 0%; 
+  }
+
+  .kosta_bio, .reka_mission{
+    padding-right: 4%;
   }
 }
