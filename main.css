@@ -17,10 +17,9 @@ a {
 
 /* Navigation bar */
 nav {
-  background: #000;
+  background: #0008;
   width: 100%;
-  height: 4.7rem; 
-
+  height: 6rem; 
 }
 
  nav a  {
@@ -34,6 +33,7 @@ nav {
   text-align: left;
   text-decoration: none;
 }
+
 
 nav a.active {
   color: white;
@@ -52,17 +52,26 @@ nav a.active {
 }
 
 .navbar-brand {
+  position: relative;
   padding-bottom: 4.45rem; 
-  padding-left: 1rem; 
+  padding-left: 1rem;
+  width: 140px;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+  filter: brightness(2);
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -8px;
 }
 
 .nav-link{
   color: black; 
 }
 
-.collapsed-section{
-  background-color: rgb(3, 3, 3); 
-}
 
 #language {
   text-align: right;
@@ -81,6 +90,26 @@ nav a.active {
 #navbarNav .row {
   width: 100%; 
 }
+
+@media screen and (max-width:600px) {
+  #navbarNav .row {
+    width: 50vw;
+    position: absolute;
+    margin-top: 9px;
+  }
+
+  .navbar-brand {
+    opacity: 0.7;
+  }
+
+.information h4 {
+  font-size: 1rem;
+}  
+  .collapsed-section{
+    background-color: rgb(3, 3, 3); 
+  }
+}
+
 
 .intrologo {
   width: 400px;
@@ -111,6 +140,11 @@ nav a.active {
 
 
 /* carousel on Starting page */
+
+/* .carousel-item {
+  transition: transform 0.4s ease-in-out,-webkit-transform 0.4s ease-in-out;
+} */
+
 .carousel-item.active img {
   height : 80% ; 
 }
@@ -277,7 +311,11 @@ section.projekte-filme a:hover {
 }
 
 .project:hover  {
-  background-color: #e3dfdb; 
+  filter: brightness(1.1) contrast(1.1);
+}
+
+.project:hover * {
+  color:#3e3e3e;
 }
 
 #project_content{
@@ -326,12 +364,17 @@ section.projekte-filme a:hover {
   margin-top: 4em; 
 }
 
+.video-trailer {
+  margin: 20px 0;
+}
+
 #poster_id{
   width: 635px;
+  margin: 10px 0;
 }
 
 #trailer_id{
-  width: 603px;
+  width: 620px;
 }
 
 .content {
@@ -367,9 +410,8 @@ section.projekte-filme a:hover {
   margin-bottom: 0%;
   margin-top: 3%;
 }
-
 .stats {
-  margin-right: 5%;
+  /* margin-right: 5%; */
   margin-bottom: 0%;
 }
 
@@ -882,7 +924,7 @@ footer a:hover {
   .greybox{
     max-width: 100%;
     background-color: rgba(122, 123, 124, 0.582);
-    margin-top: 12em;
+    margin-top: 20em;
     height: 28em;
     padding-top: 0em; 
   }
